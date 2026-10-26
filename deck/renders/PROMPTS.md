@@ -69,7 +69,7 @@ A flat lay of small objects on cream: a hand-poured salt-white candle in a Fores
 Tools: MJ, GPT, Gemini.
 
 **O2. Hotel Towel and Robe**
-A waffle-weave robe in Cream with a Forest piped collar, chest embroidery of a small salt-crystal line icon, and a hem tag reading `AMERICA'S MOUNTAIN CITY` (title case, with a tiny TM). Folded next to a Sage hand towel with a woven contour stripe. Shot on a wooden bench, natural light.
+A waffle-weave robe in Cream with a Forest piped collar, chest embroidery of a small salt-crystal line icon, and a hem tag reading `America's Mountain City™` (title case exactly as written, never all caps). Folded next to a Sage hand towel with a woven contour stripe. Shot on a wooden bench, natural light.
 Tools: MJ, GPT.
 
 **O3. Bonneville Shoreline Blanket**

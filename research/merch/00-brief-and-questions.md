@@ -46,3 +46,22 @@ The deck has four parts:
 
 ### Tools note
 Midjourney, Gemini, and ChatGPT are not available inside this session. What is available here: Higgsfield image generation (multiple image models), Adobe Stock search and licensing, Adobe image tools, and Google Drive. Options: (a) I generate the execution visuals with Higgsfield plus Adobe Stock, or (b) I write the Midjourney, Gemini, and ChatGPT prompts for every piece so you run them on your side and drop the images in, or (c) both. Tell me which.
+
+## Yid's answers (2026-10-26)
+
+- **Audience of the deck:** Round 1 is for Yid to review. Round 2 is refined and shown to the VSL team.
+- **VSL merch today:** yes, but not good, very basic.
+- **Rules:** no Ski Utah, no direct Olympic mention, no Utah tourism slogan. "Utah" as a word is fine.
+- **Lanes:** streetwear with SLC ethos, ski-town performance, elevated souvenir objects, PLUS neo-Western / modern West Americana, PLUS a Latino lane.
+- **First buyer:** locals and visitors, both.
+- **Pricing:** skip until Round 2.
+- **2034:** a wink is fine. Olympic history (2002) is ours to use.
+- **Taste calibration, would buy:** Nike ACG, House of Terrors, Uuuntld, WNTD Apparel.
+- **Would not buy:** anything that is just a brand logo, basic mall product (Old Navy, H&M). If you can get it at the airport or a local retailer, it ain't it.
+- **Symbols:** no sego lily flag, but the flower is fine. More mountain wildflowers, the Great Salt Lake whale, pine trees, trail running, billboards, niche Utah culture.
+- **Tone:** all of it (quiet, playful, mixed by piece).
+- **First run:** 50-unit test drop.
+- **Manufacturers:** bring real names in Round 2.
+- **Format:** HTML deck, exportable to PDF, saved as an artifact.
+- **Visuals:** Yid does not have Higgsfield. Yid has Midjourney, Gemini, ChatGPT. Claude writes the prompts; Yid generates. More coming (brand link).
+- **Mello / Red West:** awaiting clarification.

@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Archivo Narrow', 'Arial Narrow', Arial, sans-serif">
+  <title>Vecino, one word in a fine-line hand across a black heavyweight tee, with Vecina for the women's cut</title>
+  <defs>
+    <filter id="ink" x="-5%" y="-20%" width="110%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="0.9" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <path id="tee" d="M -104,-300 C -46,-262 46,-262 104,-300 L 272,-254 L 318,-104 L 220,-76 L 220,300 L -220,300 L -220,-76 L -318,-104 L -272,-254 Z"/>
+    <path id="tee-seams" d="M -210,-280 L -220,-76 M 210,-280 L 220,-76 M -220,284 L 220,284 M -96,-290 C -46,-254 46,-254 96,-290 M -312,-120 L -226,-96 M 312,-120 L 226,-96" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4"/>
+    <path id="collar" d="M -104,-300 C -46,-262 46,-262 104,-300 L 96,-316 C 46,-284 -46,-284 -96,-316 Z"/>
+
+    <!-- The word. Drawn as strokes so the weight can vary the way a brush-tip liner does:
+         hairline on the up strokes, pressure on the down strokes, one continuous line.
+         Baseline at y=0, x-height 70, ascenders to -150. 0,0 is the left of the V. -->
+    <g id="vecino" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+      <!-- V: entry flourish, heavy left stem, hair right arm, loop -->
+      <path d="M -34,-70 C -20,-124 14,-162 44,-150 C 70,-140 56,-96 40,-72" stroke-width="1.4"/>
+      <path d="M 40,-72 C 24,-46 16,-24 24,-4 C 30,10 44,4 54,-10" stroke-width="4.6"/>
+      <path d="M 54,-10 C 74,-40 100,-96 126,-142 C 134,-156 150,-160 150,-146 C 150,-136 136,-130 126,-134" stroke-width="1.3"/>
+      <!-- e -->
+      <path d="M 126,-134 C 160,-112 170,-70 174,-30" stroke-width="1.1"/>
+      <path d="M 174,-30 C 192,-36 210,-54 202,-66 C 192,-78 170,-52 170,-26 C 170,-6 184,2 200,-6 C 212,-12 222,-22 232,-30" stroke-width="2.8"/>
+      <!-- c -->
+      <path d="M 232,-30 C 240,-44 260,-66 280,-62" stroke-width="1.1"/>
+      <path d="M 280,-62 C 298,-60 300,-50 290,-50 C 278,-50 262,-54 254,-34 C 246,-14 254,0 270,-2 C 284,-4 296,-16 306,-28" stroke-width="3"/>
+      <!-- i -->
+      <path d="M 306,-28 C 316,-44 330,-62 340,-70" stroke-width="1.1"/>
+      <path d="M 340,-70 C 334,-52 322,-24 326,-8 C 330,4 344,0 358,-14" stroke-width="3.6"/>
+      <path d="M 348,-106 C 352,-110 356,-106 352,-102 C 348,-98 344,-102 348,-106 Z" stroke-width="2.2" fill="#FFFFFF"/>
+      <!-- n -->
+      <path d="M 358,-14 C 368,-34 380,-60 392,-68" stroke-width="1.1"/>
+      <path d="M 392,-68 C 384,-50 376,-26 376,-10" stroke-width="3.6"/>
+      <path d="M 376,-10 C 388,-40 408,-66 426,-66 C 440,-66 434,-44 426,-26" stroke-width="1.3"/>
+      <path d="M 426,-26 C 420,-14 418,-2 426,-2 C 438,-2 452,-14 464,-28" stroke-width="3.8"/>
+      <!-- o, with the exit becoming the tail -->
+      <path d="M 464,-28 C 474,-46 496,-70 514,-66" stroke-width="1.1"/>
+      <path d="M 514,-66 C 532,-62 528,-36 514,-18 C 502,-4 486,-4 486,-18 C 486,-36 502,-58 520,-62" stroke-width="3.2"/>
+      <path d="M 520,-62 C 540,-66 552,-52 556,-36" stroke-width="1.1"/>
+      <!-- the tail: out and over, then back under the whole word as the underline, thinning to nothing -->
+      <path d="M 556,-36 C 566,-6 600,6 640,-14 C 672,-30 650,-60 610,-40" stroke-width="2.2"/>
+      <path d="M 640,-14 C 560,34 340,38 160,30 C 80,26 10,22 -40,10" stroke-width="1.5"/>
+      <path d="M -40,10 C -60,4 -74,-4 -84,-16" stroke-width="0.8"/>
+    </g>
+
+    <!-- Vecina: the same drawing with the o replaced by an a -->
+    <g id="vecina" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -34,-70 C -20,-124 14,-162 44,-150 C 70,-140 56,-96 40,-72" stroke-width="1.4"/>
+      <path d="M 40,-72 C 24,-46 16,-24 24,-4 C 30,10 44,4 54,-10" stroke-width="4.6"/>
+      <path d="M 54,-10 C 74,-40 100,-96 126,-142 C 134,-156 150,-160 150,-146 C 150,-136 136,-130 126,-134" stroke-width="1.3"/>
+      <path d="M 126,-134 C 160,-112 170,-70 174,-30" stroke-width="1.1"/>
+      <path d="M 174,-30 C 192,-36 210,-54 202,-66 C 192,-78 170,-52 170,-26 C 170,-6 184,2 200,-6 C 212,-12 222,-22 232,-30" stroke-width="2.8"/>
+      <path d="M 232,-30 C 240,-44 260,-66 280,-62" stroke-width="1.1"/>
+      <path d="M 280,-62 C 298,-60 300,-50 290,-50 C 278,-50 262,-54 254,-34 C 246,-14 254,0 270,-2 C 284,-4 296,-16 306,-28" stroke-width="3"/>
+      <path d="M 306,-28 C 316,-44 330,-62 340,-70" stroke-width="1.1"/>
+      <path d="M 340,-70 C 334,-52 322,-24 326,-8 C 330,4 344,0 358,-14" stroke-width="3.6"/>
+      <path d="M 348,-106 C 352,-110 356,-106 352,-102 C 348,-98 344,-102 348,-106 Z" stroke-width="2.2" fill="#FFFFFF"/>
+      <path d="M 358,-14 C 368,-34 380,-60 392,-68" stroke-width="1.1"/>
+      <path d="M 392,-68 C 384,-50 376,-26 376,-10" stroke-width="3.6"/>
+      <path d="M 376,-10 C 388,-40 408,-66 426,-66 C 440,-66 434,-44 426,-26" stroke-width="1.3"/>
+      <path d="M 426,-26 C 420,-14 418,-2 426,-2 C 438,-2 452,-14 464,-28" stroke-width="3.8"/>
+      <!-- a: bowl then a heavy stem -->
+      <path d="M 464,-28 C 474,-46 496,-70 518,-66" stroke-width="1.1"/>
+      <path d="M 518,-66 C 534,-62 530,-36 516,-18 C 504,-4 488,-6 490,-22 C 492,-42 508,-62 530,-66" stroke-width="2.6"/>
+      <path d="M 530,-66 C 524,-44 516,-20 520,-6 C 524,4 540,-2 556,-18" stroke-width="4"/>
+      <path d="M 556,-18 C 572,-2 606,4 640,-14 C 672,-30 650,-60 610,-40" stroke-width="2.2"/>
+      <path d="M 640,-14 C 560,34 340,38 160,30 C 80,26 10,22 -40,10" stroke-width="1.5"/>
+      <path d="M -40,10 C -60,4 -74,-4 -84,-16" stroke-width="0.8"/>
+    </g>
+
+    <g id="eight-oh-one" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 12,-34 C 0,-40 -4,-26 6,-20 C 16,-14 20,-4 10,0 C 0,4 -6,-6 2,-14 C 8,-20 16,-28 12,-34 Z" stroke-width="1.4"/>
+      <path d="M 28,-30 C 24,-40 40,-40 40,-24 C 40,-10 38,0 30,0 C 22,0 22,-12 24,-24 C 26,-30 28,-30 28,-30" stroke-width="1.2"/>
+      <path d="M 48,-28 L 56,-36 L 54,0" stroke-width="1.6"/>
+      <path d="M 44,2 C 50,6 60,4 70,0" stroke-width="0.8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#F6F1EC"/>
+
+  <!-- FRONT, large, the word across the chest -->
+  <g transform="translate(400,440) scale(1.08)">
+    <use xlink:href="#tee" fill="#212121" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#tee-seams"/>
+    <use xlink:href="#collar" fill="#1A1A1A" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4"/>
+    <g filter="url(#ink)">
+      <use xlink:href="#vecino" transform="translate(-166,-30) scale(0.58)"/>
+    </g>
+  </g>
+
+  <!-- BACK, smaller: 801 at the neck, nothing else -->
+  <g transform="translate(960,330) scale(0.5)">
+    <use xlink:href="#tee" fill="#212121" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#tee-seams"/>
+    <use xlink:href="#collar" fill="#1A1A1A" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4"/>
+    <use xlink:href="#eight-oh-one" transform="translate(-36,-236) scale(1.1)"/>
+  </g>
+
+  <!-- VECINA, the women's cut, smaller -->
+  <g transform="translate(960,690) scale(0.5)">
+    <path d="M -96,-300 C -46,-262 46,-262 96,-300 L 244,-258 L 286,-130 L 200,-106 L 196,300 L -196,300 L -200,-106 L -286,-130 L -244,-258 Z" fill="#212121" stroke="#212121" stroke-width="2"/>
+    <path d="M -190,-282 L -200,-106 M 190,-282 L 200,-106 M -196,284 L 196,284 M -88,-290 C -46,-254 46,-254 88,-290" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4"/>
+    <use xlink:href="#collar" fill="#1A1A1A" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4"/>
+    <g filter="url(#ink)">
+      <use xlink:href="#vecina" transform="translate(-140,-30) scale(0.48)"/>
+    </g>
+  </g>
+
+  <!-- THE LETTERING AT PRINT SIZE -->
+  <g transform="translate(60,880)">
+    <rect width="1080" height="330" fill="#212121"/>
+    <g filter="url(#ink)">
+      <use xlink:href="#vecino" transform="translate(150,210) scale(1.34)"/>
+    </g>
+  </g>
+
+  <!-- COLORWAYS -->
+  <g transform="translate(60,1240)" font-size="15" fill="#212121">
+    <rect width="40" height="40" rx="4" fill="#212121"/>
+    <rect x="48" width="40" height="40" rx="4" fill="#FFFFFF" stroke="#212121" stroke-width="1"/>
+    <text x="0" y="60">Ink body, white ink.</text>
+    <g transform="translate(250,0)">
+      <rect width="40" height="40" rx="4" fill="#0D4C26"/>
+      <rect x="48" width="40" height="40" rx="4" fill="#F6F1EC" stroke="#212121" stroke-width="1"/>
+      <text x="0" y="60">Forest body, Cream ink, second run.</text>
+    </g>
+    <g transform="translate(560,0)">
+      <rect width="40" height="40" rx="4" fill="#13375D"/>
+      <rect x="48" width="40" height="40" rx="4" fill="#F58B88" stroke="#212121" stroke-width="1"/>
+      <text x="0" y="60">Mountain Navy body, Salt Pink ink, Vecina.</text>
+    </g>
+  </g>
+
+  <!-- CAPTION -->
+  <g transform="translate(60,1350)" font-size="17" fill="#212121">
+    <text y="0">One word, thirteen inches wide, nothing else on the shirt. Vecino is what the West Side calls itself and what Comunidades Unidas and</text>
+    <text y="26">Centro Civico say in their own copy. It belongs to every nationality here and nobody owns it as a brand. The hand is a fine-line</text>
+    <text y="52">script in one continuous stroke: a liner on the up strokes, pressure on the down strokes, the tail of the o swinging back under the</text>
+    <text y="78">word as the underline. The women's cut is Vecina, one letter changed by the same hand. 801 sits at the back neck in the same line.</text>
+    <text y="120" fill="#555">This drawing is a stand-in. A Salt Lake County letterer draws the final in ink on vellum, and the strike-off is approved on the actual blank.</text>
+  </g>
+</svg>

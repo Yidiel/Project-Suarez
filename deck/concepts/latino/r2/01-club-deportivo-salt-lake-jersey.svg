@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Archivo Narrow', 'Arial Narrow', Arial, sans-serif">
+  <title>Club Deportivo Salt Lake, the full kit: front, back, the crest as an embroidered badge, sleeve stars, and a match-day alt</title>
+  <defs>
+    <!-- bird's-eye mesh -->
+    <pattern id="mesh" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="#212121" fill-opacity="0.10"/>
+    </pattern>
+    <pattern id="mesh-dark" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="#F6F1EC" fill-opacity="0.12"/>
+    </pattern>
+    <!-- satin stitch, two directions -->
+    <pattern id="satin" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <pattern id="satin2" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-52)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#212121" stroke-opacity="0.06" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="satin-pink" width="3.5" height="3.5" patternUnits="userSpaceOnUse" patternTransform="rotate(70)">
+      <line x1="0" y1="0" x2="0" y2="3.5" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="0.9"/>
+    </pattern>
+    <filter id="thread" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.12 0" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in" result="gi"/>
+      <feBlend in="SourceGraphic" in2="gi" mode="multiply"/>
+    </filter>
+
+    <!-- jersey, origin at chest centre, set-in sleeves, 600 wide -->
+    <path id="body" d="M -96,-300 C -40,-268 40,-268 96,-300 L 268,-258 L 318,-118 L 226,-86 L 226,300 L -226,300 L -226,-86 L -318,-118 L -268,-258 Z"/>
+    <path id="sleeve-l" d="M -96,-300 L -268,-258 L -318,-118 L -226,-86 L -214,-230 Z"/>
+    <path id="sleeve-r" d="M 96,-300 L 268,-258 L 318,-118 L 226,-86 L 214,-230 Z"/>
+    <path id="cuff-l" d="M -318,-118 L -226,-86 L -232,-66 L -326,-98 Z"/>
+    <path id="cuff-r" d="M 318,-118 L 226,-86 L 232,-66 L 326,-98 Z"/>
+    <path id="cuffline-l" d="M -322,-108 L -229,-76"/>
+    <path id="cuffline-r" d="M 322,-108 L 229,-76"/>
+    <path id="sidepanel-l" d="M -226,-86 L -226,300 L -196,300 L -196,-86 Z"/>
+    <path id="sidepanel-r" d="M 226,-86 L 226,300 L 196,300 L 196,-86 Z"/>
+    <path id="hem" d="M -226,284 L 226,284"/>
+    <path id="vneck-front" d="M -96,-300 C -40,-268 40,-268 96,-300 L 86,-318 L 0,-236 L -86,-318 Z"/>
+    <path id="vneck-front-inner" d="M -78,-306 L 0,-246 L 78,-306"/>
+    <path id="neck-back" d="M -96,-300 C -40,-268 40,-268 96,-300 L 88,-316 C 40,-290 -40,-290 -88,-316 Z"/>
+    <path id="seams" d="M -214,-230 L -226,-86 M 214,-230 L 226,-86" fill="none" stroke="#212121" stroke-opacity="0.35" stroke-width="1.4"/>
+
+    <polygon id="star" points="0,-13 3.8,-4.2 13,-4 5.8,1.8 8.2,10.6 0,5.4 -8.2,10.6 -5.8,1.8 -13,-4 -3.8,-4.2"/>
+    <!-- twill star: Forest twill, Cream running stitch around the edge -->
+    <g id="twill-star">
+      <use xlink:href="#star" fill="#0D4C26"/>
+      <use xlink:href="#star" fill="url(#satin2)"/>
+      <use xlink:href="#star" fill="none" stroke="#F6F1EC" stroke-width="1.1" stroke-dasharray="2.2 1.6" transform="scale(0.86)"/>
+    </g>
+
+    <!-- the crest: 200 x 200 box centred on 0,0, drawn as an embroidered badge -->
+    <g id="crest">
+      <!-- merrow border -->
+      <circle r="100" fill="#0D4C26"/>
+      <circle r="100" fill="none" stroke="#F6F1EC" stroke-width="6"/>
+      <circle r="100" fill="none" stroke="#0D4C26" stroke-opacity="0.5" stroke-width="6" stroke-dasharray="1.6 1.4"/>
+      <circle r="93" fill="#0D4C26"/>
+      <circle r="93" fill="url(#satin)"/>
+      <circle r="93" fill="none" stroke="#F58B88" stroke-width="1.6"/>
+      <!-- inner field -->
+      <circle r="64" fill="#F6F1EC"/>
+      <circle r="64" fill="url(#satin2)"/>
+      <circle r="64" fill="none" stroke="#F58B88" stroke-width="2"/>
+      <path id="ring-top" d="M -78,0 A 78,78 0 0 1 78,0" fill="none"/>
+      <path id="ring-bot" d="M -79,4 A 79,79 0 0 0 79,4" fill="none"/>
+      <text font-size="15.5" font-weight="700" fill="#F6F1EC" letter-spacing="2.6"><textPath xlink:href="#ring-top" startOffset="50%" text-anchor="middle">CLUB DEPORTIVO</textPath></text>
+      <text font-size="15.5" font-weight="700" fill="#F6F1EC" letter-spacing="2.6"><textPath xlink:href="#ring-bot" startOffset="50%" text-anchor="middle">SALT LAKE · 1847</textPath></text>
+      <circle cx="-91" cy="0" r="2.6" fill="#F58B88"/><circle cx="91" cy="0" r="2.6" fill="#F58B88"/>
+      <!-- the Wasatch, Forest satin, snow in Cream -->
+      <path d="M -60,24 L -40,-6 L -30,6 L -14,-18 L -4,-6 L 10,-26 L 24,-2 L 34,-12 L 50,10 L 60,24 Z" fill="#0D4C26"/>
+      <path d="M -60,24 L -40,-6 L -30,6 L -14,-18 L -4,-6 L 10,-26 L 24,-2 L 34,-12 L 50,10 L 60,24 Z" fill="url(#satin)"/>
+      <path d="M 10,-26 L 4,-15 L 9,-18 L 14,-13 L 19,-16 L 16,-20 Z M -14,-18 L -19,-10 L -14,-12 L -10,-9 L -8,-14 Z M 34,-12 L 30,-6 L 35,-8 L 39,-5 Z" fill="#F6F1EC"/>
+      <!-- the lake under the ridge, Salt Pink -->
+      <path d="M -62,24 L 62,24 L 62,36 C 30,30 -30,40 -62,34 Z" fill="#F58B88"/>
+      <path d="M -62,24 L 62,24 L 62,36 C 30,30 -30,40 -62,34 Z" fill="url(#satin-pink)"/>
+      <!-- brine shrimp, artemia, curled over the ridge: segmented body, eleven pairs of feathery legs, stalked eyes, forked tail -->
+      <g>
+        <path d="M -46,-14 C -44,-34 -22,-52 4,-50 C 26,-48 40,-40 46,-30" fill="none" stroke="#F58B88" stroke-width="7" stroke-linecap="round"/>
+        <path d="M -46,-14 C -44,-34 -22,-52 4,-50 C 26,-48 40,-40 46,-30" fill="none" stroke="#0D4C26" stroke-width="7" stroke-linecap="butt" stroke-dasharray="1 5.2" stroke-opacity="0.55"/>
+        <!-- legs, drawn as a fringe below the spine -->
+        <path d="M -42,-24 l -5,7 M -38,-31 l -6,6 M -33,-37 l -6,5 M -27,-42 l -6,5 M -20,-46 l -5,6 M -12,-48 l -3,7 M -4,-49 l -1,7 M 4,-49 l 1,7 M 12,-48 l 2,7 M 20,-46 l 4,6 M 28,-42 l 5,6" fill="none" stroke="#F58B88" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M -44,-20 l -8,4 M -40,-28 l -8,3 M -35,-34 l -8,2 M -29,-40 l -8,2 M -22,-44 l -7,3 M -14,-47 l -5,5" fill="none" stroke="#F58B88" stroke-width="1" stroke-linecap="round"/>
+        <!-- tail, forked -->
+        <path d="M -46,-14 L -54,-4 M -46,-14 L -50,-2 M -46,-14 L -44,-2" fill="none" stroke="#F58B88" stroke-width="2" stroke-linecap="round"/>
+        <!-- head: stalked eyes and antennae -->
+        <path d="M 46,-30 L 56,-40 M 46,-30 L 58,-30" fill="none" stroke="#F58B88" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="57" cy="-41" r="2.6" fill="#F58B88"/><circle cx="59" cy="-29" r="2.6" fill="#F58B88"/>
+        <circle cx="57" cy="-41" r="1" fill="#0D4C26"/><circle cx="59" cy="-29" r="1" fill="#0D4C26"/>
+        <path d="M 44,-34 C 52,-48 60,-54 70,-56 M 48,-26 C 60,-20 66,-14 70,-6" fill="none" stroke="#F58B88" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+      <!-- 801 at the foot -->
+      <text y="56" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="22" fill="#0D4C26" text-anchor="middle" letter-spacing="2">801</text>
+    </g>
+
+    <path id="arch" d="M -200,-120 A 250,250 0 0 1 200,-120" fill="none"/>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#F6F1EC"/>
+
+  <!-- FRONT, large -->
+  <g transform="translate(320,400) scale(0.86)">
+    <use xlink:href="#body" fill="#F58B88" stroke="#212121" stroke-width="2.2" stroke-linejoin="round"/>
+    <use xlink:href="#body" fill="url(#mesh)"/>
+    <use xlink:href="#sidepanel-l" fill="#0D4C26"/><use xlink:href="#sidepanel-r" fill="#0D4C26"/>
+    <use xlink:href="#sidepanel-l" fill="url(#mesh-dark)"/><use xlink:href="#sidepanel-r" fill="url(#mesh-dark)"/>
+    <use xlink:href="#seams"/>
+    <use xlink:href="#cuff-l" fill="#0D4C26"/><use xlink:href="#cuff-r" fill="#0D4C26"/>
+    <use xlink:href="#cuffline-l" stroke="#F6F1EC" stroke-width="2.4"/><use xlink:href="#cuffline-r" stroke="#F6F1EC" stroke-width="2.4"/>
+    <use xlink:href="#vneck-front" fill="#0D4C26"/>
+    <use xlink:href="#vneck-front-inner" fill="none" stroke="#F6F1EC" stroke-width="2.4"/>
+    <use xlink:href="#hem" stroke="#212121" stroke-opacity="0.35" stroke-width="1.4"/>
+    <!-- sleeve stars, four a side -->
+    <g>
+      <use xlink:href="#twill-star" transform="translate(-232,-248)"/><use xlink:href="#twill-star" transform="translate(-250,-212)"/><use xlink:href="#twill-star" transform="translate(-268,-176)"/><use xlink:href="#twill-star" transform="translate(-286,-140)"/>
+      <use xlink:href="#twill-star" transform="translate(232,-248)"/><use xlink:href="#twill-star" transform="translate(250,-212)"/><use xlink:href="#twill-star" transform="translate(268,-176)"/><use xlink:href="#twill-star" transform="translate(286,-140)"/>
+    </g>
+    <!-- crest, wearer's left chest -->
+    <use xlink:href="#crest" transform="translate(104,-160) scale(0.56)"/>
+    <!-- 801 right chest -->
+    <text x="-104" y="-146" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="40" fill="#0D4C26" text-anchor="middle" letter-spacing="1">801</text>
+  </g>
+
+  <!-- BACK, large -->
+  <g transform="translate(880,400) scale(0.86)">
+    <use xlink:href="#body" fill="#F58B88" stroke="#212121" stroke-width="2.2" stroke-linejoin="round"/>
+    <use xlink:href="#body" fill="url(#mesh)"/>
+    <use xlink:href="#sidepanel-l" fill="#0D4C26"/><use xlink:href="#sidepanel-r" fill="#0D4C26"/>
+    <use xlink:href="#sidepanel-l" fill="url(#mesh-dark)"/><use xlink:href="#sidepanel-r" fill="url(#mesh-dark)"/>
+    <use xlink:href="#seams"/>
+    <use xlink:href="#cuff-l" fill="#0D4C26"/><use xlink:href="#cuff-r" fill="#0D4C26"/>
+    <use xlink:href="#cuffline-l" stroke="#F6F1EC" stroke-width="2.4"/><use xlink:href="#cuffline-r" stroke="#F6F1EC" stroke-width="2.4"/>
+    <use xlink:href="#neck-back" fill="#0D4C26"/>
+    <use xlink:href="#hem" stroke="#212121" stroke-opacity="0.35" stroke-width="1.4"/>
+    <g>
+      <use xlink:href="#twill-star" transform="translate(-232,-248)"/><use xlink:href="#twill-star" transform="translate(-250,-212)"/><use xlink:href="#twill-star" transform="translate(-268,-176)"/><use xlink:href="#twill-star" transform="translate(-286,-140)"/>
+      <use xlink:href="#twill-star" transform="translate(232,-248)"/><use xlink:href="#twill-star" transform="translate(250,-212)"/><use xlink:href="#twill-star" transform="translate(268,-176)"/><use xlink:href="#twill-star" transform="translate(286,-140)"/>
+    </g>
+    <!-- SALT LAKE arched in blackletter, tackle twill: Forest letter, Cream keyline -->
+    <text font-family="'Pirata One', 'UnifrakturCook', 'Old English Text MT', serif" font-size="66" fill="#0D4C26" stroke="#F6F1EC" stroke-width="5" stroke-linejoin="round" paint-order="stroke" letter-spacing="3">
+      <textPath xlink:href="#arch" startOffset="50%" text-anchor="middle">SALT LAKE</textPath>
+    </text>
+    <!-- the number, 2-color tackle twill -->
+    <text y="178" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="300" fill="#0D4C26" stroke="#F6F1EC" stroke-width="9" stroke-linejoin="round" paint-order="stroke" text-anchor="middle" letter-spacing="-6">801</text>
+    <text y="178" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="300" fill="url(#satin2)" text-anchor="middle" letter-spacing="-6">801</text>
+  </g>
+
+  <!-- CREST BLOWN UP, the badge as it is sewn -->
+  <g transform="translate(250,1010)">
+    <circle r="178" fill="#F58B88"/>
+    <circle r="178" fill="url(#mesh)"/>
+    <g filter="url(#thread)">
+      <use xlink:href="#crest" transform="scale(1.46)"/>
+    </g>
+  </g>
+
+  <!-- SLEEVE STAR INSET -->
+  <g transform="translate(560,1010)">
+    <rect x="-100" y="-120" width="200" height="240" rx="6" fill="#F58B88"/>
+    <rect x="-100" y="-120" width="200" height="240" rx="6" fill="url(#mesh)"/>
+    <g filter="url(#thread)">
+      <use xlink:href="#twill-star" transform="translate(-20,-62) scale(3.2)"/>
+      <use xlink:href="#twill-star" transform="translate(24,34) scale(3.2)"/>
+    </g>
+  </g>
+
+  <!-- MATCH-DAY ALT, small -->
+  <g transform="translate(880,960) scale(0.34)">
+    <use xlink:href="#body" fill="#A42F2C" stroke="#212121" stroke-width="3" stroke-linejoin="round"/>
+    <use xlink:href="#body" fill="url(#mesh)"/>
+    <use xlink:href="#sidepanel-l" fill="#13375D"/><use xlink:href="#sidepanel-r" fill="#13375D"/>
+    <use xlink:href="#seams"/>
+    <use xlink:href="#cuff-l" fill="#13375D"/><use xlink:href="#cuff-r" fill="#13375D"/>
+    <use xlink:href="#cuffline-l" stroke="#F6F1EC" stroke-width="3"/><use xlink:href="#cuffline-r" stroke="#F6F1EC" stroke-width="3"/>
+    <use xlink:href="#vneck-front" fill="#13375D"/>
+    <use xlink:href="#vneck-front-inner" fill="none" stroke="#F6F1EC" stroke-width="3"/>
+    <g fill="#13375D">
+      <use xlink:href="#star" transform="translate(-232,-248)"/><use xlink:href="#star" transform="translate(-250,-212)"/><use xlink:href="#star" transform="translate(-268,-176)"/><use xlink:href="#star" transform="translate(-286,-140)"/>
+      <use xlink:href="#star" transform="translate(232,-248)"/><use xlink:href="#star" transform="translate(250,-212)"/><use xlink:href="#star" transform="translate(268,-176)"/><use xlink:href="#star" transform="translate(286,-140)"/>
+    </g>
+    <use xlink:href="#crest" transform="translate(104,-160) scale(0.56)"/>
+    <text x="-104" y="-146" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="40" fill="#F6F1EC" text-anchor="middle" letter-spacing="1">801</text>
+  </g>
+
+  <!-- COLORWAYS -->
+  <g transform="translate(760,1100)" font-size="15" fill="#212121">
+    <g>
+      <rect width="40" height="40" rx="4" fill="#F58B88" stroke="#212121" stroke-width="1"/>
+      <rect x="48" width="40" height="40" rx="4" fill="#0D4C26" stroke="#212121" stroke-width="1"/>
+      <rect x="96" width="40" height="40" rx="4" fill="#F6F1EC" stroke="#212121" stroke-width="1"/>
+      <text x="0" y="62">Salt Pink home.</text>
+      <text x="0" y="82">Forest trim and twill, Cream keyline.</text>
+    </g>
+    <g transform="translate(0,104)">
+      <rect width="40" height="40" rx="4" fill="#A42F2C" stroke="#212121" stroke-width="1"/>
+      <rect x="48" width="40" height="40" rx="4" fill="#13375D" stroke="#212121" stroke-width="1"/>
+      <rect x="96" width="40" height="40" rx="4" fill="#F6F1EC" stroke="#212121" stroke-width="1"/>
+      <text x="0" y="62">Rodeo Red match-day alt, Navy trim.</text>
+      <text x="0" y="82">Only with La Barra Real in the room.</text>
+    </g>
+  </g>
+
+  <!-- CAPTION -->
+  <g transform="translate(60,1330)" font-size="17" fill="#212121">
+    <text y="0">A club jersey for a club that is the city. The crest is a 3.5 inch embroidered badge: a brine shrimp curled over the Wasatch,</text>
+    <text y="26">the lake in pink under the ridge, 801 at the foot, merrowed in Cream. Eight twill stars run down the sleeves, one for each place</text>
+    <text y="52">the community lives: West Valley, Rose Park, Glendale, Magna, Kearns, Midvale, South Salt Lake, Taylorsville. The back is</text>
+    <text y="78">Salt Lake in blackletter over 801 in two-color tackle twill, cut big enough to read from the far side of the parking lot.</text>
+    <text y="104">Pink is a real fútbol color and it is the lake, so it is ours. The match-day alt only exists if the barra wants it.</text>
+    <text y="150" fill="#555">Crest, blackletter and shrimp are redrawn by a Salt Lake County embroidery digitizer and letterer. The badge is also sold on its own.</text>
+  </g>
+</svg>

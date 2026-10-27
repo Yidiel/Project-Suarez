@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Archivo Narrow', 'Arial Narrow', Arial, sans-serif">
+  <title>Vecino, one word in fine-line script on a black heavyweight tee</title>
+  <defs>
+    <path id="tee" d="M -92,-250 Q 0,-214 92,-250 L 232,-210 L 268,-88 L 184,-64 L 184,250 L -184,250 L -184,-64 L -268,-88 L -232,-210 Z"/>
+    <path id="tee-seams" d="M -178,-236 L -184,-64 M 178,-236 L 184,-64 M -184,236 L 184,236 M -84,-242 Q 0,-206 84,-242" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- the word, with a single-weight underline swash that a letterer would draw as one stroke -->
+    <g id="word">
+      <text font-family="'Pinyon Script', 'Great Vibes', 'Monsieur La Doulaise', 'Brush Script MT', cursive" font-size="120" fill="none" stroke="#FFFFFF" stroke-width="1.6" text-anchor="middle" letter-spacing="2">Vecino</text>
+      <path d="M -190,26 C -120,8 -40,40 20,22 C 90,2 150,30 196,10 C 210,4 206,-4 192,0" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M -200,32 C -140,16 -60,46 10,30" fill="none" stroke="#FFFFFF" stroke-width="0.9" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#FFFFFF"/>
+  <text x="60" y="52" font-size="22" font-weight="700" fill="#212121" letter-spacing="2">LATINO LANE 02 · VECINO</text>
+  <text x="1140" y="52" font-size="16" fill="#555" text-anchor="end">One community word, fine-line, no explanation</text>
+
+  <!-- FRONT -->
+  <g transform="translate(320,400)">
+    <use xlink:href="#tee" fill="#212121" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#tee-seams"/>
+    <use xlink:href="#word" transform="translate(0,-60) scale(0.78)"/>
+    <text y="300" font-size="15" fill="#212121" text-anchor="middle" letter-spacing="2">FRONT</text>
+  </g>
+
+  <!-- BACK -->
+  <g transform="translate(880,400)">
+    <use xlink:href="#tee" fill="#212121" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#tee-seams"/>
+    <!-- small fine-line 801 at the back neck -->
+    <text y="-196" font-family="'Pinyon Script', 'Great Vibes', cursive" font-size="30" fill="none" stroke="#FFFFFF" stroke-width="0.9" text-anchor="middle">801</text>
+    <!-- hem: the partner line, plain -->
+    <text y="226" font-size="9" fill="#FFFFFF" fill-opacity="0.85" text-anchor="middle" letter-spacing="1.5">DISEÑADO EN SALT LAKE COUNTY</text>
+    <text y="300" font-size="15" fill="#212121" text-anchor="middle" letter-spacing="2">BACK</text>
+  </g>
+
+  <!-- DETAIL ROW -->
+  <g transform="translate(0,760)">
+    <line x1="60" y1="0" x2="1140" y2="0" stroke="#DDD"/>
+    <text x="60" y="34" font-size="14" fill="#555" letter-spacing="2">LETTERING AT PRINT SIZE, 13 IN WIDE</text>
+    <rect x="60" y="50" width="560" height="260" fill="#212121"/>
+    <use xlink:href="#word" transform="translate(340,200) scale(1.25)"/>
+    <g transform="translate(660,60)" font-size="15" fill="#212121">
+      <text y="0" font-weight="700">Why this word</text>
+      <text y="26">Vecino: neighbor. It is what the West Side calls itself and what</text>
+      <text y="48">Comunidades Unidas and Centro Civico say in their own copy. It belongs</text>
+      <text y="70">to every nationality here: Mexican, Venezuelan, Salvadoran, Peruvian.</text>
+      <text y="92">Nobody owns it as a brand. Paisa is Paisa Boys' name. Raza is contested.</text>
+      <text y="114">Hyna is Born x Raised's. Familia and Barrio are on a thousand tees.</text>
+      <text y="136">Vecino is a plain statement with a second meaning for the visitor:</text>
+      <text y="158">you are a neighbor here too, if you act like one.</text>
+      <text y="198" font-weight="700">The hand</text>
+      <text y="224">Mister Cartoon fine-line: a single-weight 0.5 pt line, no fills, script</text>
+      <text y="246">capitals, a tail that becomes the underline. Pinyon Script stands in here.</text>
+      <text y="268">A Salt Lake letterer redraws it by hand (ink on vellum, scanned, vectorized).</text>
+      <text y="290">Women's cut carries VECINA: same drawing, one letter, same hand.</text>
+      <text y="330" fill="#555">Print test: 230 mesh, white water-based ink, one pass.</text>
+      <text y="350" fill="#555">If the line fills in, go up a mesh, not a line weight.</text>
+    </g>
+  </g>
+
+  <!-- SPEC STRIP -->
+  <g transform="translate(60,1330)">
+    <rect width="1080" height="130" fill="#F6F1EC" stroke="#212121"/>
+    <g font-size="13" fill="#212121">
+      <text x="20" y="28" font-weight="700" letter-spacing="2">SPEC</text>
+      <text x="20" y="54"><tspan font-weight="700">Blank:</tspan> boxy heavyweight tee, drop shoulder, 1 in rib collar, tubular body. Unisex plus a women's cut (VECINA).</text>
+      <text x="20" y="76"><tspan font-weight="700">Fabric:</tspan> 7.5 oz (255 gsm) 100% ringspun cotton, garment-dyed black, enzyme washed so the line sits on a soft surface.</text>
+      <text x="20" y="98"><tspan font-weight="700">Decoration:</tspan> front, one-color white water-based screen print, 13 in wide x 5 in tall, centered 3 in below collar; back neck 801 1.25 in wide; hem line 4 in wide.</text>
+      <text x="20" y="120"><tspan font-weight="700">Colorway:</tspan> Ink #212121 body, white ink. Second run: Forest #0D4C26 body with Cream #F6F1EC ink. Neck label: salt-crystal line icon plus partner-org line.</text>
+    </g>
+  </g>
+</svg>

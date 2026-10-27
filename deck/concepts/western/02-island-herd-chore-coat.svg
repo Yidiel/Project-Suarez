@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <title>Island Herd Chore Coat - Neo-Western lane, Visit Salt Lake</title>
+  <defs>
+    <style>
+      .seam{fill:none;stroke:#062d15;stroke-width:1.2}
+      .edge{fill:#0D4C26;stroke:#062d15;stroke-width:2}
+      .quilt{fill:none;stroke:#8a6a3a;stroke-width:0.9;stroke-dasharray:2.5 2.5}
+      .spec{font-size:15px;fill:#212121}
+      .spech{font-size:12px;letter-spacing:1.6px;fill:#0D4C26;font-weight:600}
+      .btn{fill:#3a2a1a;stroke:#1d140b;stroke-width:1}
+    </style>
+    <!-- one quilt block: 60 px square, four triangles (half-square triangles), brand palette -->
+    <g id="qblock">
+      <polygon points="0,0 60,0 0,60" fill="#FFDDA3"/>
+      <polygon points="60,0 60,60 0,60" fill="#F29F1F"/>
+      <polygon points="0,0 30,30 0,60" fill="#D24B27"/>
+      <polygon points="60,0 30,30 60,60" fill="#A42F2C"/>
+    </g>
+    <g id="qblock2">
+      <polygon points="0,0 60,0 0,60" fill="#F6F1EC"/>
+      <polygon points="60,0 60,60 0,60" fill="#FFDDA3"/>
+      <polygon points="0,0 60,0 30,30" fill="#D24B27"/>
+      <polygon points="0,60 60,60 30,30" fill="#F29F1F"/>
+    </g>
+    <!-- 4x4 pinwheel repeat, 240 px -->
+    <g id="qrepeat">
+      <use xlink:href="#qblock" x="0" y="0"/><use xlink:href="#qblock2" x="60" y="0"/><use xlink:href="#qblock" x="120" y="0"/><use xlink:href="#qblock2" x="180" y="0"/>
+      <use xlink:href="#qblock2" x="0" y="60"/><use xlink:href="#qblock" x="60" y="60"/><use xlink:href="#qblock2" x="120" y="60"/><use xlink:href="#qblock" x="180" y="60"/>
+      <use xlink:href="#qblock" x="0" y="120"/><use xlink:href="#qblock2" x="60" y="120"/><use xlink:href="#qblock" x="120" y="120"/><use xlink:href="#qblock2" x="180" y="120"/>
+      <use xlink:href="#qblock2" x="0" y="180"/><use xlink:href="#qblock" x="60" y="180"/><use xlink:href="#qblock2" x="120" y="180"/><use xlink:href="#qblock" x="180" y="180"/>
+      <!-- quilting stitch lines, diagonal, read as hand quilting -->
+      <g class="quilt">
+        <line x1="0" y1="60" x2="60" y2="0"/><line x1="0" y1="120" x2="120" y2="0"/><line x1="0" y1="180" x2="180" y2="0"/><line x1="0" y1="240" x2="240" y2="0"/>
+        <line x1="60" y1="240" x2="240" y2="60"/><line x1="120" y1="240" x2="240" y2="120"/><line x1="180" y1="240" x2="240" y2="180"/>
+      </g>
+    </g>
+    <pattern id="quiltpat" patternUnits="userSpaceOnUse" width="240" height="240">
+      <use xlink:href="#qrepeat"/>
+    </pattern>
+    <!-- bison, single silhouette, for the leather patch -->
+    <path id="bison" d="M4 30 C 2 18 10 8 22 7 C 30 2 44 1 52 6 C 62 4 70 10 72 20 L 76 22 L 74 26 L 70 24 C 70 30 66 34 60 36 L 60 48 L 55 48 L 54 38 L 46 38 L 45 48 L 40 48 L 39 38 L 24 38 L 23 48 L 18 48 L 17 38 C 10 38 4 36 4 30 Z"/>
+    <clipPath id="leftfront"><path d="M80 140 L250 130 L250 580 L120 580 L120 260 L110 290 L40 270 Z"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#F6F1EC"/>
+
+  <text x="60" y="64" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="30" fill="#212121">Island Herd Chore Coat</text>
+  <text x="60" y="90" class="spech">NEO-WESTERN  ·  02  ·  CHORE COAT, WAXED FOREST CANVAS, TRIANGLE-QUILT LINING</text>
+  <text x="1140" y="64" text-anchor="end" font-size="14" fill="#555">Antelope Island  ·  bison on the island since 1893</text>
+
+  <!-- ================= FRONT, CLOSED ================= -->
+  <g transform="translate(70 150)">
+    <text x="0" y="0" class="spech">FRONT, CLOSED</text>
+    <g transform="translate(0 20)">
+      <!-- body -->
+      <path class="edge" d="M80 140 L200 100 L240 88 L260 100 L280 88 L320 100 L440 140 L480 270 L410 290 L400 260 L400 580 L120 580 L120 260 L110 290 L40 270 Z"/>
+      <!-- sleeves -->
+      <path class="edge" d="M80 140 L40 270 L-10 500 L60 520 L120 260 Z"/>
+      <path class="edge" d="M440 140 L480 270 L530 500 L460 520 L400 260 Z"/>
+      <!-- cuffs, plain hem -->
+      <line x1="-6" y1="482" x2="56" y2="500" class="seam"/>
+      <line x1="526" y1="482" x2="464" y2="500" class="seam"/>
+      <!-- collar: corduroy-faced point collar, shown in Ink -->
+      <path d="M200 100 L240 88 L270 160 L255 110 Z" fill="#212121" stroke="#000" stroke-width="1.5"/>
+      <path d="M320 100 L280 88 L250 160 L265 110 Z" fill="#212121" stroke="#000" stroke-width="1.5"/>
+      <!-- placket -->
+      <line x1="248" y1="150" x2="248" y2="580" class="seam"/>
+      <line x1="272" y1="150" x2="272" y2="580" class="seam"/>
+      <!-- chest pocket, left (wearer's left), patch pocket -->
+      <path class="seam" d="M300 220 L390 220 L390 300 L300 300 Z"/>
+      <!-- hip pockets, big patch -->
+      <path class="seam" d="M130 400 L235 400 L235 520 L130 520 Z"/>
+      <path class="seam" d="M285 400 L390 400 L390 520 L285 520 Z"/>
+      <!-- buttons, corozo -->
+      <circle class="btn" cx="260" cy="180" r="6"/><circle class="btn" cx="260" cy="260" r="6"/><circle class="btn" cx="260" cy="340" r="6"/><circle class="btn" cx="260" cy="420" r="6"/><circle class="btn" cx="260" cy="500" r="6"/>
+      <!-- leather patch on chest pocket, 2 x 1.25 in at 32 px/in -->
+      <g transform="translate(313 240)">
+        <rect x="0" y="0" width="64" height="40" rx="3" fill="#6b4a2b" stroke="#3d2a16" stroke-width="1"/>
+        <rect x="2.5" y="2.5" width="59" height="35" rx="2" fill="none" stroke="#3d2a16" stroke-width="0.6" stroke-dasharray="1.5 1.5"/>
+        <use xlink:href="#bison" transform="translate(10 6) scale(0.32)" fill="#2b1a0c"/>
+        <text x="37" y="16" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ANTELOPE</text>
+        <text x="37" y="23" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ISLAND</text>
+        <text x="37" y="32" font-size="5" fill="#2b1a0c" letter-spacing="0.6">HERD · 1893</text>
+      </g>
+      <line x1="120" y1="568" x2="400" y2="568" class="seam"/>
+      <text x="260" y="620" text-anchor="middle" font-size="13" fill="#555">Outside is plain waxed canvas. The only mark is the leather patch.</text>
+    </g>
+  </g>
+
+  <!-- ================= FRONT, OPEN: THE REVEAL ================= -->
+  <g transform="translate(620 150)">
+    <text x="0" y="0" class="spech">FRONT, OPEN (LINING REVEAL)</text>
+    <g transform="translate(0 20)">
+      <!-- back body behind, lining visible across the whole interior -->
+      <path d="M120 140 L400 140 L400 580 L120 580 Z" fill="url(#quiltpat)" stroke="#062d15" stroke-width="2"/>
+      <!-- interior pocket label strip -->
+      <rect x="135" y="200" width="120" height="30" fill="#F6F1EC" stroke="#062d15" stroke-width="1"/>
+      <text x="195" y="214" text-anchor="middle" font-size="7" letter-spacing="1" fill="#13375D" font-weight="700">SALT LAKE</text>
+      <text x="195" y="224" text-anchor="middle" font-size="6" letter-spacing="0.8" fill="#13375D">40.7608° N  111.8910° W · ELEV. 4,219 FT</text>
+      <!-- sleeves -->
+      <path class="edge" d="M80 140 L40 270 L-10 500 L60 520 L120 260 Z"/>
+      <path class="edge" d="M440 140 L480 270 L530 500 L460 520 L400 260 Z"/>
+      <!-- left front folded back outward, lining up: a flat panel beside the body -->
+      <path d="M-20 140 L120 140 L120 580 L-20 580 Z" fill="url(#quiltpat)" stroke="#062d15" stroke-width="2"/>
+      <path d="M-20 140 L120 140 L120 164 L-20 164 Z" fill="#0D4C26" stroke="#062d15" stroke-width="1.5"/>
+      <path d="M-20 140 L0 140 L0 580 L-20 580 Z" fill="#0D4C26" stroke="#062d15" stroke-width="1.5"/>
+      <!-- inside chest pocket on the lining -->
+      <path d="M30 230 L100 230 L100 300 L30 300 Z" fill="#0D4C26" stroke="#062d15" stroke-width="1"/>
+      <!-- right front, closed, hanging straight -->
+      <path class="edge" d="M270 140 L400 140 L400 580 L270 580 Z"/>
+      <path class="seam" d="M300 220 L390 220 L390 300 L300 300 Z"/>
+      <path class="seam" d="M285 400 L390 400 L390 520 L285 520 Z"/>
+      <g transform="translate(313 240)">
+        <rect x="0" y="0" width="64" height="40" rx="3" fill="#6b4a2b" stroke="#3d2a16" stroke-width="1"/>
+        <use xlink:href="#bison" transform="translate(10 6) scale(0.32)" fill="#2b1a0c"/>
+        <text x="37" y="16" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ANTELOPE</text>
+        <text x="37" y="23" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ISLAND</text>
+        <text x="37" y="32" font-size="5" fill="#2b1a0c" letter-spacing="0.6">HERD · 1893</text>
+      </g>
+      <path d="M320 100 L280 88 L250 160 L265 110 Z" fill="#212121" stroke="#000" stroke-width="1.5"/>
+      <text x="260" y="620" text-anchor="middle" font-size="13" fill="#555">The reveal is the design: Bode's quilt logic, moved inside (Ginew's lining move).</text>
+    </g>
+  </g>
+
+  <!-- ================= DETAILS ================= -->
+  <g transform="translate(70 860)">
+    <text x="0" y="0" class="spech">LINING REPEAT, 1 BLOCK = 3 IN</text>
+    <rect x="0" y="14" width="240" height="240" fill="url(#quiltpat)" stroke="#8a6a3a" stroke-width="1"/>
+    <text x="0" y="280" font-size="13" fill="#555">Half-square triangles in Sego Lily, Aspen Gold, Terracotta, Rodeo Red, Cream.</text>
+    <text x="0" y="298" font-size="13" fill="#555">Printed on cotton sateen, then channel-quilted on the diagonal over 4 oz poly fill.</text>
+    <text x="0" y="316" font-size="13" fill="#555">The brand palette is the quilt. It reads as Wasatch autumn without a single leaf.</text>
+    <g transform="translate(0 340)">
+      <rect x="0" y="0" width="40" height="22" fill="#FFDDA3"/><rect x="48" y="0" width="40" height="22" fill="#F29F1F"/><rect x="96" y="0" width="40" height="22" fill="#D24B27"/><rect x="144" y="0" width="40" height="22" fill="#A42F2C"/><rect x="192" y="0" width="40" height="22" fill="#F6F1EC" stroke="#ccc"/>
+      <text x="0" y="40" font-size="11" fill="#555">Sego Lily · Aspen Gold · Terracotta · Rodeo Red · Cream</text>
+    </g>
+  </g>
+
+  <g transform="translate(620 860)">
+    <text x="0" y="0" class="spech">LEATHER PATCH, 4X  (2 x 1.25 IN, VEG-TAN, HOT-STAMP DEBOSS)</text>
+    <g transform="translate(0 14) scale(4)">
+      <rect x="0" y="0" width="64" height="40" rx="3" fill="#6b4a2b" stroke="#3d2a16" stroke-width="0.5"/>
+      <rect x="2.5" y="2.5" width="59" height="35" rx="2" fill="none" stroke="#3d2a16" stroke-width="0.35" stroke-dasharray="1.2 1.2"/>
+      <use xlink:href="#bison" transform="translate(10 6) scale(0.32)" fill="#2b1a0c"/>
+      <text x="37" y="16" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ANTELOPE</text>
+      <text x="37" y="23" font-size="5.5" font-weight="700" fill="#2b1a0c" letter-spacing="0.4">ISLAND</text>
+      <text x="37" y="32" font-size="5" fill="#2b1a0c" letter-spacing="0.6">HERD · 1893</text>
+    </g>
+    <text x="0" y="200" font-size="13" fill="#555">Bison drawn from the roundup herd photo: head down, hump up, one shape, no eye.</text>
+    <text x="0" y="218" font-size="13" fill="#555">1893 is the year bison were put on the island (research bank, verified). The roundup's</text>
+    <text x="0" y="236" font-size="13" fill="#555">own start year is not settled in our files (36th in 2024 per Deseret News), so the patch</text>
+    <text x="0" y="254" font-size="13" fill="#555">carries the herd date, not the event date. Type: Saans Bold stand-in, tracked caps.</text>
+  </g>
+
+  <!-- ================= SPEC STRIP ================= -->
+  <g transform="translate(0 1330)">
+    <line x1="60" y1="0" x2="1140" y2="0" stroke="#0D4C26" stroke-width="1.5"/>
+    <text x="60" y="28" class="spech">BLANK</text><text x="60" y="50" class="spec">Chore coat, 5-button, 3 patch pockets, cord collar, boxy, hip length</text>
+    <text x="60" y="80" class="spech">FABRIC</text><text x="60" y="102" class="spec">10 oz waxed cotton canvas; lining printed sateen over 4 oz fill</text>
+    <text x="640" y="28" class="spech">DECORATION</text><text x="640" y="50" class="spec">Printed, channel-quilted lining; veg-tan patch 2 x 1.25 in, debossed</text>
+    <text x="640" y="80" class="spech">COLORWAY</text><text x="640" y="102" class="spec">Forest #0D4C26 shell, Ink cord collar, corozo buttons; 5-color lining</text>
+    <text x="60" y="140" font-size="12" fill="#777">Placement: patch centered on the chest pocket, 0.6 in below the pocket top. Interior neck label with coordinates and elevation (brand eyebrow). No outside logo.</text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif">
+<title>Gain Alpha Direct pullover</title>
+<rect width="1200" height="1500" fill="#F6F1EC"/>
+<text x="60" y="70" font-size="13" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="2.5" >PERFORMANCE · 02</text>
+<text x="60" y="112" font-size="40" fill="#212121" font-family="'Source Serif 4', Georgia, 'Times New Roman', serif" font-weight="400" text-anchor="start" letter-spacing="0" >Gain</text>
+<text x="60" y="140" font-size="14" fill="#555" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Polartec Alpha Direct 90 pullover. The loft is the graphic; the only print is the elevation block.</text>
+<line x1="60" y1="160" x2="1140" y2="160" stroke="#212121" stroke-width="1"/>
+<defs>
+<pattern id="alpha" width="13" height="13" patternUnits="userSpaceOnUse">
+  <rect width="13" height="13" fill="#7E221F"/>
+  <rect x="1" y="1" width="11" height="11" rx="3.5" fill="#A42F2C"/>
+  <path d="M3,4 q3,-2.5 6,0 M3,8.5 q3,-2.5 6,0" stroke="#C04C47" stroke-width="1" fill="none" stroke-linecap="round"/>
+</pattern>
+<pattern id="alphaMacro" width="52" height="52" patternUnits="userSpaceOnUse">
+  <rect width="52" height="52" fill="#6E1B18"/>
+  <rect x="4" y="4" width="44" height="44" rx="14" fill="#A42F2C"/>
+  <path d="M10,14 q8,-8 16,0 q8,8 16,0 M8,30 q8,-8 16,0 q8,8 16,0 M14,42 q8,-6 14,0" stroke="#C8524D" stroke-width="2" fill="none" stroke-linecap="round"/>
+</pattern>
+<clipPath id="pf"><path d="M268,260 L268,234 Q330,220 392,234 L392,260 L545,308 L630,590 L556,612 L530,490 L530,850 L130,850 L130,490 L104,612 L30,590 L115,308 Z"/></clipPath>
+<clipPath id="pb"><path d="M808,260 L808,234 Q870,220 932,234 L932,260 L1085,308 L1170,590 L1096,612 L1070,490 L1070,850 L670,850 L670,490 L644,612 L570,590 L655,308 Z"/></clipPath>
+</defs>
+<path d="M268,260 L268,234 Q330,220 392,234 L392,260 L545,308 L630,590 L556,612 L530,490 L530,850 L130,850 L130,490 L104,612 L30,590 L115,308 Z" fill="url(#alpha)" stroke="#212121" stroke-width="1.2"/>
+<path d="M268,264 L130,490 M392,264 L530,490" stroke="#4A100E" stroke-width="1.4" fill="none" stroke-dasharray="4 2"/>
+<rect x="130" y="834" width="400" height="16" fill="#5E1714"/>
+<path d="M630,590 L556,612 L552,598 L626,576 Z M30,590 L104,612 L108,598 L34,576 Z" fill="#5E1714"/>
+<path d="M268,260 L268,234 Q330,220 392,234 L392,260" fill="none" stroke="#4A100E" stroke-width="1.2"/>
+<path d="M808,260 L808,234 Q870,220 932,234 L932,260 L1085,308 L1170,590 L1096,612 L1070,490 L1070,850 L670,850 L670,490 L644,612 L570,590 L655,308 Z" fill="url(#alpha)" stroke="#212121" stroke-width="1.2"/>
+<path d="M808,264 L670,490 M932,264 L1070,490" stroke="#4A100E" stroke-width="1.4" fill="none" stroke-dasharray="4 2"/>
+<rect x="670" y="834" width="400" height="16" fill="#5E1714"/>
+<path d="M1170,590 L1096,612 L1092,598 L1166,576 Z M570,590 L644,612 L648,598 L574,576 Z" fill="#5E1714"/>
+<path d="M808,260 L808,234 Q870,220 932,234 L932,260" fill="none" stroke="#4A100E" stroke-width="1.2"/>
+<text x="330" y="212" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="2.5" >FRONT</text>
+<text x="870" y="212" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="2.5" >BACK</text>
+<rect x="325" y="226" width="10" height="150" fill="#5E1714"/>
+<path d="M330,230 L330,370" stroke="#F6F1EC" stroke-width="1" stroke-dasharray="2 2"/>
+<rect x="326" y="364" width="8" height="14" rx="2" fill="#212121"/>
+<rect x="378" y="410" width="128" height="86" fill="#F6F1EC" stroke="#212121" stroke-width="0.8"/>
+<rect x="380.5" y="412.5" width="123" height="81" fill="none" stroke="#999" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text x="387" y="427" font-size="7.2" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.1" >40.7608° N  111.8910° W</text>
+<line x1="387" y1="433" x2="497" y2="433" stroke="#212121" stroke-width="0.6"/>
+<text x="387" y="450" font-size="8.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.8" >GRID</text>
+<text x="497" y="450" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="end" letter-spacing="0.8" >4,219 FT</text>
+<text x="387" y="468" font-size="8.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.8" >SUMMIT</text>
+<text x="497" y="468" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="end" letter-spacing="0.8" >9,026 FT</text>
+<text x="387" y="486" font-size="8.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.8" >GAIN</text>
+<text x="497" y="486" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="end" letter-spacing="0.8" >+4,807 FT</text>
+<text x="870" y="296" font-size="8" fill="#B9BDC1" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="2.4" >SALT LAKE</text>
+<g transform="translate(1020,826)" fill="none" stroke="#F6F1EC" stroke-opacity="0.8" stroke-width="1"><path d="M0,-6 L6,-2 L5,6 L-2,7 L-6,1 Z"/></g>
+<text x="60" y="910" font-size="10" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2" >ELEVATION BLOCK</text>
+<text x="60" y="930" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Grid = the valley floor at the base-and-meridian, the number in the brand's own</text>
+<text x="60" y="947" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >eyebrow line. Summit = Mount Olympus, the peak in every office window. Gain = the</text>
+<text x="60" y="964" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >difference. Three numbers in tracked caps and nothing else, the way a race</text>
+<text x="60" y="981" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >profile is printed on a bib. Saans Medium in production (shown here in Inter).</text>
+<text x="60" y="1030" font-size="10" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2" >WHY A PLATE</text>
+<text x="60" y="1050" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Alpha Direct loft takes no ink and no needle, so the block is heat-transferred</text>
+<text x="60" y="1067" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >onto a bonded Pertex Quantum Air chest plate, the same place a bib sits. Honest</text>
+<text x="60" y="1084" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >about the fabric, and it gives the only hard edge on a soft garment.</text>
+<text x="60" y="1132" font-size="10" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2" >THE LOFT IS THE GRAPHIC</text>
+<text x="60" y="1152" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >No all-over print, no panelled colour-blocking. The open grid shows through at</text>
+<text x="60" y="1169" font-size="12" fill="#444" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >the hem and cuffs where the Lycra binding compresses it.</text>
+<circle cx="1000" cy="1020" r="105" fill="url(#alphaMacro)" stroke="#212121" stroke-width="1"/>
+<text x="1000" y="1152" font-size="9" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="1.5" >ALPHA DIRECT 90 AT 4:1</text>
+<text x="1000" y="1168" font-size="9" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="500" text-anchor="middle" letter-spacing="1.2" >LOFTED TUFTS ON AN OPEN KNIT GRID, NO LINER</text>
+<text x="1000" y="1184" font-size="9" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="500" text-anchor="middle" letter-spacing="1.2" >IT SNAGS, IT SHEDS A LITTLE, IT BREATHES</text>
+<line x1="60" y1="1280" x2="1140" y2="1280" stroke="#212121" stroke-width="1"/>
+<text x="60" y="1304" font-size="11" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2.5" >SPEC</text>
+<text x="60" y="1330" font-size="11" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.5" >BLANK</text>
+<text x="230" y="1330" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Made for VSL: raglan quarter-zip pullover, stand collar, athletic fit, 27 in body (M). Pattern drafted for a body about to move.</text>
+<text x="60" y="1350" font-size="11" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.5" >FABRIC</text>
+<text x="230" y="1350" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Polartec Alpha Direct 90 (90 g/m², 100% polyester, Dawn-type dye lot matched to Rodeo Red). Chest plate: Pertex Quantum Air 20D ripstop,</text>
+<text x="230" y="1364" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >35 gsm, Cream, bonded.</text>
+<text x="60" y="1384" font-size="11" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.5" >DECORATION</text>
+<text x="230" y="1384" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Heat transfer, 1 color Ink, on the chest plate only, 3.2 x 2.1 in. 3M Scotchlite transfer at back neck, 1.1 x 0.3 in. No embroidery</text>
+<text x="230" y="1398" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >(needle holes open the loft).</text>
+<text x="60" y="1418" font-size="11" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.5" >TRIMS</text>
+<text x="230" y="1418" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >YKK Vislon #3 quarter zip with cord pull, flatlock raglan seams, Lycra-bound hem and cuffs, woven size tab with salt-crystal line icon at</text>
+<text x="230" y="1432" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >hem.</text>
+<text x="60" y="1452" font-size="11" fill="#666" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="1.5" >COLORWAY</text>
+<text x="230" y="1452" font-size="11.5" fill="#212121" font-family="Inter, Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start" letter-spacing="0" >Rodeo Red #A42F2C loft · Cream #F6F1EC plate · Ink #212121 type. Second run: Mountain Navy #13375D / Sego Lily #FFDDA3 plate.</text>
+</svg>

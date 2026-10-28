@@ -2,7 +2,7 @@
 
 Full channel catalog pulled 2026-10-25: 103 videos. 53 are relevant to personal brand, art direction, brand design, brand style and building a brand business. ★ marks the 16 to pull first.
 
-Status: titles listed, **transcripts not yet pulled** (see README.md).
+Status: **batch 1 (all 16 ★) done** as timestamped notes in `notes/`. Batch 2 (37) pending.
 
 ## Personal brand
 

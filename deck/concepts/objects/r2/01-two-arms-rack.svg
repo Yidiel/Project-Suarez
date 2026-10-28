@@ -140,11 +140,9 @@
 <g transform="translate(207.5,1146) rotate(-6)"><rect x="0" y="0" width="84" height="21.0" fill="#D9B57A" stroke="#212121" stroke-width="1.2"/><rect x="0" y="-5" width="74" height="5" fill="#0D4C26" stroke="#212121" stroke-width="0.8"/><rect x="74" y="-16" width="10" height="16" fill="#D9B57A" stroke="#212121" stroke-width="1"/></g>
 <path d="M213.5,1144 L209.5,1022 C209.5,1008 217.5,1008 217.5,1022 L221.5,1144 Z" fill="#13375D" stroke="#212121" stroke-width="1"/>
 <path d="M220.5,1144 L216.5,1022 C216.5,1008 224.5,1008 224.5,1022 L228.5,1144 Z" fill="#13375D" stroke="#212121" stroke-width="1"/>
-<text x="280" y="1080" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">Six-inch arms, a lip at the end</text>
-<text x="280" y="1098" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">so nothing rolls off. Skis stand</text>
-<text x="280" y="1116" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">tails-down on the felt, bases to</text>
-<text x="280" y="1134" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">the wall; a board lies across.</text>
-<text x="108" y="1246" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">Rail 30 by 3.5 by 1.25 inches, lag-bolted to two studs.</text>
+<text x="210" y="1216" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">Six-inch arms with a lip at the end.</text>
+<text x="210" y="1233" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">Skis stand tails-down, bases to the</text>
+<text x="210" y="1250" font-family="Saans, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">wall; a board lies across both arms.</text>
 <rect x="460" y="960" width="330" height="310" fill="#D9B57A" stroke="#212121" stroke-width="0.8"/>
 <path d="M466.0,969.7 L499.0,972.3 L532.0,972.7 L565.0,968.7 L598.0,965.6 L631.0,964.0 L664.0,964.5 L697.0,966.9 L730.0,970.9 L763.0,972.5 L796.0,970.6" fill="none" stroke="#B8904F" stroke-width="0.8" opacity="0.6"/>
 <path d="M466.0,983.9 L499.0,985.0 L532.0,983.7 L565.0,978.2 L598.0,979.2 L631.0,981.0 L664.0,983.0 L697.0,985.1 L730.0,984.2 L763.0,981.2 L796.0,981.0" fill="none" stroke="#B8904F" stroke-width="0.8" opacity="0.6"/>

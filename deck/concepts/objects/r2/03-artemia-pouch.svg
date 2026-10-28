@@ -201,7 +201,7 @@
 </g>
 <text x="100" y="1060" font-family="'Ivar Display', 'Ivar Text', Georgia, 'Times New Roman', serif" font-size="14" fill="#3a3a3a" text-anchor="start" font-style="italic">In hand: about the width of a palm. The shrimp runs most of the way across the front.</text>
 <rect x="700" y="200" width="440" height="560" fill="#FBF8F3" stroke="#212121" stroke-width="0.8"/>
-<g transform="translate(762,490) scale(0.8)"><g stroke="#212121" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="scale(1.0)">
+<g transform="translate(754,480) scale(0.68)"><g stroke="#212121" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="scale(1.0)">
 <path d="M10,-8 C-4,-10 -10,2 -2,10 C6,16 18,12 24,4"/>
 <path d="M2,-4 C-12,-16 -18,-26 -20,-34"/>
 <circle cx="-22" cy="-38" r="7" fill="#212121"/>

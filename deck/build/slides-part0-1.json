@@ -1,0 +1,503 @@
+[
+ {
+  "n": 1,
+  "layout": "text-image",
+  "title": "Base and Meridian",
+  "body": "A merch line for Visit Salt Lake. Working name. Round 1, October 28, 2026.",
+  "images": [
+   {
+    "src": "moodboards/web/objects/21-nasa-iss-great-salt-lake.jpg",
+    "caption": "The Great Salt Lake from the ISS: pink north arm, blue south arm, split by the railroad causeway. NASA, 2025."
+   }
+  ],
+  "notes": "Working name: Base and Meridian. Every Salt Lake address is a coordinate measured from the base-and-meridian marker set by the 1855 survey at the southeast corner of Temple Square (verify), so '400 South 200 East' is already copy, it sounds like a label rather than a campaign, and it gives the empty Sub-Brands section of the brand guide its first entry while 'Salt Lake' stays the word on the garment. It is civic survey heritage, not a church symbol, but it sits next to Temple Square, so the team should be comfortable with that, and it needs a trademark search. Alternates: Terminal Lake (the Great Salt Lake has no outlet, and the airport terminal is ten minutes from downtown; dry and funny, but it can read grim next to the 2022 record low), Brine (the water, the shrimp harvest, the industry; short and streetwear-ready, but a crowded word), and 0,0 (the origin point as numerals; great on a cap, hard to say out loud or search)."
+ },
+ {
+  "n": 2,
+  "layout": "big",
+  "title": "Visit Salt Lake merch today is a logo on a blank.",
+  "big": "1 tee",
+  "body": "The only documented piece of Visit Salt Lake apparel is the reward tee from the 2021 West of Conventional mural tour. No online store turns up, and there is no dedicated shop.",
+  "sources": [
+   "Yid, client answers, Oct 2026",
+   "KSL and VSL on West of Conventional, 2021"
+  ],
+  "notes": "Yid's read on what VSL sells now is 'not good, very basic,' and the research backs it: searches surfaced no VSL store, and the visitor center at the Salt Palace sells gifts and local goods, but it is unclear whether any of it is VSL-branded (verify). That is less a failure than an open lane, because no Salt Lake city brand sits between resort logo goods and airport souvenirs. The brand guide's Sub-Brands section is also empty, so the line can propose itself as the first one."
+ },
+ {
+  "n": 3,
+  "layout": "statement",
+  "title": "If you can buy it at the airport or a local shop, it isn't it.",
+  "body": "That's the bar. Nothing that's just a logo, nothing that looks like mall product. The taste check is Nike ACG, House of Terrors, Uuuntld and WNTD.",
+  "sources": [
+   "Yid, client answers, Oct 2026"
+  ],
+  "notes": "This is Yid's rule in his own words, and it is the filter for every piece in Part 3. It does not mean the line can never be sold at the airport: Tokyo Tokyo opened its official souvenir shop at Haneda in 2020, and the research points to the SLC airport as a retail anchor. It means the product cannot look like airport product; it has to carry a story, a technique or a rule of purchase a souvenir rack can't copy. The four brands Yid named have no research file yet (verify what each makes before Round 2), so they are used here as his taste, not as case studies."
+ },
+ {
+  "n": 4,
+  "layout": "points",
+  "title": "Four parts: context, foundation, executions, build.",
+  "body": "Visible text stays short and the reasoning lives in the notes. Anything marked (verify) came from background knowledge and gets checked before Round 2.",
+  "points": [
+   "**Context, slides 5 to 20.** Who does merch well right now, who got it wrong, and what we take.",
+   "**Foundation, 21 to 32.** The parent brand, who buys, the Salt Lake symbol bank, materials and techniques.",
+   "**Executions, 33 to 52.** Five lanes and the pieces in each, then the full line on one page.",
+   "**Build, 53 to 60.** The 50-unit test, cost, production, legal, and the decisions we need."
+  ],
+  "notes": "Round 1 is for Yid to react to; Round 2 gets refined and goes to the VSL team. The deck moves from what good merch looks like now, to what Salt Lake has to work with, to the pieces, to how a 50-unit test gets made. Prices in Part 1 are market references from the research, not proposals for this line."
+ },
+ {
+  "n": 5,
+  "layout": "section",
+  "title": "What merch is now.",
+  "body": "The brands people collect stopped treating merch as a logo on a blank. Here's who does it well, what failed, and what we take from them.",
+  "notes": "Part 1 runs through luxury, streetwear, tech, outdoor, destination, sports, the Utah scene and hospitality, then closes with ten principles. The thread through all of it is Highsnobiety's line that 'anything can be turned into merch if infused with enough symbolic value and cultural capital.' A city starts with more of that than any software company does."
+ },
+ {
+  "n": 6,
+  "layout": "text-image",
+  "title": "Merch became the luxury product.",
+  "points": [
+   "**Hermès petit h** makes one-of-one objects from leftover leather, silk and porcelain, from about $70 to $70,000.",
+   "**Hermès Off-Piste skis**, October 2025: sycamore over an ash core, $19,300. The house sells the sport its customers actually do.",
+   "**Loewe** turned a 2024 Instagram joke into a real tomato clutch in nappa lambskin.",
+   "**Miu Miu** grew retail 35% in FY2025 while spending on culture, like Summer Reads books in city-specific colors with ex-libris stamps."
+  ],
+  "images": [
+   {
+    "src": "moodboards/web/objects/23-loewe-craft-prize-2025-winner-aoki.jpg",
+    "caption": "Kunimasa Aoki, Loewe Foundation Craft Prize 2025 winner, with his work. Credit the hands."
+   }
+  ],
+  "sources": [
+   "AnOther and Nuvo on petit h",
+   "Teton Gravity Research, 2025",
+   "Tatler Asia on Loewe, 2024",
+   "The Industry on Miu Miu, 2026"
+  ],
+  "notes": "At the top of the market nobody calls it merch. Hermès gives the $770 Rodeo charm and the $19,300 ski the same materials and story discipline, and petit h runs on 'creation in reverse': start from the offcut, then ask what it can become. Loewe shows craft is what makes a joke land, and Miu Miu shows a city-coded book can do the job of a logo. For us that means one standard of make from the cap to the jacket, or we don't make the cap. Hermès put skis in the catalog because its customers ski; a mountain city has more right to that category than Paris does."
+ },
+ {
+  "n": 7,
+  "layout": "grid",
+  "title": "Technique replaces the logo.",
+  "body": "Bottega Veneta's woven intrecciato reads as Bottega with no wordmark. Stone Island claims over 60,000 garment-dye recipes. Satisfy puts holes in a cotton tee and calls it MothTech.",
+  "images": [
+   {
+    "src": "moodboards/web/performance/24-satisfy-mothtech-logo-detail.jpg",
+    "caption": "Satisfy MothTech tee, Chamonix goat graphic with cut-through holes, 2025."
+   },
+   {
+    "src": "moodboards/web/western/11-fort-lonesome-chainstitch-machine.jpg",
+    "caption": "Fort Lonesome chain stitch on a vintage Singer. The machine is the signature."
+   },
+   {
+    "src": "moodboards/web/performance/34-ciele-fstcap-elite.jpg",
+    "caption": "Ciele FSTCap Elite: perforated panels and reflective trim, no hardware."
+   }
+  ],
+  "sources": [
+   "Fzine and 10 Magazine on Bottega, 2025",
+   "Stone Island, About",
+   "Urban Industry on Satisfy",
+   "Gear Patrol on Carhartt"
+  ],
+  "notes": "One line from the Bottega coverage sums it up: 'There doesn't need to be a logo to guess where the orange intrecciato gloves come from.' Louise Trotter's SS26 cut the strips to 3 mm, so the signature keeps moving without changing what it is. Stone Island's compass badge earned its place by sitting on fabrics nobody else made, and Carhartt WIP sells the Detroit Jacket shape at $248 to $268 against about $110 for the US original by changing the wash and the fit. The move for Salt Lake is to pick one construction detail (a chain stitch, a bar-tack color, a label shape) and make it recognizable, so the wordmark can stay small."
+ },
+ {
+  "n": 8,
+  "layout": "table",
+  "title": "Scarcity works when the rules are public.",
+  "body": "The calendar, the password and the edition size are part of the product.",
+  "table": {
+   "head": [
+    "Who",
+    "The rule",
+    "The number"
+   ],
+   "rows": [
+    [
+     "Supreme",
+     "Weekly drop in stores, never enough stock",
+     "Thursdays, 11am ET (verify)"
+    ],
+    [
+     "Palace",
+     "Seasonal weekly drops, unpredictable mix",
+     "Summer 2026, Drop 7 on June 19"
+    ],
+    [
+     "Corteiz",
+     "Password site, pop-ups announced hours ahead, swap your jacket for ours",
+     "50 Bolo puffers"
+    ],
+    [
+     "Dior x Air Jordan 1",
+     "Lottery, edition size published",
+     "8,500 high, 4,700 low"
+    ],
+    [
+     "Fermat FRMT",
+     "Five pieces sold through Fermat's own product",
+     "75 of each"
+    ]
+   ]
+  },
+  "sources": [
+   "Highsnobiety on Supreme and Corteiz",
+   "Hypebeast on Palace, 2026",
+   "Hypebae on Dior x AJ1, 2020",
+   "Hyper on FRMT"
+  ],
+  "notes": "Corteiz's Great Bolo Exchange is the one a public body can learn the most from: fans traded their own branded jackets for one of 50 Corteiz puffers, and every jacket collected was donated to the homeless. That is scarcity, a ritual and a give-back in one move. Dior proved the number itself is content, with resale opening at $13,050. For VSL the edition size goes on the hem tag, and the rule (a date, a place, a swap) gets announced before the drop."
+ },
+ {
+  "n": 9,
+  "layout": "grid",
+  "title": "Graphics houses make culture merch work.",
+  "body": "A24 hires Online Ceramics, Brain Dead and Nahmias, credits them on the product page and sews its own label inside. The film is the subject and the designer is the author.",
+  "images": [
+   {
+    "src": "moodboards/web/streetwear/01-online-ceramics-grateful-60-longsleeve.jpg",
+    "caption": "Online Ceramics, Grateful For 60 Years tie-dye long sleeve, 2025. The brand started as bootleg Dead lot tees."
+   },
+   {
+    "src": "moodboards/web/streetwear/03-online-ceramics-blink182-dude-ranch-longsleeve.jpg",
+    "caption": "Online Ceramics x blink-182 Dude Ranch long sleeve, 2024: sleeve print plus a small chest hit."
+   },
+   {
+    "src": "moodboards/web/streetwear/05-brain-dead-sunn-o-tee.jpg",
+    "caption": "Brain Dead x Sunn O))) tee, 2025: one-color photocopy texture, no cleanup."
+   }
+  ],
+  "sources": [
+   "Fast Company on A24 x Online Ceramics",
+   "Hypebeast HB20, Oct 2025",
+   "Hypebeast and Highsnobiety on Marty Supreme, 2025",
+   "Gizmodo, 2026"
+  ],
+  "notes": "A24 sold an Online Ceramics Midsommar long sleeve in March 2019 while the film was still in post-production, so the merch was part of the trailer, and Nahmias's $250 Marty Supreme windbreaker resold for $1,000 to $4,000. Kyle Ng of Brain Dead: 'a strong graphic tee should carry significance, since it reflects something about the wearer,' and Brain Dead licenses from the original creators of what it references. The caution is that Online Ceramics filed Chapter 7 in early 2025 and its Wikipedia collab drew scrutiny over terms, so a public body has to publish fair partner terms. Our version: Salt Lake is the subject, a named Utah designer is the author, and Visit Salt Lake is the woven label inside."
+ },
+ {
+  "n": 10,
+  "layout": "table",
+  "title": "Tech companies turned merch into fashion.",
+  "body": "CNN said in August 2026 that most tech merch 'lacks a clear point of view.' A place has one built in.",
+  "table": {
+   "head": [
+    "Company",
+    "The move",
+    "What happened"
+   ],
+   "rows": [
+    [
+     "Anthropic",
+     "A washed navy cap that says 'thinking,' given away with coffee at a NYC newsstand, October 2025",
+     "Never sold. One eBay seller moved 117 at $49.99"
+    ],
+    [
+     "OpenAI Supply Co.",
+     "Public since late July 2026: $15 socks to a $175 half-zip, plus an archive of 'decommissioned' pieces",
+     "Items sold out in days; a Codex set resold for $475"
+    ],
+    [
+     "Perplexity Supply",
+     "Copy built on curiosity; a $135 chore jacket in 'Wonder Blue'",
+     "A designer on it compared the work to Highway 101 billboards"
+    ],
+    [
+     "Fermat FRMT",
+     "A B2B software company made five 'couture' pieces",
+     "75 of each, with pre-orders before launch"
+    ]
+   ]
+  },
+  "sources": [
+   "CNN, Aug 17 2026",
+   "Quartz on OpenAI Supply Co., 2026",
+   "perplexity.supply",
+   "Hyper Studios on Fermat"
+  ],
+  "notes": "The thinking cap is the clearest 'ethos on the garment' case in the research: one word, no logo, one colorway, and a line around the block for something free. OpenAI's archive makes every drop collectible by default, and its $70 basketball got more press than any tee. Fermat shows a boring company can become a 'designer brand' with five real garments, a cap of 75, and its own sales channel. The gap for VSL is the CNN critique: these companies have to invent a point of view, and Salt Lake already has one."
+ },
+ {
+  "n": 11,
+  "layout": "grid",
+  "title": "Outdoor got quieter and more specific.",
+  "body": "The loud gorpcore years are over. What's left is one good shell, one good fleece, trail runners, and not talking about it.",
+  "images": [
+   {
+    "src": "moodboards/web/performance/36-nike-acg-lava-loft-official.jpg",
+    "caption": "Nike ACG Lava Loft. ACG relaunched as its own outdoor brand in February 2026, with a Basecamp store in Beijing."
+   },
+   {
+    "src": "moodboards/web/performance/03-arcteryx-system-a-drop6-fieldmag.jpg",
+    "caption": "Arc'teryx System_A Drop 06, 'Run to Rock,' 2023. Arc'teryx's Shanghai Museum runs 2,400 square meters with a repair desk."
+   },
+   {
+    "src": "moodboards/web/performance/40-tracksmith-amateur-spirit-cover.jpg",
+    "caption": "Tracksmith, The Amateur Spirit, 2021. Serious kit for serious amateurs, 'no athleisure.'"
+   },
+   {
+    "src": "moodboards/web/performance/28-nike-acg-fall-2026-trail.jpg",
+    "caption": "Nike ACG Fall 2026 trail lineup: earth tones and one hot accent."
+   }
+  ],
+  "sources": [
+   "Jing Daily, Feb 2026",
+   "Outside, Sept 2026",
+   "Jing Daily on the Arc'teryx Museum, 2024",
+   "Glossy on Tracksmith"
+  ],
+  "notes": "Yid named Nike ACG first, and the 2026 ACG is place-based again: an athlete department, named mountains, trail racing, and safety orange as the one accent. Outside's September 2026 headline, 'Gorpcore Is Dead. Long Live Outdoor Style,' marks the move to stone, navy, black and earth tones. Satisfy prices a MothTech hoodie at £239.95 and reviewers say it 'makes no excuses,' while Tracksmith's Matt Taylor says skipping wholesale markup lets them use fabric other brands can't. That rewards fabric and restraint over graphics, which is exactly where a city line can compete, and Salt Lake's buyer is the amateur who skis 20 days a year on a lunch break."
+ },
+ {
+  "n": 12,
+  "layout": "points",
+  "title": "The best regional lines name real places and real makers.",
+  "points": [
+   "**Adidas Spezial** names shoes after towns, Blackburn SPZL and Manchester 89, and launched in Manchester in 2014, not London. Gary Aspden: 'culture can exist anywhere.'",
+   "**Snow Peak Local Wear** limits each project to one regional producer, like Niigata and Iwate in 2024, and sells it in Japan only.",
+   "**66°North** started in 1926 making gear for Icelandic fishermen. Its 2025 Fisherman's Print comes from the wear left on old coats by 'salt, storms and time at sea.'"
+  ],
+  "sources": [
+   "Dazed and 032c on Spezial",
+   "WWD Japan on Snow Peak, 2024",
+   "Hero and T3 on 66°North, 2025"
+  ],
+  "notes": "Spezial is the model for naming: a town becomes a product name, and Aspden launched at Design Manchester on purpose, calling it contrarian. Snow Peak's rule, one regional producer per project and sold in that region, is the single most transferable idea in the outdoor research. 66°North shows a working origin (fishermen's gear, search and rescue from 1928) can carry a brand to a Regent Street flagship a century later. The Salt Lake version is piece names from places (Little Cottonwood, Antelope Island, Bonneville) and one drop a year made with a Utah maker and labeled that way."
+ },
+ {
+  "n": 13,
+  "layout": "table",
+  "title": "Destination merch that works has a maker and an archive.",
+  "body": "None of these is a logo on a blank. Each one lends a public mark to someone with taste.",
+  "table": {
+   "head": [
+    "Who",
+    "What they did",
+    "Why it works"
+   ],
+   "rows": [
+    [
+     "Printed in Pittsburgh, 2023",
+     "The city licensed union printer CommonWealth Press. Shirts from $30, revenue share to the general fund",
+     "The icon came from an 1800s merchant flag in the city archives"
+    ],
+    [
+     "Tokyo Tokyo",
+     "50-plus souvenirs with partner makers, and an official shop at Haneda since February 22, 2020",
+     "The city acts as curator and co-publisher"
+    ],
+    [
+     "Only NY x NYC Parks",
+     "Licensed the Parks leaf and the MTA. The leaf tee has sold for a decade",
+     "Public infrastructure treated like a heritage logo"
+    ],
+    [
+     "Parks Project",
+     "Public-land graphics with a giving model: about $1,000 given in 2014, nearly $3 million by 2026",
+     "A real number tied to a real place"
+    ]
+   ]
+  },
+  "sources": [
+   "Pittsburgh Magazine and WPXI, 2023",
+   "Tokyo Metropolitan Government, 2020",
+   "onlyny.com",
+   "Orange Coast and Field Mag on Parks Project"
+  ],
+  "notes": "Pittsburgh is the closest model for VSL: a public body, a trusted local maker, archival graphics, and a tag or decal that sets official pieces apart from the sea of unofficial ones. Only NY is the most credible city brand in America because it treats a parks leaf and a subway system like heritage marks; Salt Lake's equivalents are TRAX, the county parks and Antelope Island. So VSL acts as licensor and curator: it owns the archive, the story and the official tag, and picks the partner. Parks Project's Vans capsule gave $250,000 to the National Parks Conservation Association, which is why its vintage graphics feel earned."
+ },
+ {
+  "n": 14,
+  "layout": "points",
+  "title": "Three ways city merch goes wrong.",
+  "body": "Each one got friendlier, cheaper or more popular than the idea could hold.",
+  "points": [
+   "**We ❤️ NYC, March 2023.** A refresh with a blocky sans and an emoji-style heart got mocked so hard that officials had to say it wasn't replacing Milton Glaser's original.",
+   "**The $22 Aspen crewneck.** The town name sells for $22 to $100 on Etsy, PacSun and Abercrombie. Once the mall has it, it stops proving you were there.",
+   "**I amsterdam.** The letters drew such crowds that the city pulled them from Museumplein on December 3, 2018."
+  ],
+  "sources": [
+   "Dezeen and Surface, 2023",
+   "Etsy, PacSun, Abercrombie listings, 2026",
+   "Dezeen, 2018"
+  ],
+  "notes": "We ❤️ NYC looked like a committee's idea of friendly, while Glaser's original works because a real designer kept it restrained. Aspen is the airport test in action: when the name is the only content, anyone can print it, and it ends up as a bachelorette sweatshirt. I amsterdam is a different problem, a mark that succeeded so hard it became an overtourism symbol; the Salt Lake version of that tension is selling a shrinking lake without being seen to help it. So keep the type serious, put something on the garment besides the name, and tie a give-back to the lake."
+ },
+ {
+  "n": 15,
+  "layout": "table",
+  "title": "The Games and the teams already left a playbook.",
+  "body": "History and a wink only. No rings, no official marks.",
+  "table": {
+   "head": [
+    "Reference",
+    "What happened",
+    "What we take"
+   ],
+   "rows": [
+    [
+     "Salt Lake 2002 beret",
+     "Roots, $19.95, worn by the US team at the opening ceremony; lines out the door",
+     "A cheap, slightly odd hat with a story beats a logo"
+    ],
+    [
+     "Paris 2024",
+     "A hat as mascot, a real design director, 75 licensees, mostly small French firms",
+     "Spread the work across local makers"
+    ],
+    [
+     "Utah Jazz City Edition, 2017-18",
+     "Red rock gradient. 300 jerseys gone in 72 hours, resale at $600 on $130 retail",
+     "Utah landscape as a colorway already sells here"
+    ],
+    [
+     "Venezia FC",
+     "Left Nike for Kappa to get creative control; 95% of online sales came from outside Italy",
+     "Sell the city, not the organization"
+    ]
+   ]
+  },
+  "sources": [
+   "ABC4 2002 retrospective",
+   "Wallpaper and WIPO on Paris 2024",
+   "KSL on the Jazz, 2017",
+   "Versus on Venezia FC"
+  ],
+  "notes": "The most remembered object from Salt Lake 2002 was a soft, cheap, slightly odd beret, worn by athletes on TV and sold at a single Roots boutique with a line down the street. Reports at the time said Roots sold over a million (verify); today they go for about $10 on eBay, which says the moment was the product. Paris 2024 got design praise for a Phrygian cap mascot, and the Jordan 4 'Wet Cement' pack became the top-traded item of those Games on StockX with 8,373 trades. The Jazz are the local proof: Bart Sharp said new colors can be 'initially polarizing,' and the red rock jerseys still broke the arena store's single-game record. Yid's rule holds: 2002 is ours to use as history, 2034 is a wink at most."
+ },
+ {
+  "n": 16,
+  "layout": "table",
+  "title": "Utah already has people doing this well.",
+  "body": "A Provo label went national, a Provo studio drew type for NikeLab, and a Salt Lake brand owns the premium trucker.",
+  "table": {
+   "head": [
+    "Who",
+    "What they've done",
+    "What it proves"
+   ],
+   "rows": [
+    [
+     "Lonely Ghost, Provo, 2019",
+     "Built on 'I love you, say it back.' Ghost Grocery at Riverwoods, a Pacsun exclusive in August 2025, a Merrell shoe that September",
+     "A phrase can carry a Utah brand nationally"
+    ],
+    [
+     "Actual Source, Provo",
+     "JP Haynie and Davis Ngarupe. Thermal typeface for Virgil Abloh's NikeLab Re-Creation Center, 2019; A24 Books identity, 2026",
+     "Fashion-grade type already lives in Utah County"
+    ],
+    [
+     "Gigi Pip, Salt Lake, 2015",
+     "Official REDWEST hat sponsor with a Mountain Vintage Trucker; SLC Speakeasy hat bar, October 2025",
+     "A local brand already makes the hero object"
+    ],
+    [
+     "Kilby Court and Kilby Block Party",
+     "25 years of all-ages shows, tees credited to local artists Chloe Monson and Tom Petersen; 25,000 to 30,000 a day at the 2026 festival",
+     "Credit the artist on every piece"
+    ],
+    [
+     "Fice, downtown since 2008",
+     "Utah's only Tier One Nike account, now shifting to community events and art shows",
+     "The clubhouse already exists"
+    ],
+    [
+     "Mouthwash",
+     "The Utah Jazz 2022 rebrand: motion system, type, court and jersey colorways",
+     "Utah teams already hire fashion-grade studios"
+    ]
+   ]
+  },
+  "sources": [
+   "PR Newswire on Lonely Ghost, 2025",
+   "SLUG and Lampoon on Actual Source",
+   "Utah Business on Gigi Pip, 2025",
+   "kilbycourt.com; Bailey Rogers portfolio",
+   "Salt Lake Sideways on Fice",
+   "mouthwash.studio"
+  ],
+  "notes": "Lonely Ghost proves emotion-as-graphic sells nationally from Provo, with a drop every four to eight weeks in late 2025, each tied to a partner with its own audience and an in-person moment. Actual Source is the Utah studio with the editorial type voice this line needs and the obvious first call for design lead (availability unconfirmed). Gigi Pip at REDWEST is the closest thing Salt Lake has to a designed festival drop: a local brand, a Western object, a limited run, and personalization on site. Two things stay off the slides until sourced: a Lonely Ghost x REDWEST apparel drop (the confirmed relationship is sponsorship and a VIP+ lounge) and a Utah agency called Mello."
+ },
+ {
+  "n": 17,
+  "layout": "grid",
+  "title": "Hotels, restaurants and museums sell proof you were there.",
+  "body": "Vogue Business, 2026: the product is becoming 'the souvenir of an experience rather than the experience itself.'",
+  "images": [
+   {
+    "src": "moodboards/web/objects/40-ace-hotel-nalgene.jpg",
+    "caption": "Ace Hotel Nalgene, 2026. Ace is credited with starting the hotel shop, and stocks 'anti-souvenirs' like Krink markers."
+   },
+   {
+    "src": "moodboards/web/objects/03-a24-houseplant-ashtray-matchbook.jpg",
+    "caption": "A24 x Houseplant stacking ashtrays and matchbook, 2026. Bar-top objects as brand carriers."
+   },
+   {
+    "src": "moodboards/web/objects/54-a24-primetime-vinyl.jpg",
+    "caption": "A24 Music, Primetime soundtrack on vinyl, 2026. A film studio with a record label."
+   },
+   {
+    "src": "moodboards/web/objects/27-le-labo-mazarine-label.jpg",
+    "caption": "Le Labo labels by Mazarine: blanks for the city and date, filled in at the counter."
+   }
+  ],
+  "sources": [
+   "Vogue Business Summit 2026, via The CFO Diary",
+   "SF Standard, Aug 20 2026",
+   "FashionNetwork on Erewhon, 2024",
+   "Glossy on MoMA Design Store"
+  ],
+  "notes": "The SF Standard called August 2026 a 'restaurant merch renaissance,' past 'neoprene koozies and cheap ceramic mugs.' Erewhon's December 2024 winter line came in five named colorways (Tomato, Butterscotch, Plum, Coconut, Chaga) and a $150 tote went viral, while MoMA's curators vet every item in the Design Store. The strongest mechanism is 'sold only in the room': the robe at the hotel or the cap at the restaurant proves presence (Bar Pitti's cap is the usual example, verify). For VSL: sell the core online, keep one or two pieces at a single Salt Lake location, and name colors the way Erewhon does, since the brand guide already gives us Salt Pink, Rodeo Red and Sego Lily."
+ },
+ {
+  "n": 18,
+  "layout": "points",
+  "title": "What people are picking up right now.",
+  "points": [
+   "**Real lettering over fake vintage.** PRINT's 2026 Type Report says designers are leaving 'vintage' fonts for actual signage, packaging and regional lettering.",
+   "**The premium trucker.** Foam fronts are out. Cotton twill, corduroy and suede fronts are in.",
+   "**Fewer, slower drops.** Three to five pieces every six to eight weeks. A drop every two weeks 'turns scarcity into noise.'",
+   "**Stores as clubhouses.** Pop-ups, run clubs and third spaces. Six in ten Millennials want retail that mixes community and shopping.",
+   "**Western, done quiet.** Pearl snaps and a felt hat are back. Fringe and big buckles are out."
+  ],
+  "sources": [
+   "PRINT Type Report, 2026",
+   "Foremost Hat on truckers",
+   "E-commerce Fast Lane on drops",
+   "Retail Technology Show, 2026",
+   "Yahoo Shopping and E! on Western, 2026"
+  ],
+  "notes": "These come from 2025 and 2026 trade and trend coverage, and each one points at a lane: real local lettering (State Street motel signs, trail markers, Fairpark signage) for streetwear and Latino, the trucker for Western, run clubs for performance. Another Cotton Lab's Sunday Running Club went from one Düsseldorf storefront to 2,000 runners at a night run. Photography is shifting too, toward catalog shots with film grain and light retouching, because heavy retouching now reads as dishonest to younger buyers. On Western, Utah has the real thing (REDWEST, the Fairpark, the Days of '47 Rodeo) more than anyone selling the trend."
+ },
+ {
+  "n": 19,
+  "layout": "points",
+  "title": "What we take, part 1: the garment carries the idea.",
+  "points": [
+   "**Put the idea on it, not the logo.** 'thinking' on a cap, 'I love you, say it back' on a hoodie. Ours should be something locals already say.",
+   "**Name the author.** Every drop credits a designer, ideally from Utah, the way A24 and Kilby Court do.",
+   "**Print the edition size.** Dior did 8,500, Fermat did 75, the Jazz did 300. The number goes on the hem tag.",
+   "**Let the make be the logo.** One technique and one named fabric per season, the way Bottega owns a weave and Satisfy owns MothTech.",
+   "**Make one hero that isn't apparel.** OpenAI's $70 basketball, the New Yorker tote, Pendleton's 1916 Glacier Park blanket."
+  ],
+  "notes": "These five are about the object itself, and they are the test every Part 3 piece has to pass: an idea, an author, a number, a recognizable make, and at least one non-garment hero per lane. Pendleton's park blankets have sold for over a century because the maker was real and the design was restrained. If a piece fails two of these, it is airport merch and gets cut."
+ },
+ {
+  "n": 20,
+  "layout": "points",
+  "title": "What we take, part 2: run it like a label, not a gift shop.",
+  "points": [
+   "**License and curate.** Like Pittsburgh, Only NY and Tokyo Tokyo, VSL owns the archive, the story and the official tag, and picks the maker.",
+   "**Pull from the archive, not the logo file.** Pittsburgh used an 1800s merchant flag. Salt Lake has Saltair postcards, the 1899 Salt Palace and the grid.",
+   "**Locals first.** Only NY and Detroit vs. Everybody sold to residents first. Visitors buy what locals wear.",
+   "**Give it a room and a calendar.** A shelf at a place like Fice, and a release every six to eight weeks tied to the city's real seasons.",
+   "**Tie a real number to the place.** A Great Salt Lake line without a measurable give to the lake is just pink."
+  ],
+  "notes": "These five are about how the program runs. Locals first is a deliberate break from the brand guide, which casts photo subjects 'as visitors, not locals'; the merch should dress the local and let visitors follow. The give-back has to be real and public, with partner terms published, because a public body gets read harder than Online Ceramics did over its Wikipedia deal. Part 2 turns these into the foundation: the parent brand, the buyer, the symbol bank and the materials."
+ }
+]

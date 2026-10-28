@@ -1,0 +1,424 @@
+[
+ {
+  "n": 33,
+  "layout": "lane",
+  "title": "Salt Lake is for the weird.",
+  "body": "This is a punk city. Straight-edge hardcore in the 90s, SLC Punk! in 1998, all-ages shows in a Kilby Court garage since 1999. The merch logic is band merch: one-color back prints, xerox grain, a phrase doing all the work.",
+  "images": [
+   {
+    "src": "moodboards/web/streetwear/29-flickr-flyer-a.jpg",
+    "caption": "Hand-lettered hardcore flyer, marker on pink"
+   },
+   {
+    "src": "moodboards/web/streetwear/04-online-ceramics-slaughterhouse-longsleeve.jpg",
+    "caption": "Online Ceramics, XXX on the sleeve"
+   },
+   {
+    "src": "moodboards/web/streetwear/36-slc-punk-poster.jpg",
+    "caption": "SLC Punk!, 1998"
+   },
+   {
+    "src": "moodboards/web/streetwear/05-brain-dead-sunn-o-tee.jpg",
+    "caption": "Brain Dead x Sunn O))), photocopy texture"
+   }
+  ],
+  "notes": "You cut the venue photos and kept every flyer, the zine, SLC Punk!, Online Ceramics, Brain Dead, Pleasures and Stray Rats. That told me the lane is graphic, not documentary. Two pieces survived two rounds: the monster tee and the hoodie drop."
+ },
+ {
+  "n": 34,
+  "layout": "piece",
+  "svg": "streetwear/r2/02-it-came-from-the-great-salt-lake-tee.svg",
+  "title": "It Came From the Great Salt Lake",
+  "body": "The half-inch brine shrimp that runs the lake's economy, blown up on a copier into a 1950s creature-feature monster rearing out of the pink north arm toward an all-ages crowd. The same animal sits at life size on the upper back.",
+  "points": [
+   "**Blank:** 7 oz heavyweight boxy tee in Cream, so the print looks copied onto paper.",
+   "**Technique:** 2-color water-based screen print, pink down first, ink on top with a deliberate 1/16 in offset, separations from a real photocopy.",
+   "**Alt:** Ink body with the art flipped negative, so the halftone sky turns into stars."
+  ],
+  "big": "$17 to $22 landed · $50 to $60 retail",
+  "quote": {
+   "text": "Sea-Monkey from hell.",
+   "who": "What a local says"
+  },
+  "notes": "This is the hero of the streetwear lane because it carries the most Salt Lake information in the least explaining: the pink north arm, the shrimp harvest, the all-ages crowd with X'd hands. The hangtag explains the shrimp economy. Open call: the 'All Ages / No Re-Entry' bars and the handwritten 'actual size' can come off if they read as eyebrows."
+ },
+ {
+  "n": 35,
+  "layout": "piece",
+  "svg": "streetwear/r2/03-nothing-to-do-in-salt-lake-hoodie.svg",
+  "title": "Nothing To Do In Salt Lake",
+  "body": "One sentence per hoodie, set in the SLC Punk! poster layout: half the line on a black bar, the rest at the bottom of an empty blue field. The empty blue is the nothing. Three phrases, three bodies, one drop.",
+  "points": [
+   "**Ink:** NOTHING TO DO IN SALT LAKE.",
+   "**Salt Pink:** SALT LAKE IS FOR THE WEIRD.",
+   "**Cream:** DON'T MOVE TO SALT LAKE. Five alternates are in the notes.",
+   "**Blank:** 14 oz cross-grain fleece, hood lined in poster blue."
+  ],
+  "big": "$38 to $48 landed · retail per notes",
+  "quote": {
+   "text": "Yeah, that's what we said at 16, and then we went to Kilby every night.",
+   "who": "What a local says"
+  },
+  "notes": "A tourism office printing 'nothing to do' and 'don't move here' is the joke and the risk at once. Locals say both lines with pride, which is why they sell the city. No product names another destination, per your call. If VSL blinks, any alternate drops into the same layout with no other change."
+ },
+ {
+  "n": 36,
+  "layout": "lane",
+  "title": "We run on Salt Lake.",
+  "body": "A training ground with a zip code. People here run the Bonneville Shoreline before work, skin up in the dark, climb granite at lunch. The line should feel like race kit: honest fabric, reflective that only shows in headlights, copy that talks straight to the runner.",
+  "images": [
+   {
+    "src": "moodboards/web/performance/49-nike-1990-group-therapy-ad.jpg",
+    "caption": "Nike and Wieden+Kennedy, 1990"
+   },
+   {
+    "src": "moodboards/web/performance/21-polartec-alpha-direct-swatch.jpg",
+    "caption": "Polartec Alpha Direct"
+   },
+   {
+    "src": "moodboards/web/performance/43-blackdiamond-lcc-home-crag.jpg",
+    "caption": "Black Diamond in Little Cottonwood"
+   },
+   {
+    "src": "moodboards/web/performance/20-bst-trail-runner-deseret-2025.jpg",
+    "caption": "The Bonneville Shoreline above the grid"
+   }
+  ],
+  "notes": "You kept the fabrics, the 1990 Nike copy, Tracksmith, ACG and the solo training shots, and cut the race crowds. So this lane is about training alone, not race day. The cap and sock set was cut in Round 2; two pieces carry the lane."
+ },
+ {
+  "n": 37,
+  "layout": "piece",
+  "svg": "performance/r2/01-five-am-bonded-longsleeve.svg",
+  "title": "Five A.M.",
+  "body": "\"Nobody is watching at 5 a.m. That is the point.\" stacked huge across the chest of a bonded technical longsleeve, in reflective film. Grey on navy by day, white in a headlamp. It only says it when nobody is watching.",
+  "points": [
+   "**Blank:** 118 gsm recycled micro-eyelet jersey, bonded hem and cuffs, laser-perforated underarm gussets.",
+   "**Technique:** 3M Scotchlite reflective transfer, 9 x 11 in chest block, Futura Extra Bold Condensed.",
+   "**Verify first:** solid film can board the chest, so sample a 50 percent halftone of the film next to solid."
+  ],
+  "big": "$38 to $55 landed",
+  "quote": {
+   "text": "That is the Shoreline at five in March.",
+   "who": "What a local says"
+  },
+  "notes": "This replaced the perforated Shoreline tee you cut. The 1990 W+K inserts you approved are the voice; the reflective film makes the line a safety material doing a design job. Locals will take a flash photo to see it light up, which is most of the marketing plan."
+ },
+ {
+  "n": 38,
+  "layout": "piece",
+  "svg": "performance/r2/02-gain-alpha-pullover.svg",
+  "title": "Gain",
+  "body": "An Alpha Direct quarter-zip with one bonded strip running from hem to collar beside the zip. The only type is 4,807, set tall and reading upward: the vertical from the valley floor to the summit of Mount Olympus, the climb as the garment.",
+  "points": [
+   "**Blank:** Polartec Alpha Direct 90, raglan quarter-zip, Rodeo Red.",
+   "**Technique:** the number is heat-transferred onto a bonded Pertex strip, because the loft takes no ink or needle.",
+   "**Sourcing:** Alpha Direct needs a converter or a Black Diamond or Kühl partner at small minimums."
+  ],
+  "big": "$75 to $110 landed",
+  "quote": {
+   "text": "4,807. From where? Then they look up at Olympus.",
+   "who": "What a local says"
+  },
+  "notes": "Round 1 had an elevation readout on the chest, which your no-eyebrows rule killed. The number now is the graphic, not a caption. Measuring from the grid instead of the trailhead is intentional: locals will argue about it, and the argument is the point."
+ },
+ {
+  "n": 39,
+  "layout": "lane",
+  "title": "The unseen objects of a Salt Lake day.",
+  "body": "Not souvenirs. The things you touch between the lift line and the kitchen: the rack your board hangs on, the pouch with your keys and transit card, the record you put on when the snow comes down. Designed like they matter, with the lake as the raw material.",
+  "images": [
+   {
+    "src": "moodboards/web/objects/21-nasa-iss-great-salt-lake.jpg",
+    "caption": "The lake from the ISS, pink and blue"
+   },
+   {
+    "src": "moodboards/web/objects/47-district-vision-annapurna-eyewear-pouch.jpg",
+    "caption": "District Vision eyewear pouch"
+   },
+   {
+    "src": "moodboards/web/objects/54-a24-primetime-vinyl.jpg",
+    "caption": "A24 soundtrack vinyl"
+   },
+   {
+    "src": "moodboards/web/objects/50-brine-shrimp-dwr.jpg",
+    "caption": "Artemia franciscana"
+   }
+  ],
+  "notes": "These were your own examples from the first brief: a glasses case, a rack for your board, an ASMR vinyl. The case was cut in Round 1; the rack replaced it. All three objects share one brass die so they read as one family."
+ },
+ {
+  "n": 40,
+  "layout": "piece",
+  "svg": "objects/r2/01-two-arms-rack.svg",
+  "title": "Two Arms",
+  "body": "A 30-inch white oak rail with two felt-topped arms. It holds one snowboard across or a pair of skis tails-down. The only mark is the brine shrimp burned into the end of the rail with the same brass die that debosses the pouch.",
+  "points": [
+   "**Material:** solid white oak, or powder-coated steel in Mountain Navy.",
+   "**Technique:** brass branding die, about $150 to $300 once, shared with the pouch.",
+   "**Where it sells:** online and in a few shops with local shipping. Too big for a visitor-center shelf."
+  ],
+  "big": "$35 to $75 landed",
+  "quote": {
+   "text": "That's a sea monkey on my ski rack.",
+   "who": "What a local says"
+  },
+  "notes": "Drawn at real scale with a 157 cm board on it on purpose, so the size question is answered on the page."
+ },
+ {
+  "n": 41,
+  "layout": "piece",
+  "svg": "objects/r2/02-field-recordings-lp.svg",
+  "title": "Field Recordings, Great Salt Lake",
+  "body": "A 12-inch LP of ten real Salt Lake sounds: wind on the north arm, the lift sheaves at Alta, snow on a windshield on I-80, a TRAX chime, avalanche control, brine flies, gulls and a train on the causeway. Spiral Jetty is the label. The recordist is credited on every pressing.",
+  "points": [
+   "**Pressing:** split pink-over-blue vinyl. Plants rarely press fewer than 100, so the test is 100 with 50 held for gifting and press.",
+   "**Permissions:** Holt/Smithson Foundation for the jetty, releases from Alta and UTA. A no-jetty version is in the notes.",
+   "**Lead time:** 10 to 16 weeks at the plant, so it is booked for the season it describes."
+  ],
+  "big": "$25 to $35 each at 100",
+  "quote": {
+   "text": "A2 is the Wildcat lift. I'd know that hum anywhere.",
+   "who": "What a local says"
+  },
+  "notes": "The ASMR record you asked for, made as a field-recording album instead. It is the most press-friendly object in the line and the cheapest way to put the lake in someone's living room."
+ },
+ {
+  "n": 42,
+  "layout": "piece",
+  "svg": "objects/r2/03-artemia-pouch.svg",
+  "title": "Artemia",
+  "body": "A keys-and-transit-card zip pouch in veg-tan leather with brass hardware and a tap-through card slot. The only mark is a natural-history drawing of Artemia franciscana, blind-debossed. No foil, no ink, no logo.",
+  "points": [
+   "**Material:** veg-tan leather in Natural, Honey or Ink, brass zip.",
+   "**Technique:** blind deboss from the shared brass die.",
+   "**Verify first:** a natural-history illustrator redraws the shrimp by hand before the die is cut, or it reads as a bug."
+  ],
+  "big": "$28 to $45 landed",
+  "quote": {
+   "text": "Is that a brine shrimp? Sea monkeys.",
+   "who": "What a local says"
+  },
+  "notes": "The quietest piece in the line and the one most likely to be carried every day. The shrimp appears three times across the line, monster, crest and plate, which is a feature as long as the monster tee and the pouch do not sit side by side."
+ },
+ {
+  "n": 43,
+  "layout": "lane",
+  "title": "Rancher at 7,000 feet.",
+  "body": "Western is having its biggest moment in decades, and the version that works is restraint: one chain-stitched motif, a quilt hidden in a lining, a single-color drawing on a rag. Salt Lake earns it honestly, with a longhorn drive through downtown and a bison herd on the island.",
+  "images": [
+   {
+    "src": "moodboards/web/western/05-bode-homer-quilt-jacket.jpg",
+    "caption": "Bode, quilt jacket"
+   },
+   {
+    "src": "moodboards/web/western/11-fort-lonesome-chainstitch-machine.jpg",
+    "caption": "Fort Lonesome, chain stitch in progress"
+   },
+   {
+    "src": "moodboards/web/western/22-antelope-island-roundup-riders-herd.jpg",
+    "caption": "Antelope Island roundup"
+   },
+   {
+    "src": "moodboards/web/western/23-albion-basin-indian-paintbrush.jpg",
+    "caption": "Indian paintbrush, Albion Basin"
+   }
+  ],
+  "notes": "You cut the loud yokes, chenille, Rockmount and Nudie's and kept Ginew, Bode, Fort Lonesome and all of the Utah ranch material. All three pieces survived both rounds."
+ },
+ {
+  "n": 44,
+  "layout": "piece",
+  "svg": "western/r2/01-paintbrush-yoke-shirt.svg",
+  "title": "Paintbrush Yoke Shirt",
+  "body": "A Mountain Navy brushed-twill snap shirt with one chain-stitched cluster of Indian paintbrush and lupine on the back yoke, and nothing else. Roll the left cuff and \"Albion Basin\" is stitched in script inside it.",
+  "points": [
+   "**Blank:** 7 oz brushed cotton twill snap shirt, pearl snaps with copper rims.",
+   "**Technique:** chain stitch, six thread colors, 4.5 x 3.5 in on the yoke.",
+   "**Colorways:** Mountain Navy, Rodeo Red. Summer alt in chambray."
+  ],
+  "big": "$48 to $75 landed · $165 to $185 retail",
+  "quote": {
+   "text": "That's the paintbrush up at Albion in July.",
+   "who": "What a local says"
+  },
+  "notes": "Machine chain stitch keeps the 50-unit test sane. An artisan version runs $80 to $190 landed and would sell numbered at $250 to $350."
+ },
+ {
+  "n": 45,
+  "layout": "piece",
+  "svg": "western/r2/02-island-herd-chore-coat.svg",
+  "title": "Island Herd Chore Coat",
+  "body": "A plain waxed Forest canvas chore coat. Open it and the lining is a half-square-triangle quilt in Cream, Sego Lily, Aspen Gold, Terracotta and Rodeo Red. One leather patch: a bison, \"Antelope Island,\" and 1893, the year the bison came to the island.",
+  "points": [
+   "**Route at 50:** a stock waxed chore blank, re-lined, with a leather patch. Full cut-and-sew is not a sensible 50-unit test.",
+   "**Date:** 1893 is the herd date. The roundup's own founding year is unsettled, so it stays off the patch."
+  ],
+  "big": "$85 to $130 landed · $240 to $280 retail",
+  "quote": {
+   "text": "That's the island herd.",
+   "who": "What a local says"
+  },
+  "notes": "Bode logic moved inside the coat, so the outside stays quiet. The most expensive piece in the line and the one most likely to get press."
+ },
+ {
+  "n": 46,
+  "layout": "piece",
+  "svg": "western/r2/03-main-street-drive-wild-rag.svg",
+  "title": "Main Street Drive Wild Rag",
+  "body": "A 22-inch wild rag with one single-color drawing: longhorns and riders coming down Main Street, downtown towers and two Wasatch ridgelines behind them. Headlined Pioneer Day, which needs no license.",
+  "points": [
+   "**Blank:** silk twill, or cotton for a lower price.",
+   "**Colorways:** Navy on Sego Lily, Red on Cream, Sage on Forest.",
+   "**Set:** pairs with a brass bolo slide engraved with the same steer."
+  ],
+  "big": "$14 to $24 silk · $58 retail",
+  "quote": {
+   "text": "They really drive cattle down Main?",
+   "who": "What a local says"
+  },
+  "notes": "The city and the ranch in one frame, which is the brand's 'both at once' pillar without saying it. The illustrator needs the real drive photo; the one on the mood board was a bad scrape."
+ },
+ {
+  "n": 47,
+  "layout": "lane",
+  "title": "Latin life in the West.",
+  "body": "Not Hispanic Heritage Month. Latin life as it is already lived here: a lowrider under the Wasatch, La Barra Real at RSL, a jaripeo at the Fairpark. The words come from the community, and the line is designed by Latino designers from Salt Lake County with a share of revenue going back.",
+  "images": [
+   {
+    "src": "moodboards/web/latino/09-paisaboys-club-deportivo-tee.jpg",
+    "caption": "Paisa Boys, Club Deportivo"
+   },
+   {
+    "src": "moodboards/web/latino/25-mister-cartoon-by-oriol-1994.jpg",
+    "caption": "Mister Cartoon, by Estevan Oriol"
+   },
+   {
+    "src": "moodboards/web/latino/19-sltrib-lowrider-urban-arts-2019.jpg",
+    "caption": "Lowrider at Gallivan Center"
+   },
+   {
+    "src": "moodboards/web/latino/47-loteria-boards.jpg",
+    "caption": "Lotería boards"
+   }
+  ],
+  "notes": "Everything in this lane is a starting brief for community designers, not finished art. VSL is the licensor, not the author. Revenue share goes to Centro Civico Mexicano or Comunidades Unidas, named on the hangtag."
+ },
+ {
+  "n": 48,
+  "layout": "piece",
+  "svg": "latino/r2/01-club-deportivo-salt-lake-jersey.svg",
+  "title": "Club Deportivo Salt Lake",
+  "body": "A supporters' jersey for a club that is the city itself. Salt Pink with Forest trim, an embroidered crest of a brine shrimp over the Wasatch ridge with 801 at the foot, neighborhood stars on the sleeves, SALT LAKE arched over 801 on the back.",
+  "points": [
+   "**Crest:** 3.5 in embroidered patch, sewn on, also sold alone.",
+   "**Back:** two-color tackle twill.",
+   "**Match-day alt:** Rodeo Red and Mountain Navy, only with La Barra Real co-signing.",
+   "**Open:** 801 also covers Provo and Ogden; the star count is a community count, decided by the community designers."
+  ],
+  "big": "$26 to $60 landed",
+  "quote": {
+   "text": "Which club is that? Nosotros.",
+   "who": "What a local says"
+  },
+  "notes": "A jersey is the most worn garment in this community, which is why it leads. La Barra Real is in the room before sample one, so it reads as a co-sign, not a knockoff."
+ },
+ {
+  "n": 49,
+  "layout": "piece",
+  "svg": "latino/r2/02-vecino-fine-line-tee.svg",
+  "title": "Vecino",
+  "body": "One word, neighbor, across the chest in a single fine line, drawn by hand. Vecina on the women's cut. 801 at the back neck.",
+  "points": [
+   "**Why this word:** Paisa and Hyna belong to other brands, Raza carries political weight VSL has no standing to use, Familia and Barrio are on a thousand tees. Vecino belongs to everyone and nobody owns it.",
+   "**Technique:** one-color white water-based print, 230 mesh, the letterer approves the strike-off."
+  ],
+  "big": "$10 to $20 landed",
+  "quote": {
+   "text": "That's it? Yeah, that's it.",
+   "who": "What a local says"
+  },
+  "notes": "The cheapest piece in the line and possibly the best seller. Fine-line script is unforgiving in production, so the strike-off is the whole risk control."
+ },
+ {
+  "n": 50,
+  "layout": "piece",
+  "svg": "latino/r2/03-loteria-salt-lake-tee.svg",
+  "title": "Lotería Salt Lake",
+  "body": "Six lotería cards on the back of a black tee: El Trax, La Montaña, El Taco, La Sal, El Camarón, La Troca. Every card number is a local fact. El Camarón alone on the chest.",
+  "points": [
+   "**Technique:** flat spot colors on a cream underbase, no halftones, so it feels like card stock.",
+   "**Second drop:** El Lowrider.",
+   "**Rule:** if the illustrator is not from here, cut it."
+  ],
+  "big": "$28 to $38 landed",
+  "quote": {
+   "text": "Where's El Lowrider?",
+   "who": "What a local says"
+  },
+  "notes": "Lotería tees exist for a dozen cities. The specific objects, the numbers and a community illustrator's hand are what keep this one off the airport shelf."
+ },
+ {
+  "n": 51,
+  "layout": "lineup",
+  "title": "The line, Round 1.",
+  "body": "Thirteen pieces across five lanes, kept from fifteen in Round 2 and from 132 references on the mood boards.",
+  "svgs": [
+   "streetwear/r2/02-it-came-from-the-great-salt-lake-tee.svg",
+   "streetwear/r2/03-nothing-to-do-in-salt-lake-hoodie.svg",
+   "performance/r2/01-five-am-bonded-longsleeve.svg",
+   "performance/r2/02-gain-alpha-pullover.svg",
+   "objects/r2/01-two-arms-rack.svg",
+   "objects/r2/02-field-recordings-lp.svg",
+   "objects/r2/03-artemia-pouch.svg",
+   "western/r2/01-paintbrush-yoke-shirt.svg",
+   "western/r2/02-island-herd-chore-coat.svg",
+   "western/r2/03-main-street-drive-wild-rag.svg",
+   "latino/r2/01-club-deportivo-salt-lake-jersey.svg",
+   "latino/r2/02-vecino-fine-line-tee.svg",
+   "latino/r2/03-loteria-salt-lake-tee.svg"
+  ],
+  "notes": "Read across, the line has one through-line besides the city: the lake. The shrimp shows up as a monster, a crest, a die and a plate; the pink north arm shows up in the tee, the LP and the jersey."
+ },
+ {
+  "n": 52,
+  "layout": "table",
+  "title": "Each lane drops in its own room, on its own day.",
+  "body": "Not at the airport. Each lane launches where its people already are, on a date the city already keeps. This is a proposal for you to rearrange.",
+  "table": {
+   "head": [
+    "Lane",
+    "When",
+    "Where"
+   ],
+   "rows": [
+    [
+     "Streetwear",
+     "An all-ages show night",
+     "A Kilby Court-style pop-up, then online"
+    ],
+    [
+     "Performance",
+     "First snow, before dawn",
+     "A run club meetup on the Bonneville Shoreline, then online"
+    ],
+    [
+     "Objects",
+     "Winter, with the LP",
+     "Record shops and a few design shops, then online"
+    ],
+    [
+     "Neo-Western",
+     "Pioneer Day, July 24",
+     "A downtown pop-up near the parade route"
+    ],
+    [
+     "Latino",
+     "El Grito, September 16",
+     "With Centro Civico Mexicano, at the community's own event"
+    ]
+   ]
+  },
+  "notes": "The research on Lonely Ghost, A24 and Madhappy all points the same way: a 6 to 8 week cadence, pop-ups as the main channel, and retail that feels like a clubhouse. Every room here is a proposal; the community lanes pick their own."
+ }
+]

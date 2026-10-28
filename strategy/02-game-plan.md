@@ -7,13 +7,13 @@ Built on `01-audit.md` v2. Citations `[videoID mm:ss]` point to `transcripts/not
 - **One channel first.** Oren's Stage 1: make one channel profitable before spreading out [UBDpGwdkiz4 0:31]. Your money has come through warm relationships, so the plan now centers on **warm network plus direct outreach**. Content's job is to feed outreach.
 - **Less content.** Level 1, one format instead of three pillars [qa13iuKa8zA 4:28].
 - **A four-rung price ladder** instead of three tiers, with an entry audit that leads into a retainer [l3inbx2jeZU 4:37, 15:30].
-- **Lead with speed.** Discera proves you can launch fast, and Oren says speed is now a top selling point [vHaJu1ExBdg 9:01].
+- **Lead with better plus faster.** Oren says speed is now a top selling point [vHaJu1ExBdg 9:01]. You still need a shipped project that proves it.
 
 ## The one-line offer
 
 Oren's template is "I do X for Y at Z" [vHaJu1ExBdg 6:26]. Applied to you:
 
-> **UFO Suarez launches brands for places (hotels, destinations, developments) in six weeks, from $12,000.**
+> **UFO Suarez launches brands for places (hotels, destinations, developments) in six weeks, from $5,000.**
 
 - **Better and faster,** never cheaper.
 - **Studio framing:** client work plus self-initiated projects that show range [yUpTFLvhcGk 8:25].
@@ -26,17 +26,16 @@ Round numbers, because this is premium work [l3inbx2jeZU 3:54]. Show the anchor 
 
 | Rung | Offer | Price | Role |
 |---|---|---|---|
-| Entry | **Brand Audit:** a 1-week review of an existing place brand (identity, touchpoints, photography, a 52-week content calendar sketch) with a "here's what I'd do" deck | $1,000 | Low-risk first yes. Credited toward the core if they upgrade within 60 days |
-| Core | **Launch Kit:** identity system, Brand Spec Doc, core collateral, social launch set. 4 to 6 weeks | $6,000 | Smaller budgets |
-| Core (target) | **Brand + Launch:** Launch Kit plus a landing page design and dev handoff, a launch piece (signage, event, gift), and two art direction rounds. About 6 weeks. Discera-shaped | $12,000 | The one you want sold |
-| Anchor | **Place Brand System:** full guidelines, campaign concept and art direction, environmental and signage, web design, photography direction, and an annual brand plan [IBk9xLUdnSo]. About 3 months | $25,000 | Makes the target look right. Occasionally sells |
-| After | **Creative Direction retainer:** ongoing art direction, content direction, a brand guardian role | $2,000 to $4,000/mo | Oren's range for this work is $1.5K to $5K/mo [tUlkycPTZm0 20:18] |
+| Entry | **Brand Audit:** a 1-week review of an existing brand with a "here's what I'd do" deck | $600 | Low-risk first yes. Credited toward the core if they upgrade within 60 days |
+| Core | **Launch Kit:** identity system, Brand Spec Doc, core collateral, social launch set | $2,500 | Smaller budgets. Matches the floor on your inquiry form |
+| Core (target) | **Brand + Launch:** Launch Kit plus a landing page design, a launch piece (signage, event, gift), and art direction rounds | $5,000 | The one you want sold |
+| Anchor | **Brand System:** full guidelines, campaign and art direction, environmental, web, photography direction, annual brand plan | $12,000 to $20,000 | Makes the target look right |
+| After | **Creative Direction retainer** | $2,000 to $4,000/mo | Confirmed |
 
-- The goal math: **4 target projects ≈ $48K.** That beats the 34 projects needed at the current average fee.
-- Publish the prices and a sample deliverable on the site [vHaJu1ExBdg 6:26].
-- No trades, no sub-floor work [l3inbx2jeZU 2:39].
+- **Decided 2026-10-28 by Yid.**
+- The goal math at these prices: $45K is about 9 target projects, or a mix like 4 targets, 2 anchors and a retainer.
+- No trades, no sub-floor work.
 
-**DECIDE:** the price levels.
 
 ## Stage 1 channel: warm network plus direct outreach
 
@@ -55,7 +54,7 @@ Round numbers, because this is premium work [l3inbx2jeZU 3:54]. Show the anchor 
 - **Art direction:** one "thing" per image [Ku9bcxICrJQ 1:00]. Build a location board for each city [Ku9bcxICrJQ, tactics]. Give the series its own title lockup [tUlkycPTZm0 17:26].
 - **Measure monthly:** saves, shares, profile visits, and **replies from the featured places**. Keep, improve or kill [kl4DLGKK_VI 9:14].
 - **Time horizon:** 30 days proves you can, 100 days makes it a habit, a year is when to expect money [qa13iuKa8zA 33:43].
-- **Occasional extra:** a project breakdown when a client project goes public (Discera first).
+- **Occasional extra:** a project breakdown when a client project goes public.
 
 ## Process upgrades, from the videos
 - **Creative brief stage** between proposal and design. Use his toolkit and Brief 101 fields [xqfrHgRGCCA]; the template is in `agents/ROSTER.md`.
@@ -68,7 +67,6 @@ Round numbers, because this is premium work [l3inbx2jeZU 3:54]. Show the anchor 
 ## 90 days
 
 ### Weeks 1 to 2 (Oct 28 to Nov 10): foundation
-- [ ] Confirm the Discera status and permission to show it.
 - [ ] One name and email: @ufosuarez everywhere, yid@ufosuarez.com. Update the inquiry form, deck defaults and contract header [konbTRiJ39I 15:31].
 - [ ] Open the business bank account.
 - [ ] Write the one-line offer and the ladder. Update the inquiry form's budget options to match the rungs.
@@ -79,7 +77,7 @@ Round numbers, because this is premium work [l3inbx2jeZU 3:54]. Show the anchor 
 ### Weeks 3 to 8 (Nov 11 to Dec 22): run the channel
 - [ ] 3 warm and 5 cold touches every week, each with proof.
 - [ ] Place Studies #1 to #6, all on Top 30 subjects.
-- [ ] The offer page on ufosuarez.com: one-line offer, ladder prices, sample Brand Spec Doc, Discera case study.
+- [ ] The offer page on ufosuarez.com: one-line offer, ladder prices, sample Brand Spec Doc, best available case study (Constructora JQ or VSL).
 - [ ] Google Business Profile for UFO Suarez [konbTRiJ39I 5:11].
 - [ ] Sell at least 2 Brand Audits, or offer 1 free to a dream Top 30 account as the "first opportunity" you fund yourself [z08CfQZE6TI 23:19].
 - [ ] Krista: brief-breakdown, then proposal-deck, showing all four rungs.

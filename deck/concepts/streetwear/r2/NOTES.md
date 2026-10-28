@@ -69,7 +69,7 @@ File: 03-nothing-to-do-in-salt-lake-hoodie.svg
 
 **IN references:** 36-slc-punk-poster.jpg (white condensed title on black bars over a flat blue field), 26-slc-punk-still-b.jpg (the blue hair, the color trio), 08-pleasures-freak-tee-glitter.jpg (phrase-first single hit), 07-pleasures-suburbs-longsleeve-lookbook.jpg (heavy body, small wordmark logic).
 
-**Idea:** A 14 oz hoodie with one sentence on it, split across the layout of the SLC Punk! poster: the first half in condensed cream type on a black title bar between two thin rules, then a flat blue flood left empty, with the second half of the sentence tucked along the flood's bottom edge. The empty blue is the nothing. R2 runs the drop as three approved phrases on three bodies, shown together: NOTHING TO DO / IN SALT LAKE on Ink, SALT LAKE IS / FOR THE WEIRD on Salt Pink, POSERS / GO TO PARK CITY on Cream. The hood is lined in the blue on all three so the trio shows with the hood down.
+**Idea:** A 14 oz hoodie with one sentence on it, split across the layout of the SLC Punk! poster: the first half in condensed cream type on a black title bar between two thin rules, then a flat blue flood left empty, with the second half of the sentence tucked along the flood's bottom edge. The empty blue is the nothing. R2 runs the drop as three approved phrases on three bodies, shown together: NOTHING TO DO / IN SALT LAKE on Ink, SALT LAKE IS / FOR THE WEIRD on Salt Pink, DON'T MOVE / TO SALT LAKE on Cream. The hood is lined in the blue on all three so the trio shows with the hood down.
 
 **Garment and fabric:** cross-grain 14 oz cotton fleece pullover hoodie (Los Angeles Apparel HF09 or House of Blanks class), hood lined in Poster Blue fleece, flat cream drawcords with metal tips (ink cords on the cream body).
 
@@ -77,12 +77,21 @@ File: 03-nothing-to-do-in-salt-lake-hoodie.svg
 
 **Placement and size:** front panel 11.5 x 13 in, top edge 3 in below the hood seam, bottom edge 1 in above the kangaroo pocket. No back print.
 
-**Colorways:** Ink body (NOTHING TO DO IN SALT LAKE), Salt Pink body (SALT LAKE IS FOR THE WEIRD), Cream body (POSERS GO TO PARK CITY). Hood lining Poster Blue on all three. Phrases and bodies can be re-paired at the CD's call without any other change to the art.
+**Colorways:** Ink body (NOTHING TO DO IN SALT LAKE), Salt Pink body (SALT LAKE IS FOR THE WEIRD), Cream body (DON'T MOVE TO SALT LAKE). Hood lining Poster Blue on all three. Phrases and bodies can be re-paired at the CD's call without any other change to the art.
 
 **Unit cost at a 50-unit test run:** decorated-premium-blank lane, upper tier. 14 oz fleece blank $22 to $28, custom hood lining is a cut-and-sew step (an LA studio can line 50 hoods for roughly $6 to $9 each if the blank maker will ship unlined hoods, otherwise it waits for a 150-unit private-label run), two- or three-color front print on a 50 run roughly $7 to $10, label and tag about $1. Landed about $38 to $48 with the lining, $32 to $38 without, retails $120 to $140 DTC.
 
 **The one thing to verify before sampling:** whether the blank maker will sell the hoodie with the hood lining omitted or in a specified color; if not, the blue hood lining becomes a blue hood interior print or drops, and the piece still works.
 
-**What a local says:** "Yeah, that's what we said at 16, and then we went to Kilby every night." They buy POSERS GO TO PARK CITY for a friend who moved there.
+**What a local says:** "Yeah, that's what we said at 16, and then we went to Kilby every night." Then they buy DON'T MOVE TO SALT LAKE for the friend who just did.
 
-**Risk:** POSERS GO TO PARK CITY names a neighboring destination; a county DMO printing it is the joke and also the thing legal will ask about. SALT LAKE IS FOR THE WEIRD is the safe lead if that phrase is held back. The SLC Punk! logotype is not reproduced anywhere; the piece uses the bar-and-flood structure and the palette only.
+**Risk:** a tourism office printing "nothing to do" and "don't move here" is the whole joke and the whole risk; the client has to want the irony. DON'T MOVE TO SALT LAKE is the line locals actually say when the city shows up on a best-places list, said with pride, and it sells the place by pretending to keep it. If VSL blinks, any candidate below drops into the same layout with no other change. Per the CD, no product in this drop names any other destination. The SLC Punk! logotype is not reproduced anywhere; the piece uses the bar-and-flood structure and the palette only.
+
+### Third phrase candidates
+Picked for the Cream hoodie: **DON'T MOVE TO SALT LAKE** (set as DON'T MOVE / TO SALT LAKE). Alternates, each splits across the bar and the flood the same way:
+
+1. EVERYBODY HERE IS IN A BAND (EVERYBODY HERE / IS IN A BAND)
+2. SALT LAKE HAS NO SCENE (SALT LAKE HAS / NO SCENE), the same lie as NOTHING TO DO, told by someone who runs a house venue
+3. WE MADE OUR OWN FUN (WE MADE / OUR OWN FUN)
+4. IT'S NOT A PHASE, IT'S SALT LAKE (IT'S NOT A PHASE / IT'S SALT LAKE)
+5. THE LAKE SMELLS AND WE STAYED (THE LAKE SMELLS / AND WE STAYED)

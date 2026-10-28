@@ -2,7 +2,7 @@
 
 Six roles. **Existing** means a skill or role you already use; **New** means it should be built (with skill-creator) once you approve the brief. Every agent reads `strategy/02-game-plan.md` and the Point of View page before working.
 
-House writing style, carried over from your existing skills: casual and plain, no em dashes, decision-first. Give options with a one-line why, so Yid picks rather than composes.
+House writing style, carried over from your existing skills: casual and plain, no em dashes, decision-first. Give options with a one-line why, so Yid picks rather than composes. When asking Yid questions, put a short summarized context block directly under each question, so he can answer without scrolling back.
 
 | Agent | Status | Owns | Inputs | Outputs | Cadence |
 |---|---|---|---|---|---|

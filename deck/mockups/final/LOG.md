@@ -80,3 +80,41 @@ Product photo of a running shirt. Make a slim navy bonded technical long-sleeve 
 Result: "I'm having a hard time fulfilling your request."
 
 Problem: two outright declines and one error, with the real-person photo removed. The likely trigger is the copy itself: "NOBODY IS WATCHING" may read to Gemini's filter as surveillance or stalking. Options for Yid: (a) run P1's shots in a different image model, (b) test whether Gemini accepts the shirt with the type added afterwards in Photoshop or Figma from `P1-sketch-crop.jpg`, (c) approve a one-off test of the line split across two prompts.
+
+## W1, Paintbrush Yoke Shirt
+
+Status: Midjourney design and the back-yoke shot done. The optional "Albion Basin" cuff detail didn't complete (see problems).
+
+Files: `W1-mj.png` (Midjourney embroidery, 2464x1856), `W1-shot-1.png` (back yoke, worn, golden hour), `W1-sketch-crop.jpg` (image prompt: the yoke close-up panel from the concept board).
+
+### Midjourney
+
+Run 1 (failed). Prompt as on the card, style refs `11-fort-lonesome-chainstitch-machine` and `06-fort-lonesome-texas-suit`, image prompts `W1-sketch-crop.jpg` and `23-albion-basin-indian-paintbrush.jpg`, `--sw 250`. All four were full-frame dense meadows in satin stitch, and the card asks for one small chain-stitch cluster. The Albion Basin photo pushed the density.
+Job: https://www.midjourney.com/jobs/428123dc-565d-43ec-b7a3-adaf94d0710f
+
+Run 2 (picked). Dropped the meadow photo, kept the Fort Lonesome style refs, image prompt `W1-sketch-crop.jpg` only:
+
+```
+chain stitch embroidery design, one small isolated cluster of three Indian paintbrush stems in red and orange with two purple-blue lupine spikes and thin sage green stems, worked entirely in looped single-line chain stitch like a vintage chainstitch machine, rows of visible chain loops following each petal, small western yoke motif centered on a large field of plain deep navy brushed twill with lots of empty fabric around it, close-up flat view --ar 4:3 --v 7 --style raw --stylize 200 --sw 250 --iw 1.5 --no text, letters, logo, satin stitch, meadow, dense field
+```
+
+Job: https://www.midjourney.com/jobs/e82f8348-9227-4418-ad10-cac37d864e63 (variant 4, index 3)
+Upscale (Subtle): https://www.midjourney.com/jobs/60be233d-bc92-4a76-95cc-c6cbd1123649
+
+Why variant 4: closest to the sketch. Three paintbrush heads over blue lupine spikes on sage stems, with visible chain-stitch loop texture, on navy twill.
+
+### Gemini (Nano Banana, Images tool)
+
+Chat inputs in order: image 1 `W1-mj.png`, image 2 `03-ginew-western-snap-chambray.jpg`, image 3 `18-ginew-gently-strikes-wild-rag-portrait.jpg`.
+
+Shot 1, first attempt passed:
+
+```
+Put the attached chain-stitch embroidery (image 1), about 4.5 inches wide, centered on the back yoke of a Mountain Navy brushed-twill western snap shirt with pearl snaps. Keep the paintbrush and lupine cluster and its chain-stitch loops exactly as in image 1. Shot from behind on a person at golden hour in a mountain meadow with wildflowers. Invent a new model, not anyone from the reference photos; use image 2 only as a guide for the warm natural light and framing. The front of the shirt is plain. No text, no logos.
+```
+
+Checks: no text, no logos, embroidery matches image 1, placed on the back yoke.
+
+Problems:
+- Shot 1 carried over a short stitched seam line from the Midjourney variant (a pocket edge in the source), just left of the stems. Easy to retouch, or rerun with "no seams near the embroidery".
+- Optional cuff detail ("Albion Basin" chain-stitched inside the rolled left cuff): attempt 1 vanished from the chat with no response (the same Gemini behavior seen on S1). Attempt 2 was still generating after several minutes when this was logged; see the pilot review note.

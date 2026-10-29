@@ -44,3 +44,39 @@ Now show that same cream t-shirt being worn. Invent a new model, a skinny 20-som
 Checks: title exact in both shots, print matches image 1, no brand logos, nothing from the banned list.
 
 Notes: shot 2 has a cropped sign fragment ("...NER") at the top of the door and doodle tags. No brand marks. Gemini rendered the lake as a pink field with black outline, slightly flatter than the Midjourney halftone.
+
+## P1, Five A.M.
+
+Status: Midjourney design done. Gemini shots not made: Gemini refused shot 1 three times, so shot 2 (which builds on it) wasn't attempted. Needs a decision before the full run.
+
+Files: `P1-mj.png` (Midjourney film-on-navy art with blank type bars, 1920x2400), `P1-sketch-crop.jpg` (the chest type crop from the concept board).
+
+### Midjourney
+
+Run 1 (failed). Prompt as on the card, style refs `49-nike-1990-group-therapy-ad` and `50-nike-1990-stress-management-ad`, image prompt `P1-sketch-crop.jpg`, `--sw 150`. The copy was garbled in all four, and all four had Nike swooshes pulled in from the style refs.
+Job: https://www.midjourney.com/jobs/3f520b11-740d-4eb5-b003-5ef5f71b5605
+
+Run 2 (picked). Per the text rule, the design was made without text, as the reflective-film material and stacked layout, so Gemini could set the exact copy. No refs, to keep swooshes out:
+
+```
+flat chest graphic artwork for a technical running shirt, minimal 1990 print ad layout, five stacked horizontal bars of silver-grey retroreflective heat-transfer film, ragged center widths like lines of extra-condensed type, set on deep matte navy, faint micro glass-bead sparkle in the film, crisp edges, quiet and graphic, flat artwork only, edge to edge --ar 4:5 --v 7 --style raw --stylize 50 --no text, letters, words, typography, logo, swoosh, garment, person
+```
+
+Job: https://www.midjourney.com/jobs/3e0924db-ea82-4444-849a-8f29ea1f0cc0 (variant 2, index 1)
+Upscale (Subtle): https://www.midjourney.com/jobs/94c5f26b-f768-420c-8869-10375d54beaf
+
+Why variant 2: the crispest film edges and the most convincing retroreflective texture on matte navy. Its bar count (eight) doesn't matter because Gemini replaces the bars with the five exact lines.
+
+### Gemini (failed, 3 attempts)
+
+Attempt 1: image 1 `P1-mj.png`, image 2 `07-district-vision-lab-tights-film.jpg`, image 3 `20-bst-trail-runner-deseret-2025.jpg`, image 4 `P1-sketch-crop.jpg` (for exact type layout), with the card's prompt 1 reworded to take the words from image 4. Result: "I seem to be encountering an error."
+Attempt 2: same chat, Try again. Result: "I'm having a hard time fulfilling your request."
+Attempt 3: fresh chat without the news photo of a real runner (image 1 `P1-mj.png`, image 2 District Vision, image 3 `P1-sketch-crop.jpg`):
+
+```
+Product photo of a running shirt. Make a slim navy bonded technical long-sleeve running shirt with laser-perforated underarm panels, hung on a hanger against a concrete wall, cold flat daylight, film grain like image 2. Across the chest is a reflective heat-transfer print made of the silver-grey retroreflective film shown in image 1. The print is five centered lines of very bold extra-condensed capital letters laid out like image 3, reading exactly: NOBODY / IS WATCHING / AT 5 A.M. / THAT IS / THE POINT. Spell every letter and keep both periods. By day the type looks quiet silver-grey. No other text, no logos.
+```
+
+Result: "I'm having a hard time fulfilling your request."
+
+Problem: two outright declines and one error, with the real-person photo removed. The likely trigger is the copy itself: "NOBODY IS WATCHING" may read to Gemini's filter as surveillance or stalking. Options for Yid: (a) run P1's shots in a different image model, (b) test whether Gemini accepts the shirt with the type added afterwards in Photoshop or Figma from `P1-sketch-crop.jpg`, (c) approve a one-off test of the line split across two prompts.

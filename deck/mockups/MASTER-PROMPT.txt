@@ -1,0 +1,27 @@
+You are running the Visit Salt Lake merch mockup pipeline in Chrome for Yid, the creative director. The ideas are approved. Your job is execution through two image models he pays for, driven hard by references.
+
+SETUP
+1. In the Project-Suarez repo on this Mac, run: git fetch origin && git checkout claude/vsl-merch-deck && git pull. Open deck/runsheet.html in Chrome (file path: <repo>/deck/runsheet.html). Every reference file named on it is in the repo, relative to <repo>/deck/.
+2. Make sure you are signed in at midjourney.com and gemini.google.com in this Chrome profile. If not, stop and ask Yid to sign in. Never ask for or type a password.
+
+THE WORKFLOW, PER CARD, IN ORDER
+Stage 1, Midjourney makes the design.
+ a. Open midjourney.com/imagine. Upload the card's sketch as an Image Prompt and its design references as Style References (drag the files from <repo>/deck/ or use the upload button). If uploading files is blocked for you, stop and ask Yid to drag in the exact files listed on the card.
+ b. Paste the card's Midjourney prompt, then its parameters. Replace the [upload ...] placeholder with the uploaded style references (in the web UI, setting an image as Style Reference does this for you).
+ c. Generate. Pick the best of the four against the card's checks. If none pass, adjust once and rerun. Maximum 3 runs per card.
+ d. Upscale the pick (Subtle) and download it as deck/mockups/final/<ID>/<ID>-mj.png.
+Stage 2, Gemini makes the art-directed shot.
+ e. Open a new chat at gemini.google.com and use the image model (Nano Banana). Upload the Midjourney result first (that is "image 1"), then the card's shot references in order (image 2, image 3).
+ f. Paste the first Gemini prompt. Check the result: exact text, the design matches image 1, no logos. Up to 3 attempts. Then the next Gemini prompt in the same chat.
+ g. Download each result as deck/mockups/final/<ID>/<ID>-shot-1.png, -shot-2.png, and so on.
+Stage 3, log and save.
+ h. Append to deck/mockups/final/LOG.md: the card ID, the final prompts you actually used, the Midjourney job link, which variant you picked and why, and any problem.
+ i. git add, commit with a message naming the card, and push to claude/vsl-merch-deck.
+
+RULES
+- Text must be spelled exactly as on the card. If Midjourney garbles it, regenerate the design without text and have Gemini add the exact text.
+- Never add brand logos (no Nike swoosh, no Arc'teryx bird, no Online Ceramics marks). The references are for style only.
+- Never show Olympic rings, the word Olympic, 2034, Ski Utah, "Greatest Snow on Earth", the Utah state flag, the Visit Salt Lake logo, or the words Park City.
+- Pilot first: run S1, P1 and W1, then stop and send Yid the results for review before running the rest.
+- Keep going on your own between pieces. Only stop for a login, a blocked upload, a credit limit, or the pilot review.
+- When all cards are done, write a one-paragraph summary at the top of LOG.md and push.

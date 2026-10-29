@@ -7,24 +7,26 @@
   "table": {
    "head": ["Era", "What happened", "Where"],
    "rows": [
-    ["Early 80s", "Hardcore starts. Massacre Guys put out cassettes, a 1982 EP, and tour with Dead Kennedys and Bad Religion.", "Indian Center, house shows, Hell House"],
-    ["1984 to 1990", "The Speedway Cafe runs under the 500 South viaduct. SLC Punk! later sets its story here, in fall 1985.", "Speedway Cafe, The Word, Club DV8 (1989)"],
-    ["1990s", "Straight edge goes militant. Police call it a gang, there are arsons, and a 15-year-old is killed in 1998.", "All-ages halls (verify)"],
-    ["2000s", "Kilby Court opens in 1999 in a garage. The scene moves toward indie, emo and post-hardcore (verify).", "Kilby Court, Urban Lounge (verify), Provo (verify)"],
-    ["2010s", "Kilby's promoters grow, Kilby Block Party starts (verify year), and SLUG keeps the record.", "Kilby, Urban Lounge, Metro Music Hall (verify)"],
-    ["Now", "DIY hardcore in halls, a punk and riot grrrl edge, and an indie festival with 25,000 to 30,000 a day.", "Fellowship Hall, Olifer, Kilby, Fairpark"]
+    ["1978 to 1985", "Spitting Teeth play a 1978 campus show. Massacre Guys put out a 1982 EP and tour with Dead Kennedys and Bad Religion. SLC Punk! is set here in fall 1985.", "The Roxy, Indian Center, Speedway Cafe under the viaduct (1984)"],
+    ["Late 80s", "SLUG starts in 1989 as a punk zine. Insight is the city's first straight-edge band.", "Speedway Cafe (to 1990), The Word, Club DV8"],
+    ["1990s", "Clear makes straight-edge metalcore. Police call straight edge a gang, there are firebombings, and a 15-year-old is killed in 1998.", "Club DV8, The Moroccan"],
+    ["2000s", "Kilby Court opens in a garage in 1999. The Used come out of Orem, Velour opens in Provo in 2006, and Gaza and SubRosa get heavy.", "Kilby Court, Urban Lounge (2001), Velour, The Depot"],
+    ["2010s", "S&S Presents buys Kilby in 2008 and adds Metro Music Hall. Cult Leader signs to Deathwish. Kilby Block Party starts in 2019 as a street party.", "Kilby, Urban Lounge, Metro, Soundwell (2018)"],
+    ["Now", "DIY hardcore in a sober hall, punk nights at Aces High, and an indie festival at the Fairpark expecting about 30,000 a day.", "Fellowship Hall, Aces High, Kilby, Fairpark"]
    ]
   },
   "sources": [
+   "SLUG, A Subjective History of Punk Rock in Utah",
    "Grudge City Activities zine, 2008",
    "City Weekly, Flashback 1989",
    "Salt Lake Tribune, Speedway Cafe",
-   "Wikipedia, SLC Punk!",
-   "BYU Daily Universe, 1997 and 1999",
-   "Deseret News, 1998",
-   "Research files 06 and 08, 2026"
+   "Wikipedia, SLC Punk!, Clear, The Used, Gaza, Cult Leader, Velour",
+   "BYU Daily Universe, 1997 and 1999; Deseret News, 1998",
+   "KUER and KSL, Kilby at 20, 2019",
+   "Deseret News, Kilby Block Party, May 2026",
+   "Research file 08, 2026"
   ],
-  "notes": "You asked how punk turns into today's scene, so this slide replaces the old lane opener with the evolution. The thread is all-ages access: the Indian Center in the 80s, Kilby Court's garage since 1999, DIY halls now. The 90s row is honest on purpose. Straight edge is part of local identity, but the violence and the 1998 killing are why the lane uses the X only as an all-ages hand stamp and never as a crew mark. The 2000s and 2010s rows still need a verify pass, because page fetches were blocked this round."
+  "notes": "You asked how punk turns into today's scene, so this slide replaces the old lane opener with the evolution. The thread is all-ages access: the Indian Center in the 80s, The Moroccan and then Kilby's garage from 1999, a sober hall in Sugar House now. The 90s row is honest on purpose. Straight edge is part of local identity, but the violence and the 1998 killing are why the lane uses the X only as an all-ages hand stamp and never as a crew mark. The 30,000 a day is the festival's own estimate to the Deseret News, not an official count."
  },
  {
   "n": 33.5,
@@ -32,19 +34,21 @@
   "title": "What the scene is now: small, DIY, mostly hardcore, still all-ages.",
   "body": "There isn't one Salt Lake punk scene in 2026. There are a few small ones that share rooms, plus a big festival on top.",
   "points": [
-   "**Hardcore is the most active part, and it's DIY.** Shows at Fellowship Hall, Olifer, Black Lung Society and Pineyard, and Hardcore Halloween at Kilby every October (verify 2026).",
-   "**Punk is smaller and overlaps riot grrrl.** P.S. Destroy This is the band City Weekly picked for 2026. Promoters Hypha, Yardwork and Joz Presents book a lot of the small shows.",
-   "**Indie is the public face.** Kilby Court turned 25, and Kilby Block Party drew 25,000 to 30,000 a day in 2026 with Turnstile on the bill next to Lorde.",
-   "**It's small, and that's the point.** A hall show is maybe a few dozen to a couple hundred people (estimate, verify). SLUG and City Weekly cover it, and touring bands play Soundwell and The Depot.",
-   "**What makes it Salt Lake.** All-ages rooms, the straight-edge legacy, making your own spaces, being the weird kid in a religious town, and skating or riding in the morning before a show at night."
+   "**Hardcore is the most active part, and it's DIY.** The main room is Fellowship Hall, a sober-community hall in Sugar House. Local bands with 2026 releases include Bounty Hunter and Hollow Like Her, and Taste of Blood and xForever Warx are on the bills.",
+   "**Punk lives in bars and basements.** Aces High Saloon ran a locals night and The Bearded Punk Fest in 2026. SLUG covers The Corleones and Vicious Souls, and City Weekly picked P.S. Destroy This, a riot grrrl band.",
+   "**Indie is the public face.** S&S Presents runs Kilby Court, Urban Lounge and Metro Music Hall. Kilby Block Party booked Turnstile next to Lorde in 2026 and has Deftones on the bill for 2027.",
+   "**It's small, and that's the point.** There's no big local label, just City of Dis on Bandcamp, Raunch Records for vinyl, and SLUG, still publishing since 1989. A hall show is probably a few dozen to a couple hundred people (estimate, verify).",
+   "**What makes it Salt Lake.** All-ages rooms, a straight-edge legacy that now lives in a sober hall, making your own spaces, being the weird kid in a religious town, and the skate and snow shops that sponsor the same kids."
   ],
   "sources": [
+   "No Echo, Bounty Hunter, Taste of Blood and xForever Warx features",
+   "Coyote Music, Hollow Like Her, 2026",
+   "Fellowship Hall listings, 2026",
+   "SLUG show reviews and Localized, 2026",
    "City Weekly, 2026 music issue",
-   "saltlakehardcoreshows.com, 2025",
-   "My Rock Shows, 2025",
-   "Research file 06, 2026",
-   "Research file 08, 2026"
+   "Deseret News and SPIN, Kilby Block Party, 2026",
+   "Research files 06 and 08, 2026"
   ],
-  "notes": "The comment asked whether the current scene is hardcore. Mostly, yes, at the DIY level, sitting inside a much bigger indie and festival world. Saying it's small is part of the case: the lane should look like it came out of a hall show, not a mall. We don't use any real band names or logos on product. If we want scene credibility, we pay and credit local flyer artists and promoters, or partner with Kilby or SLUG on a small run. Current venue status and crowd sizes are marked verify until a local confirms them."
+  "notes": "The comment asked whether the current scene is hardcore. Mostly, yes, at the DIY level, and it fits the city that its main hardcore room is a sober hall. Saying it's small is part of the case: the lane should look like it came out of a hall show, not a mall. The band names are on this slide to show the scene is real, but none of them go on product without permission; if we want credibility, we pay and credit local flyer artists and promoters, or partner with Kilby, SLUG or Craft Lake City on a small run. Crowd sizes are still marked verify until a promoter confirms them."
  }
 ]

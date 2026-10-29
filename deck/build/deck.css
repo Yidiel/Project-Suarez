@@ -98,3 +98,7 @@ body.shownotes .notes{display:block;position:absolute;left:0;right:0;bottom:0;ba
 #s1 .body{font-size:max(16px,2cqw)}
 .tl.dense table{font-size:max(11px,1.02cqw)} .tl.dense td,.tl.dense th{padding-top:.32cqw;padding-bottom:.32cqw}
 .tl.dense .body{margin-bottom:.8cqw}
+
+.pl.dense .pts{font-size:max(12px,1.18cqw);gap:.6cqw;max-width:none;grid-template-columns:1fr 1fr;column-gap:3cqw}
+.pl.dense .body{margin-bottom:1cqw}
+@media (max-width:760px){.pl.dense .pts{grid-template-columns:1fr}}

@@ -44,7 +44,7 @@ def srcs(s):
     return f'<p class="src">{" · ".join(e(x) for x in s)}</p>' if s else ""
 def body(s): return f'<p class="body">{inl(s.get("body"))}</p>' if s.get("body") else ""
 slides=[]
-for s in S:
+for idx,s in enumerate(S,1):
     n=s["n"]; L=s.get("layout","points"); lane=lane_of(n)
     style=f' style="--lane:{LANE[lane]}"' if lane else ""
     t=f'<h2>{inl(s.get("title"))}</h2>' if s.get("title") else ""
@@ -72,10 +72,11 @@ for s in S:
         for v in s["svgs"]: used.add(render_src(v))
         inner=f'<div class="lu">{t}{body(s)}<div class="lugrid">{cells}</div></div>'
     else:
-        inner=f'<div class="pl">{t}{body(s)}{pts(s.get("points"))}{imgs_html(s.get("images"),"g small")}{table(s.get("table"))}{srcs(s.get("sources"))}</div>'
+        dense=" dense" if sum(len(x) for x in s.get("points") or [])>650 else ""
+        inner=f'<div class="pl{dense}">{t}{body(s)}{pts(s.get("points"))}{imgs_html(s.get("images"),"g small")}{table(s.get("table"))}{srcs(s.get("sources"))}</div>'
     notes=s.get("notes","")
-    slides.append(f'<section class="slide {part_of(n)} L-{L}" id="s{n}"{style}><div class="in">{inner}</div><span class="pg">{n}</span><aside class="notes"><p>{inl(notes)}</p></aside></section>')
-CSS=open(os.path.join(os.path.dirname(__file__),"deck.css")).read()
+    slides.append(f'<section class="slide {part_of(n)} L-{L}" id="s{idx}"{style}><div class="in">{inner}</div><span class="pg">{idx}</span><aside class="notes"><p>{inl(notes)}</p></aside></section>')
+CSS=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"deck.css")).read()
 title=S[0].get("title","VSL Merch")
 page=f'''<title>Salt Lake Merch Deck R1</title>
 <meta name="claude:viewport-fit-sides" content="cover">

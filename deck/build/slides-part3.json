@@ -1,9 +1,9 @@
 [
  {
-  "n": 33,
+  "n": 33.7,
   "layout": "lane",
   "title": "Salt Lake is for the weird.",
-  "body": "This is a punk city. Straight-edge hardcore in the 90s, SLC Punk! in 1998, all-ages shows in a Kilby Court garage since 1999. The merch logic is band merch: one-color back prints, xerox grain, a phrase doing all the work.",
+  "body": "The scene is small and it's still all-ages. The lane borrows its language: one-color back prints, xerox grain, hand lettering, a phrase doing all the work, the X as the all-ages hand stamp and never as a crew mark.",
   "images": [
    {
     "src": "moodboards/web/streetwear/29-flickr-flyer-a.jpg",
@@ -47,19 +47,18 @@
   "layout": "piece",
   "svg": "streetwear/r2/03-nothing-to-do-in-salt-lake-hoodie.svg",
   "title": "Nothing To Do In Salt Lake",
-  "body": "One sentence per hoodie, set in the SLC Punk! poster layout: half the line on a black bar, the rest at the bottom of an empty blue field. The empty blue is the nothing. Three phrases, three bodies, one drop.",
+  "body": "One sentence in the SLC Punk! poster layout: NOTHING TO DO on a black bar, an empty electric-blue flood, IN SALT LAKE along its bottom edge. The empty blue is the nothing. One hoodie, one phrase.",
   "points": [
-   "**Ink:** NOTHING TO DO IN SALT LAKE.",
-   "**Salt Pink:** SALT LAKE IS FOR THE WEIRD.",
-   "**Cream:** DON'T MOVE TO SALT LAKE. Five alternates are in the notes.",
-   "**Blank:** 14 oz cross-grain fleece, hood lined in poster blue."
+   "**Body:** washed Ink, 14 oz cross-grain fleece, hood lined in electric blue.",
+   "**Print:** cream and blue plastisol, the blue pulled with a dry edge.",
+   "**Cut:** the other two phrases and colorways, per your note."
   ],
   "big": "$38 to $48 landed",
   "quote": {
    "text": "Yeah, that's what we said at 16, and then we went to Kilby every night.",
    "who": "What a local says"
   },
-  "notes": "A tourism office printing 'nothing to do' and 'don't move here' is the joke and the risk at once. Locals say both lines with pride, which is why they sell the city. No product names another destination, per your call. If VSL blinks, any alternate drops into the same layout with no other change."
+  "notes": "You kept only the first phrase. A tourism office printing 'nothing to do' is the joke and the risk at once; locals say it with pride, which is why it sells the city."
  },
  {
   "n": 36,
@@ -152,11 +151,11 @@
   "layout": "piece",
   "svg": "objects/r2/01-two-arms-rack.svg",
   "title": "Two Arms",
-  "body": "A 30-inch white oak rail with two felt-topped arms. It holds one snowboard across or a pair of skis tails-down. The only mark is the brine shrimp burned into the end of the rail with the same brass die that debosses the pouch.",
+  "body": "A 30-inch white oak rail with two felt-topped arms holding a snowboard or skis. Per your note, a pattern of local fossils is laser-burned along the whole rail face, and the brine shrimp is one of many.",
   "points": [
-   "**Material:** solid white oak, or powder-coated steel in Mountain Navy.",
-   "**Technique:** brass branding die, about $150 to $300 once, shared with the pouch.",
-   "**Where it sells:** online and in a few shops with local shipping. Too big for a visitor-center shelf."
+   "**Pattern:** Lake Bonneville snails and clams, fish, a mammoth tooth, brine shrimp and their cysts, drawn like a natural-history plate.",
+   "**Check first:** which fossils are truly from the Salt Lake area. Allosaurus is the state fossil but comes from Emery County.",
+   "**Where it sells:** online and a few shops with local shipping."
   ],
   "big": "$35 to $75 landed",
   "quote": {
@@ -170,11 +169,11 @@
   "layout": "piece",
   "svg": "objects/r2/02-field-recordings-lp.svg",
   "title": "Field Recordings, Great Salt Lake",
-  "body": "A 12-inch LP of ten real Salt Lake sounds: wind on the north arm, the lift sheaves at Alta, snow on a windshield on I-80, a TRAX chime, avalanche control, brine flies, gulls and a train on the causeway. Spiral Jetty is the label. The recordist is credited on every pressing.",
+  "body": "A 12-inch LP of ten real Salt Lake sounds, from wind on the north arm to the lift sheaves at Alta. Two sleeves, per your note.",
   "points": [
-   "**Pressing:** split pink-over-blue vinyl. Plants rarely press fewer than 100, so the test is 100 with 50 held for gifting and press.",
-   "**Permissions:** Holt/Smithson Foundation for the jetty, releases from Alta and UTA. A no-jetty version is in the notes.",
-   "**Lead time:** 10 to 16 weeks at the plant, so it is booked for the season it describes."
+   "**Version A:** the Spiral Jetty wraps the whole sleeve, split pink-over-blue vinyl. Needs Holt/Smithson Foundation permission.",
+   "**Version B, county-specific:** an overhead Wasatch texture, forest green on the high slopes to desert tan along the old Bonneville bench, canyons cut through. No permission needed.",
+   "**Pressing:** 100 minimum, 50 held for gifting and press, 10 to 16 weeks at the plant."
   ],
   "big": "$25 to $35 each at 100",
   "quote": {
@@ -268,8 +267,8 @@
   "title": "Main Street Drive Wild Rag",
   "body": "A 22-inch wild rag with one single-color drawing: longhorns and riders coming down Main Street, downtown towers and two Wasatch ridgelines behind them. Headlined Pioneer Day, which needs no license.",
   "points": [
+   "**Colorway:** Sage line on Forest ground, the one you preferred.",
    "**Blank:** silk twill, or cotton for a lower price.",
-   "**Colorways:** Navy on Sego Lily, Red on Cream, Sage on Forest.",
    "**Set:** pairs with a brass bolo slide engraved with the same steer."
   ],
   "big": "$14 to $24 silk",
@@ -311,10 +310,10 @@
   "title": "Club Deportivo Salt Lake",
   "body": "A supporters' jersey for a club that is the city itself. Salt Pink with Forest trim, an embroidered crest of a brine shrimp over the Wasatch ridge with 801 at the foot, neighborhood stars on the sleeves, SALT LAKE arched over 801 on the back.",
   "points": [
+   "**Home (lead):** Salt Pink body, Forest trim, the colorway you preferred.",
+   "**Alt:** Rodeo Red body, Mountain Navy trim. Both get made.",
    "**Crest:** 3.5 in embroidered patch, sewn on, also sold alone.",
-   "**Back:** two-color tackle twill.",
-   "**Match-day alt:** Rodeo Red and Mountain Navy, only with La Barra Real co-signing.",
-   "**Open:** 801 also covers Provo and Ogden; the star count is a community count, decided by the community designers."
+   "**Open:** 801 covers Provo and Ogden too; the star count is the community designers' call."
   ],
   "big": "$26 to $60 landed",
   "quote": {

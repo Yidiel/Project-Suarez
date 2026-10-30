@@ -1,0 +1,681 @@
+[
+ {
+  "n": 21,
+  "layout": "section",
+  "title": "Foundation: what every piece stands on.",
+  "body": "The parent brand, the people who buy, the symbols that are ours, and what fabric and technique say before any graphic does.",
+  "notes": "Part 1 showed what good merch looks like elsewhere. Part 2 narrows it to Salt Lake: the brand we answer to, the buyers, the fact-checked symbol bank, and the materials and techniques we can actually get at 50 units. Everything in Part 3 traces back to a slide in this part, so this is where the reasoning lives."
+ },
+ {
+  "n": 22,
+  "layout": "points",
+  "title": "The parent brand is America's Mountain City™.",
+  "body": "The platform says you don't have to choose between city and mountains. Every piece in the line maps to one of its three pillars.",
+  "points": [
+   "**Both at Once.** City and mountain in the same place, no compromise. \"A trail that ends two blocks from a sidewalk café.\"",
+   "**Perpetual Momentum.** Jazz, Mammoth, RSL, Royals, festivals and art. \"Already different than the last time you were here.\"",
+   "**Frictionless.** \"Forty minutes from gate to gondola.\" The airport is ten minutes from downtown.",
+   "**What the merch inherits.** The palette and its names, the salt crystal, the contour texture, Ivar and Saans, and a voice that is confident, playful, friendly and genuine."
+  ],
+  "sources": [
+   "VSL Brand Guide v6.0 R3, 2026"
+  ],
+  "notes": "The brand guide is the parent company, not the merch brand, and Yid asked us to be loose on the design. What we take is the platform and the pillar test: the guide says every piece must map to one pillar, so every execution does. The platform line is always title case, always with the ™, never shortened, and we use it sparingly, mostly on hangtags rather than garments. The color names (Rodeo Red, Salt Pink, Sego Lily, Aspen Gold, Mountain Navy) already work as product copy."
+ },
+ {
+  "n": 23,
+  "layout": "table",
+  "title": "A sub-brand: keep the bones, bend on purpose.",
+  "body": "The guide's Sub-Brands section is still empty, so this line can be the first one. Visit Salt Lake leads, and the line lives one step away from the campaign.",
+  "table": {
+   "head": [
+    "What we keep",
+    "What we bend, and why"
+   ],
+   "rows": [
+    [
+     "The palette by hex, and its names as colorway names",
+     "The crystal alone as a label mark. The guide calls it a supporting asset; on a neck label it becomes the sub-brand's mark."
+    ],
+    [
+     "Filled crystal for embroidery, outline crystal for print",
+     "Dress the local, not the visitor. The guide casts people who \"flew in for this\"; the merch has to pass the local test first."
+    ],
+    [
+     "\"Salt Lake,\" not \"Salt Lake City\"",
+     "No eyebrows. The guide's coordinate and elevation lines are dropped; if a number appears, it is the graphic."
+    ],
+    [
+     "The co-branding rule: VSL leads, a partner at about 80 percent weight",
+     "America's Mountain City™ moves to the hangtag. On the garment, the city name, the place and the pillar lines do the work."
+    ]
+   ]
+  },
+  "sources": [
+   "VSL Brand Guide v6.0 R3, 2026",
+   "Research 04, principles, 2026"
+  ],
+  "notes": "This is the slide where we say out loud which rules we are breaking, so nobody reads them as mistakes. The keeps are what make the line recognizably VSL: color, the crystal, the place name, the co-branding order. The bends come from Yid's direction (no eyebrows) and from the research (locals first, visitors follow; the city name beats the slogan). A name and lockup for the sub-brand are still open and belong in Round 2."
+ },
+ {
+  "n": 24,
+  "layout": "table",
+  "title": "Two buyers, one product: locals and visitors.",
+  "body": "Locals buy pride and not looking like a tourist. Visitors buy proof of trip. Both buy the piece a local would actually wear.",
+  "table": {
+   "head": [
+    "Who",
+    "How many"
+   ],
+   "rows": [
+    [
+     "SLC International passengers, 2025",
+     "28.16 million"
+    ],
+    [
+     "Salt Lake County visitor spending, per year",
+     "$6.15 billion"
+    ],
+    [
+     "Utah visitor spending, 2025, a record",
+     "$13.7 billion"
+    ],
+    [
+     "Convention and event attendees, 2019",
+     "655,289"
+    ],
+    [
+     "Utah skier visits, 2024 to 2025",
+     "6.5 million"
+    ],
+    [
+     "Salt Lake County residents",
+     "About 1.2 million, median age about 32 (est.)"
+    ]
+   ]
+  },
+  "sources": [
+   "SLC International Airport, 2025",
+   "Visit Salt Lake Annual Report, 2025",
+   "Gardner Institute, 2026",
+   "Visit Salt Lake Annual Report, 2019",
+   "Gardner Institute, ski season report, 2025"
+  ],
+  "notes": "Yid's answer was locals and visitors, both, and research 05 says the two converge on the same product if it passes the 'would a local wear this' test. Locals respond to insider references and to being first; visitors respond to quality, a clear place mark and the story on the hangtag. One caution on the ski number: the 2025 to 2026 season was down about 26.5 percent, though spend per skier visit rose 12 percent. The average airport passenger spends about $10, so a $45 tee is bought by the minority with a reason, which is exactly who this line is for."
+ },
+ {
+  "n": 25,
+  "layout": "text-image",
+  "title": "People buy merch now as proof they were there.",
+  "points": [
+   "**23 percent** of travelers made a trip in the past year to buy something they couldn't get online. Skyscanner calls it pilgra-merch.",
+   "**28 percent** of Gen Z are most proud of a limited-edition grocery tote from a destination.",
+   "**63 percent** of Gen Z have bought something because of merch, and apparel is the favorite category at 62.6 percent.",
+   "**3.5x.** That's how much more Gen Z and millennials spend in airport retail than Gen X and boomers."
+  ],
+  "images": [
+   {
+    "src": "moodboards/web/objects/40-ace-hotel-nalgene.jpg",
+    "caption": "Ace Hotel Nalgene. A hotel-room object sold as merch."
+   }
+  ],
+  "sources": [
+   "Skyscanner via Euronews, 2026",
+   "PPAI via Quad and Brandelity, 2024 to 2025",
+   "ACI via Gulf Business, 2025"
+  ],
+  "notes": "The mechanism under all of these numbers is scarcity plus place: the tote is only at that store, the cap is only at that hotel. For us that means pieces sold only in Salt Lake that reference something only a local, or a visitor who was really here, would get. The same research says the generic city-name tee is losing appeal. GWI also finds values beat age as a driver of Gen Z identity, which supports selling the place's values rather than its name."
+ },
+ {
+  "n": 26,
+  "layout": "grid",
+  "title": "The symbol bank, part one: the lake.",
+  "body": "The Great Salt Lake is the deepest well we have, and almost none of it has been on a garment with any taste. Under all of it is Bonneville, the ice-age lake that filled the valley, and the salt flats west of the lake (verify).",
+  "images": [
+   {
+    "src": "moodboards/web/objects/50-brine-shrimp-dwr.jpg",
+    "caption": "Brine shrimp. Harvested since 1950 by 21 companies, a $10 to $60 million a year industry."
+   },
+   {
+    "src": "moodboards/web/objects/21-nasa-iss-great-salt-lake.jpg",
+    "caption": "The pink north arm. Cut off by the railroad causeway, it runs 26 to 30 percent salt, and algae and archaea turn it pink."
+   },
+   {
+    "src": "moodboards/web/objects/31-spiral-jetty-uibel-aerial.jpg",
+    "caption": "Spiral Jetty. Robert Smithson, 1970, 1,500 feet of basalt, visible when the lake sits below 4,197 feet."
+   },
+   {
+    "src": "moodboards/web/objects/32-great-salt-lake-salt-crystals-imaggeo.jpg",
+    "caption": "Salt. Halite grows in cubes, and the VSL mark is already a salt crystal."
+   }
+  ],
+  "sources": [
+   "Utah DWR, 2023",
+   "Weber State and USU",
+   "UMFA and Artforum",
+   "KSL on the VSL brand, 2021"
+  ],
+  "notes": "These are the fact-checked lake entries from research 04, and they feed four of the thirteen pieces: the monster shrimp tee, the Artemia pouch, the Two Arms rack and the field-recordings LP. The research says to draw the shrimp scientifically, not cute, and to draw the jetty rather than photograph it, because the Holt/Smithson Foundation controls the image. The Bonneville entries are background knowledge in our files, so their numbers get checked before they print. Yid also asked for the Great Salt Lake whale; it isn't in the researched bank yet."
+ },
+ {
+  "n": 27,
+  "layout": "grid",
+  "title": "The symbol bank, part two: the city and the mountains.",
+  "body": "Also in the bank: the longhorns that walk down Main Street every July for Pioneer Day, and 801, the original 1947 area code that locals still use as shorthand.",
+  "images": [
+   {
+    "src": "moodboards/web/performance/20-bst-trail-runner-deseret-2025.jpg",
+    "caption": "The grid. Laid out in 1847, and every address is a coordinate from one marker downtown (verify)."
+   },
+   {
+    "src": "moodboards/web/western/23-albion-basin-indian-paintbrush.jpg",
+    "caption": "Wildflowers. Paintbrush in Albion Basin, red against pine green. Yid asked for more of these."
+   },
+   {
+    "src": "moodboards/web/western/22-antelope-island-roundup-riders-herd.jpg",
+    "caption": "Bison. Put on Antelope Island in 1893 and rounded up in public every fall."
+   },
+   {
+    "src": "moodboards/web/performance/17-nasa-lake-effect-slc-2001.jpg",
+    "caption": "Lake-effect snow. About 5 percent of the snowfall, and the driest of it."
+   }
+  ],
+  "sources": [
+   "Research 04 symbol bank, 2026",
+   "Church News, 2025",
+   "Deseret News, 2024",
+   "NASA Earth Observatory, 2001"
+  ],
+  "notes": "These cover the city and mountain side, plus the symbols Yid added in his answers: more wildflowers, trail running, niche Utah culture. The bison date (1893) goes on the chore coat patch because it is the herd's date; the roundup's founding year is unsettled in our files, so we don't print it. Lake-effect is how we talk about the snow without the state's trademarked slogan: we use the science. 801 needs a clearance search before it goes on a jersey, and the sego lily flag is out at Yid's request, though the flower itself is fine."
+ },
+ {
+  "n": 28,
+  "layout": "text-image",
+  "title": "Materials that signal: cotton weight, dye and fleece.",
+  "points": [
+   "**6.5 oz and up** is now the visible line between merch and clothes. A 5 oz promo blank reads as a free shirt.",
+   "**Garment dye** is the fastest way to a color story that isn't commodity, for $2 to $5 more per blank.",
+   "**14 oz cross-grain fleece** for the hoodie. At 50 units a heavyweight hoodie lands at $34 to $45 (est.).",
+   "**Made in USA blanks** like Los Angeles Apparel roughly double the blank cost, but the claim is clean."
+  ],
+  "images": [
+   {
+    "src": "moodboards/web/streetwear/07-pleasures-suburbs-longsleeve-lookbook.jpg",
+    "caption": "Pleasures Suburbs longsleeve. The heavy body does half the work."
+   }
+  ],
+  "sources": [
+   "Research 05, blanks and makers, 2026"
+  ],
+  "notes": "People feel the weight before they see the graphic, so the hero tee is a 6.5 oz or heavier garment-dyed blank: LAA 1801GD, Shaka 7.5 oz, Camber 8 oz, Lane Seven 16005. Comfort Colors is now the default nice souvenir tee, which makes it less of a signal. Custom Pantone dye lots need 300 to 500 units, so the 50-unit test uses stock garment-dyed colors and saves custom dye for a reorder. Utah has no large cut-and-sew blank mill, so 'Utah-made' really means Utah-designed and Utah-decorated."
+ },
+ {
+  "n": 29,
+  "layout": "text-image",
+  "title": "Technical materials, and why not Gore-Tex.",
+  "points": [
+   "**Polartec Alpha Direct.** Lofted insulation first built for US Special Operations. No liner, very breathable, snags easily. It's the Gain pullover.",
+   "**Pertex Quantum Air.** Light, tightly woven nylon that trades some wind resistance for breathability. It's the strip on Gain.",
+   "**3M Scotchlite reflective.** A safety material doing a design job, $2 to $6 a placement (est.). It's Five A.M.",
+   "**Gore-Tex isn't for sale.** W. L. Gore licenses about 200 brands, and a DMO won't get a license."
+  ],
+  "images": [
+   {
+    "src": "moodboards/web/performance/21-polartec-alpha-direct-swatch.jpg",
+    "caption": "Polartec Alpha Direct 90. The loft is the garment."
+   }
+  ],
+  "sources": [
+   "Research 03, materials glossary, 2026",
+   "Bergzeit Magazin on Gore-Tex licensing, via research 05"
+  ],
+  "notes": "Fabric names now work as brand signals people read on a hangtag, so naming the mill is part of the design. Gore-Tex is a licensed-brand program with lab-certified styles, so the realistic options are Polartec, Pertex, Schoeller or an unbranded membrane, or a partner brand that already holds a license. Polartec has 300 to 500 yard per-color minimums, so at 50 units Gain goes through a converter that sells Alpha Direct by the yard. The PFAS phase-out also matters for a lake story: 'made without intentionally added PFAS' is table stakes on anything with a shell."
+ },
+ {
+  "n": 30,
+  "layout": "table",
+  "title": "Techniques say things before the graphic does.",
+  "body": "Embroidery, chain stitch, garment dye and good labels move a piece from souvenir to clothing. DTG and plain plastisol on a commodity blank keep it a souvenir. Cost runs from $ (under $2) to $$$$ (over $10) per placement.",
+  "table": {
+   "head": [
+    "Technique",
+    "Cost",
+    "What it says",
+    "Where we use it"
+   ],
+   "rows": [
+    [
+     "Water-based screen print",
+     "$ to $$",
+     "Soft hand, vintage, feels like the shirt",
+     "It Came From, Vecino, Wild Rag"
+    ],
+    [
+     "Plastisol screen print",
+     "$",
+     "Bright, opaque, a little plasticky",
+     "Nothing To Do hoodie"
+    ],
+    [
+     "Embroidery and tackle twill",
+     "$$ to $$$$",
+     "Real clothing; varsity, earned",
+     "Club Deportivo crest and number"
+    ],
+    [
+     "Chain stitch",
+     "$$$$",
+     "Artisan, Western, one of one",
+     "Paintbrush Yoke Shirt"
+    ],
+    [
+     "Laser perforation and etching",
+     "$$$",
+     "Tonal and quiet",
+     "Five A.M. gussets, steel Two Arms"
+    ],
+    [
+     "Reflective transfer",
+     "$$ to $$$",
+     "Running, night, technical",
+     "Five A.M., Gain back neck"
+    ],
+    [
+     "Blind deboss and branding",
+     "One die, $150 to $300 (est.)",
+     "No ink, all material",
+     "Artemia, Two Arms, chore coat patch"
+    ]
+   ]
+  },
+  "sources": [
+   "Research 05, decoration techniques, 2026",
+   "Lane notes, Round 2"
+  ],
+  "notes": "The cost tiers are research 05's figures at 100 to 250 pieces, so at 50 every tier runs a little higher. The pattern is that the techniques with a hand in them (chain stitch, embroidery, deboss) read as clothing or craft, and they cost more per piece. We use the cheap techniques where the art carries the piece, like the tees, and the expensive ones where the craft is the point, like the yoke shirt and the leather. One brass die debosses the pouch and brands the rack, so two products share one tooling cost."
+ },
+ {
+  "n": 31,
+  "layout": "grid",
+  "title": "Five lanes, one line.",
+  "body": "Thirteen pieces across five lanes. Each lane has its own voice, and all of them share a label, a palette and one test: would a local wear it?",
+  "images": [
+   {
+    "src": "moodboards/web/streetwear/36-slc-punk-poster.jpg",
+    "caption": "Streetwear. Salt Lake is for the weird: band-merch logic from the city's punk and straight-edge scene."
+   },
+   {
+    "src": "moodboards/web/performance/43-blackdiamond-lcc-home-crag.jpg",
+    "caption": "Performance. We run on Salt Lake: training kit where the construction is the decoration."
+   },
+   {
+    "src": "moodboards/web/objects/36-ald-leather-keychain-pouch.jpg",
+    "caption": "Objects. The unseen things of a Salt Lake day, made like they matter."
+   },
+   {
+    "src": "moodboards/web/western/05-bode-homer-quilt-jacket.jpg",
+    "caption": "Neo-Western. Rancher at 7,000 feet: quiet workwear and real craft."
+   },
+   {
+    "src": "moodboards/web/latino/09-paisaboys-club-deportivo-tee.jpg",
+    "caption": "Latino. Designed by Latino designers from Salt Lake County, with money going back to the community."
+   }
+  ],
+  "notes": "Yid asked for all five lanes and a tone that mixes quiet and playful by piece, so the lanes don't have to match each other; they have to share the label and the pillar test. A proposed pillar map: Western and Performance are Both at Once (the herd in front of the towers, the climb that starts downtown), Streetwear and Latino are Perpetual Momentum (the culture that keeps the city changing), and Objects are Both at Once too (the lake and the mountains in your apartment). The images are mood-board references, not our pieces; the executions are in Part 3."
+ },
+ {
+  "n": 32,
+  "layout": "big",
+  "title": "How we got here.",
+  "big": "132 → 80 → 13",
+  "body": "Five mood boards with 132 references: 80 kept, 47 cut. Two concept rounds of 15 pieces each: 12 in after the first round, 13 in after the second.",
+  "notes": "Every piece traces to references Yid marked IN, and nothing was designed from a cut reference; five references were never marked. Round 1 cut three pieces (the goggle case, the Shoreline tee, the All Ages longsleeve) and added the no-eyebrows rule: no small tracked-caps labels, no coordinates as decoration. Round 2 refined the twelve, added three replacements, and cut two (the Valley Floor cap and sock, the 801 tally longsleeve). After Round 2 the rule became that no product names another destination, so one hoodie phrase was swapped for DON'T MOVE TO SALT LAKE, which still needs Yid's yes."
+ },
+ {
+  "n": 53,
+  "layout": "section",
+  "title": "The build: make it, price it, clear it.",
+  "body": "How a 50-unit test gets made, what it costs, how long it takes, and what has to be cleared before the first sample.",
+  "notes": "Part 4 turns the thirteen pieces into a plan someone can act on. Every cost here is an estimate from research 05 and the lane notes, to be replaced with written quotes in Round 2, when Yid asked for real manufacturer names. Yid also asked to hold pricing until Round 2, so the retail numbers here are a working read for him, not for the VSL team yet."
+ },
+ {
+  "n": 54,
+  "layout": "big",
+  "title": "The first run is a 50-unit test.",
+  "big": "50",
+  "body": "Fifty of each piece is enough to learn which lanes sell, to whom, at what price, and which makers deliver. It isn't enough to make money, and it isn't meant to.",
+  "notes": "Yid set the first run at 50 units, and the lane notes cost each piece at 50 (the hoodie's split across three phrases is still to decide). At that size screens, digitizing and pattern work spread over 50 pieces instead of 500, so everything lands at the expensive end of its range, and a few things (a custom-cut coat, vinyl) don't run at 50 at all. Research 05 says sell-through is the only real risk, and a small first run with a fast reorder path on decorated blanks (6 to 10 weeks) is the answer to it. Running all thirteen at 50 each lands at roughly $26,000 to $39,000 (est.) before photography and packaging. What we read from it: sell-through by lane and by room, locals versus visitors, and which pieces earn a 250-unit reorder."
+ },
+ {
+  "n": 55,
+  "layout": "table",
+  "title": "What each piece costs to make at 50.",
+  "body": "Landed cost per unit at a 50-unit test, from the lane notes. Every figure is an estimate until a maker quotes it. Retail pricing waits for Round 2, as you asked.",
+  "table": {
+   "head": [
+    "Piece",
+    "Route at 50",
+    "Landed per unit (est.)"
+   ],
+   "rows": [
+    [
+     "It Came From the Great Salt Lake",
+     "Heavyweight blank, 2-color water-based print",
+     "$17 to $22"
+    ],
+    [
+     "Nothing To Do in Salt Lake hoodie",
+     "14 oz blank, lined hood, plastisol",
+     "$38 to $48"
+    ],
+    [
+     "Five A.M.",
+     "Stock tech blank, reflective film, laser gussets",
+     "$38 to $55"
+    ],
+    [
+     "Gain",
+     "Domestic tech shop, our pattern",
+     "$75 to $110"
+    ],
+    [
+     "Two Arms",
+     "Salt Lake woodshop, white oak",
+     "$45 to $75"
+    ],
+    [
+     "Field Recordings, Great Salt Lake",
+     "US pressing plant, 100 minimum",
+     "$50 to $70 at 50; $25 to $35 at 100"
+    ],
+    [
+     "Artemia",
+     "Salt Lake leatherworker",
+     "$28 to $45"
+    ],
+    [
+     "Paintbrush Yoke Shirt",
+     "Stock snap shirt, machine chain stitch",
+     "$48 to $75"
+    ],
+    [
+     "Island Herd Chore Coat",
+     "Stock waxed chore coat, re-lined, leather patch",
+     "$85 to $130"
+    ],
+    [
+     "Main Street Drive Wild Rag",
+     "Silk twill, 1-color water-based print",
+     "$14 to $24"
+    ],
+    [
+     "Club Deportivo Salt Lake jersey",
+     "LA cut-and-sew, patch and twill",
+     "$45 to $60"
+    ],
+    [
+     "Vecino",
+     "LAA 1801GD, 1-color water-based print",
+     "$15 to $20"
+    ],
+    [
+     "Lotería Salt Lake",
+     "LAA 1801GD, 12-color spot print",
+     "$28 to $38"
+    ]
+   ]
+  },
+  "sources": [
+   "Lane notes, Round 2, 2026",
+   "Research 05, small-run economics and pricing, 2026"
+  ],
+  "notes": "Landed figures are the lane designers' estimates built on research 05, which says every cell is an estimate until a written quote replaces it. Vinyl does not run at 50, so the LP is a 100-unit pressing with 50 held for gifting and press. Retail is held for Round 2 per the brief; research 05 puts direct-to-consumer brands at 3x to 5x landed when we get there. The pieces that are expensive at 50 (Gain, Five A.M., the coat) get cheaper at 250 through a Wasatch partner or a technical factory."
+ },
+ {
+  "n": 56,
+  "layout": "table",
+  "title": "Production lanes and timeline.",
+  "body": "A holiday and ski-season drop wants product in hand by early November. Working back from that date, the slowest lane starts in spring.",
+  "table": {
+   "head": [
+    "Production lane",
+    "Pieces",
+    "Concept to product in hand",
+    "Start by"
+   ],
+   "rows": [
+    [
+     "Decorated blank, domestic printer",
+     "It Came From, Nothing To Do, Vecino, Lotería, Wild Rag",
+     "6 to 10 weeks",
+     "Late August"
+    ],
+    [
+     "Stock blank plus a specialist step",
+     "Five A.M., Paintbrush Yoke Shirt, Island Herd Chore Coat",
+     "6 to 10 weeks plus the specialist's queue (verify)",
+     "June (verify)"
+    ],
+    [
+     "Domestic cut-and-sew",
+     "Club Deportivo jersey, Gain",
+     "4 to 7 months",
+     "April"
+    ],
+    [
+     "Local makers",
+     "Two Arms, Artemia",
+     "Not in our research yet (verify)",
+     "Spring, after a quote (verify)"
+    ],
+    [
+     "Pressing plant",
+     "Field Recordings, Great Salt Lake",
+     "10 to 16 weeks at the plant, after recording and permission",
+     "Plant booked by mid-July"
+    ]
+   ]
+  },
+  "sources": [
+   "Research 05, realistic calendar, 2026",
+   "Lane notes, Round 2, 2026"
+  ],
+  "notes": "The calendar is research 05's: decorated blanks take 6 to 10 weeks, domestic cut-and-sew 4 to 7 months, and fabric is the long pole. A good tech pack is the biggest schedule lever, cutting sample rounds from about 4.5 to 1.8 in one seller's data. The specialist steps (chain stitch, reflective film and laser, re-lining) and the local makers have no lead-time data in our files, so those rows need a phone call; the western notes warn chain stitch runs in months. The LP waits on two things before the plant: the Holt/Smithson Foundation's answer on the jetty image, and the recording itself. If a winter test is wanted sooner, a lane-one piece started in November could be in hand in January."
+ },
+ {
+  "n": 57,
+  "layout": "table",
+  "title": "Starting the manufacturer conversation.",
+  "body": "Bring a tech pack, quantities by style, color and size, a target landed cost and retail, the drop date, vector art with Pantones, and the origin claims we plan to make. Then ask each maker for the one test below.",
+  "table": {
+   "head": [
+    "Piece",
+    "Verify before sampling"
+   ],
+   "rows": [
+    [
+     "It Came From the Great Salt Lake",
+     "A press proof of the halftone sky at 110 mesh, water-based on cream. Do the small dots fill in?"
+    ],
+    [
+     "Nothing To Do in Salt Lake hoodie",
+     "Will the blank maker sell the hoodie with the hood lining left off, or in our color?"
+    ],
+    [
+     "Five A.M.",
+     "Does an 11 in block of reflective film stiffen the chest and crack? Test a 50 percent halftone against solid."
+    ],
+    [
+     "Gain",
+     "Does the bond hold a 26 in Pertex strip to the loft through 20 washes? Test a 6 in strip first."
+    ],
+    [
+     "Two Arms",
+     "Does the burned shrimp keep its eleven pairs of legs at 2.75 in on oak?"
+    ],
+    [
+     "Field Recordings, Great Salt Lake",
+     "Written permission from the Holt/Smithson Foundation, plus recording releases from Alta and UTA."
+    ],
+    [
+     "Artemia",
+     "Does the die hold the leg hatching at 2.75 in? Strike one on scrap veg-tan."
+    ],
+    [
+     "Paintbrush Yoke Shirt",
+     "Can a multi-head chain-stitch house hold six thread changes in a 4.5 in motif at 50? Sew-out on our twill."
+    ],
+    [
+     "Island Herd Chore Coat",
+     "Print and quilt one yard of the lining; if it reads as a motel bedspread, the piece fails. Confirm we can relabel the blank."
+    ],
+    [
+     "Main Street Drive Wild Rag",
+     "A strike-off of water-based ink on the actual silk, washed twice."
+    ],
+    [
+     "Club Deportivo Salt Lake jersey",
+     "Clearance on 801 as an apparel mark, and a sit-down with La Barra Real before sample one."
+    ],
+    [
+     "Vecino",
+     "Print the hairline test strip on the actual blank; the result sets the thinnest stroke."
+    ],
+    [
+     "Lotería Salt Lake",
+     "A wet-on-wet test of twelve spot colors on the cream underbase on black."
+    ]
+   ]
+  },
+  "sources": [
+   "Research 05, first manufacturer conversation, 2026",
+   "Lane notes, Round 2, 2026"
+  ],
+  "notes": "The checklist is research 05's: without a tech pack, quantities per size, a target cost and a date, a quote is meaningless. The questions for every maker are MOQ per style and color, sample cost and whether it's credited against bulk, payment terms (often 50 percent deposit, and domestic decorators often give nonprofits net 30 on a PO), lead time from pre-production approval, who owns the pattern, and what happens to overage and seconds. The table is each piece's single riskiest unknown from the lane notes, so every first conversation has one specific test to ask for. Real maker names come in Round 2, as Yid asked."
+ },
+ {
+  "n": 58,
+  "layout": "table",
+  "title": "Legal and licensing.",
+  "body": "General information, not legal advice. Counsel and a CPA should be in the room early.",
+  "table": {
+   "head": [
+    "Issue",
+    "The rule",
+    "What we do"
+   ],
+   "rows": [
+    [
+     "Olympic marks",
+     "The Ted Stevens Act protects \"Olympic,\" the rings, ring look-alikes, wordplay and Games marks, with no proof of confusion needed.",
+     "Nothing on product. 2002 shows up only as history."
+    ],
+    [
+     "\"The Greatest Snow on Earth\"",
+     "A federally registered mark owned by the State of Utah.",
+     "Off limits. We use the snow science instead."
+    ],
+    [
+     "State tourism brand",
+     "The Utah Office of Tourism's marks need written permission.",
+     "Not used. \"Utah\" as a word is fine."
+    ],
+    [
+     "\"Made in USA\" and \"Made in Utah\"",
+     "FTC standard: all or virtually all made here. Penalties up to about $53,000 per violation, website banners included.",
+     "Say \"Designed and decorated in Salt Lake.\" Rewrite the Artemia stamp."
+    ],
+    [
+     "UBIT",
+     "Souvenir sales by a nonprofit can be taxed as unrelated business income. Passive royalties generally aren't.",
+     "License the line for a royalty. Get a CPA opinion."
+    ],
+    [
+     "Sales tax and labels",
+     "Retail sales are generally taxable. Labels need fiber, origin, care and an RN number.",
+     "A Utah sales tax license (verify); labels in every tech pack."
+    ],
+    [
+     "Permissions",
+     "Holt/Smithson Foundation for the jetty, Alta and UTA for recordings, 801 clearance, La Barra Real.",
+     "Ask before sample one, not after."
+    ]
+   ]
+  },
+  "sources": [
+   "USOPC guidelines, via research 05",
+   "USPTO Reg. 3031199, 2005",
+   "FTC Made in USA Labeling Rule, 2021",
+   "Adler and Colvin, UBIT primer"
+  ],
+  "notes": "The two hard noes are the Olympic marks and the state's snow slogan, both already Yid's rules; the research explains why. 'Made in Utah' is a trap because no large Utah mill makes blanks, so almost everything is Utah-designed and Utah-decorated, and the FTC treats an origin claim on a website the same as one on a label; the Artemia pouch's draft inside stamp says 'Made in Utah' and has to change unless the maker can meet the standard. UBIT is why we recommend the licensing and royalty model: Visit Salt Lake is a nonprofit DMO (a 501(c)(6), verify), city souvenirs are the textbook UBIT example, and royalty income generally sits outside it. Research 05 puts a typical royalty at 8 to 15 percent of wholesale (est.)."
+ },
+ {
+  "n": 59,
+  "layout": "table",
+  "title": "Partners and credits.",
+  "body": "VSL is licensor and curator, not author. The people who finish the work get their names on it.",
+  "table": {
+   "head": [
+    "Who",
+    "What they do",
+    "Pieces"
+   ],
+   "rows": [
+    [
+     "Latino designers from Salt Lake County",
+     "Design the lane, with West Valley, Rose Park and Glendale first",
+     "Club Deportivo, Vecino, Lotería"
+    ],
+    [
+     "A community letterer and illustrator",
+     "Redraw every line, script and card in their own hand",
+     "Vecino, Lotería, the jersey's SALT LAKE"
+    ],
+    [
+     "Centro Civico Mexicano or Comunidades Unidas",
+     "Revenue share, with the org named on the hangtag",
+     "The Latino lane"
+    ],
+    [
+     "La Barra Real",
+     "Co-sign the match-day kit",
+     "Club Deportivo jersey"
+    ],
+    [
+     "Illustrators and letterers",
+     "The brush-and-ink shrimp, the natural-history plate, the dry-brush cattle drive, the hand-lettered titles",
+     "It Came From, Artemia, Two Arms, Wild Rag"
+    ],
+    [
+     "A Utah field recordist",
+     "Record the LP, credited on the front",
+     "Field Recordings, Great Salt Lake"
+    ],
+    [
+     "Makers",
+     "A Salt Lake woodshop and leatherworker, a chain-stitch house, a Utah laser shop, a local sewing shop, a county embroidery digitizer",
+     "Two Arms, Artemia, Paintbrush Yoke, Five A.M., Island Herd, the jersey crest"
+    ]
+   ]
+  },
+  "sources": [
+   "Lane notes, Round 2, 2026",
+   "Research 04, principles, 2026"
+  ],
+  "notes": "Research 04's first principle is license, don't manufacture: Pittsburgh, NYC Parks and Tokyo Tokyo work because the public body lends a mark to makers who already have taste. The Latino lane is the clearest case, since the files are a brief and not finished art, and the deal has to put community designers, a revenue share and the org's name on the hangtag. Every object carries its maker's name, the Loewe Craft Prize logic of crediting the hands. At 250 units, Gain should move to a Wasatch brand that already buys Polartec, such as Black Diamond or Kuhl."
+ },
+ {
+  "n": 60,
+  "layout": "points",
+  "title": "Decisions needed, and what happens next.",
+  "points": [
+   "**The structure.** License the line to a Utah maker for a royalty, or run it in-house. We recommend licensing because of UBIT, once a CPA confirms.",
+   "**The first pieces.** Which of the thirteen go in the 50-unit test. The cheapest to learn from are Vecino, It Came From and the Wild Rag.",
+   "**The irony call.** VSL has to want NOTHING TO DO IN SALT LAKE on a hoodie. DON'T MOVE TO SALT LAKE is a new third phrase and needs Yid's yes.",
+   "**Three asks before sample one.** The Holt/Smithson Foundation on the jetty, La Barra Real on the jersey, and a signed Latino design team and partner org.",
+   "**Round 2.** Real makers and written quotes, a name and lockup for the sub-brand, and pricing for the VSL team."
+  ],
+  "notes": "These are the decisions that block everything else. Structure comes first because it decides who holds inventory and who signs with makers. The three asks are the pieces that can't be sampled until someone outside VSL says yes; if the Foundation declines, the LP still works with a salt-crust cover and a hopper-crystal label. Round 2 is where this deck goes to the VSL team, refined, with the manufacturer names and prices Yid held back for now."
+ }
+]

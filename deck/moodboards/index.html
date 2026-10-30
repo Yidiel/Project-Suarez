@@ -1,0 +1,1013 @@
+<title>VSL Merch Mood Boards</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+/* layout: five lane bands, masonry columns of reference cards, sticky lane nav; dark-first like a lightbox wall */
+:root{--bg:#1a1917;--surface:#242321;--fg:#f6f1ec;--muted:#b6aea4;--rule:#3a3734;--accent:#f58b88;--in:#1a854c;--out:#a42f2c;
+--display:'Archivo',system-ui,sans-serif;--serif:'Instrument Serif',Georgia,serif;color-scheme:dark}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f6f1ec;--surface:#ffffff;--fg:#212121;--muted:#5f5a55;--rule:#e2dbd3;--accent:#d24b27;color-scheme:light}}
+:root[data-theme="light"]{--bg:#f6f1ec;--surface:#ffffff;--fg:#212121;--muted:#5f5a55;--rule:#e2dbd3;--accent:#d24b27;color-scheme:light}
+body{background:var(--bg);color:var(--fg);font-family:var(--display);font-size:15px;line-height:1.45;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.top{padding-block:40px 24px;border-bottom:1px solid var(--rule);display:grid;gap:14px}
+.top h1{font-family:var(--display);font-stretch:85%;font-weight:900;font-size:clamp(34px,7vw,72px);line-height:.95;letter-spacing:-.02em;margin:0;text-wrap:balance;text-transform:uppercase}
+.top p{max-width:62ch;margin:0;color:var(--muted)}
+.howto{display:grid;gap:6px;font-size:14px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--rule);display:flex;gap:6px;overflow-x:auto;padding-block:10px;margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px))) calc(-1*max(16px,env(safe-area-inset-right,0px)));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav a{white-space:nowrap;text-decoration:none;color:var(--fg);border:1px solid var(--rule);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
+nav a:hover,nav a:focus-visible{border-color:var(--fg);outline:none}
+nav button{margin-left:auto;white-space:nowrap;background:var(--fg);color:var(--bg);border:0;border-radius:999px;padding:6px 14px;font:600 13px var(--display);cursor:pointer}
+.lane{padding-block:48px 8px;border-bottom:1px solid var(--rule)}
+.lanehead{display:grid;gap:8px;margin-bottom:22px;max-width:70ch}
+.k{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--lane);font-weight:700}
+.lane h2{font-family:var(--display);font-stretch:80%;font-weight:900;font-size:clamp(40px,9vw,96px);line-height:.9;margin:0;letter-spacing:-.02em;text-transform:uppercase;color:var(--lane)}
+.line{font-family:var(--serif);font-style:italic;font-size:clamp(22px,3.4vw,32px);line-height:1.15;margin:0}
+.thesis{margin:6px 0 0;color:var(--muted);font-size:15px}
+.grid{columns:4 260px;column-gap:14px}
+.card{break-inside:avoid;margin:0 0 14px;background:var(--surface);border:1px solid var(--rule);border-top:3px solid var(--lane);display:flex;flex-direction:column}
+.card img{display:block;width:100%;height:auto;max-width:100%;background:#000}
+.card.in{border-color:var(--in);border-top-color:var(--in);box-shadow:0 0 0 2px var(--in)}
+.card.out{opacity:.35;filter:grayscale(1)}
+figcaption{padding:10px 12px 12px;display:grid;gap:5px;min-width:0}
+.meta{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.piece{font-weight:600;font-size:14px}
+.steal{font-size:13.5px;color:var(--fg)}
+.steal::before{content:"Steal: ";color:var(--lane);font-weight:700}
+.row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:4px}
+.row a{color:var(--muted);font-size:12px}
+.marks{display:flex;gap:4px}
+.marks button{font:600 12px var(--display);padding:4px 10px;border-radius:999px;border:1px solid var(--rule);background:transparent;color:var(--fg);cursor:pointer}
+.card.in .marks .in{background:var(--in);border-color:var(--in);color:#fff}
+.card.out .marks .out{background:var(--out);border-color:var(--out);color:#fff}
+.marks button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:13px;font-weight:600;z-index:20}
+textarea#export{width:100%;min-height:140px;margin-top:12px;background:var(--surface);color:var(--fg);border:1px solid var(--rule);font:13px ui-monospace,monospace;padding:10px}
+.foot{padding-block:32px;color:var(--muted);font-size:13px;max-width:70ch}
+@media (prefers-reduced-motion:no-preference){.card img{transition:transform .2s} }
+</style>
+<div class="wrap">
+<header class="top">
+<div class="k" style="--lane:var(--accent)">Visit Salt Lake · merch line · Round 1 references</div>
+<h1>VSL Merch Mood Boards</h1>
+<p>132 real references across five lanes, pulled from the brands, scenes, and places the line should learn from. Nothing here is AI. Every card says what to steal.</p>
+<div class="howto"><strong>How to review:</strong><span>Tap <b>In</b> or <b>Out</b> on each card. Marks save on this phone. When you're done, tap <b>Copy marks</b> in the bar and paste the list into the chat.</span></div>
+</header>
+<nav><a href="#streetwear">Streetwear</a><a href="#performance">Performance</a><a href="#objects">Objects</a><a href="#western">Neo-Western</a><a href="#latino">Latino</a><button type="button" id="copy">Copy marks</button></nav>
+<section class="lane" id="streetwear" style="--lane:#A42F2C">
+<header class="lanehead"><div class="k">Lane 1 of 5 · 24 references</div><h2>Streetwear</h2><p class="line">Salt Lake is for the weird</p><p class="thesis">Salt Lake has a secret everybody in the scene already knows: this is a punk city. The straight edge hardcore scene here was nationally famous in the 90s, SLC Punk! put a blue mohawk on the state in 1998, and Kilby Court has been running all ages shows out of a garage since 1999. That is the Salt Lake we sell, not the ski poster. The merch logic is band merch logic. Heavyweight Beefy-T blanks, one color back prints, tour date lists, sleeve hits on longsleeves, bootleg type that looks xeroxed three generations deep. Graphics come from flyers taped to a door, not a brand guide. Treatments are oil wash, bleach, pigment dye, distressed cotton, safety pins and studs as hardware. Photography is flash on a porch, a polaroid at a show, a kid in a bodega. Pleasures, Stray Rats, Online Ceramics and Brain Dead prove you can do this at retail without losing the spit. For Visit Salt Lake the move is a venue-tour tee for a city, not a logo on a cap.</p></header>
+<div class="grid"><figure class="card" data-id="streetwear/01-online-ceramics-grateful-60-longsleeve.jpg">
+<img src="web/streetwear/01-online-ceramics-grateful-60-longsleeve.jpg" alt="Grateful For 60 Years tie dye long sleeve (bootleg Dead lot tee)" loading="lazy">
+<figcaption><div class="meta"><span class="src">Online Ceramics</span> · 2025</div>
+<div class="piece">Grateful For 60 Years tie dye long sleeve (bootleg Dead lot tee)</div>
+<div class="steal">Full color lot tee illustration on a hand dyed body, with arched type and roses framing the hit.</div>
+<div class="row"><a href="https://online-ceramics.com/products/grateful-for-60-years-tie-dye-long-sleeve" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/02-online-ceramics-dead-sixty-miners-tee.jpg">
+<img src="web/streetwear/02-online-ceramics-dead-sixty-miners-tee.jpg" alt="Dead Sixty Miners tie dye tee (San Francisco bootleg)" loading="lazy">
+<figcaption><div class="meta"><span class="src">Online Ceramics</span> · 2025</div>
+<div class="piece">Dead Sixty Miners tie dye tee (San Francisco bootleg)</div>
+<div class="steal">City-name bootleg: swap San Francisco for Salt Lake, keep the one-color red on pink dye.</div>
+<div class="row"><a href="https://online-ceramics.com/products/dead-sixty-miners-tie-dye-tee" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/03-online-ceramics-blink182-dude-ranch-longsleeve.jpg">
+<img src="web/streetwear/03-online-ceramics-blink182-dude-ranch-longsleeve.jpg" alt="blink-182 Dude Ranch off-black longsleeve" loading="lazy">
+<figcaption><div class="meta"><span class="src">Online Ceramics</span> · 2024</div>
+<div class="piece">blink-182 Dude Ranch off-black longsleeve</div>
+<div class="steal">Sleeve print running down the arm plus a small left chest hit; band merch layout on a brand tee.</div>
+<div class="row"><a href="https://online-ceramics.com/products/blink-182-dude-ranch-off-black-longsleeve-tee" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/04-online-ceramics-slaughterhouse-longsleeve.jpg">
+<img src="web/streetwear/04-online-ceramics-slaughterhouse-longsleeve.jpg" alt="Just When You Thought You&#x27;d Escape the Slaughterhouse longsleeve" loading="lazy">
+<figcaption><div class="meta"><span class="src">Online Ceramics</span> · 2023</div>
+<div class="piece">Just When You Thought You&#x27;d Escape the Slaughterhouse longsleeve</div>
+<div class="steal">Red on black horror type with XXX sleeve marks; straight edge X hardware as a graphic.</div>
+<div class="row"><a href="https://online-ceramics.com/products/just-when-you-thought-youd-escape-the-slaughterhouse-long-sleeve-tee" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/05-brain-dead-sunn-o-tee.jpg">
+<img src="web/streetwear/05-brain-dead-sunn-o-tee.jpg" alt="Brain Dead x Sunn O))) tee" loading="lazy">
+<figcaption><div class="meta"><span class="src">Brain Dead</span> · 2025</div>
+<div class="piece">Brain Dead x Sunn O))) tee</div>
+<div class="steal">Grainy one-color photocopy texture, no halftone cleanup, band logo lockup on white.</div>
+<div class="row"><a href="https://wearebraindead.com/products/brain-dead-x-sunn-o-t-shirt-white" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/07-pleasures-suburbs-longsleeve-lookbook.jpg">
+<img src="web/streetwear/07-pleasures-suburbs-longsleeve-lookbook.jpg" alt="Suburbs longsleeve, wine, on body" loading="lazy">
+<figcaption><div class="meta"><span class="src">Pleasures</span> · 2026</div>
+<div class="piece">Suburbs longsleeve, wine, on body</div>
+<div class="steal">Small chest wordmark, dense photo collage below it, cuff print; shot flat against corrugated wall.</div>
+<div class="row"><a href="https://pleasuresnow.com/products/pleasures-suburbs-longsleeve-wine-h26" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/08-pleasures-freak-tee-glitter.jpg">
+<img src="web/streetwear/08-pleasures-freak-tee-glitter.jpg" alt="I Need A Freak tee, black glitter print" loading="lazy">
+<figcaption><div class="meta"><span class="src">Pleasures (Famous collab)</span> · 2026</div>
+<div class="piece">I Need A Freak tee, black glitter print</div>
+<div class="steal">Phrase-first single hit with a glitter ink; one line of text does all the work.</div>
+<div class="row"><a href="https://pleasuresnow.com/products/pleasures-freak-t-shirt-black-famous-cc26" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/09-stray-rats-homepage-2026.jpg">
+<img src="web/streetwear/09-stray-rats-homepage-2026.jpg" alt="Homepage campaign image, Stray Rats rat logo tee in a bodega" loading="lazy">
+<figcaption><div class="meta"><span class="src">Stray Rats</span> · 2026</div>
+<div class="piece">Homepage campaign image, Stray Rats rat logo tee in a bodega</div>
+<div class="steal">On-body in a corner store with on-camera flash; the merch is worn, not styled.</div>
+<div class="row"><a href="https://strayrats.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/11-kilby-court-venue.jpg">
+<img src="web/streetwear/11-kilby-court-venue.jpg" alt="Kilby Court garage venue, 741 S Kilby Ct, flyer wall and fire pit" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kilby Court (venue site)</span> · 2024</div>
+<div class="piece">Kilby Court garage venue, 741 S Kilby Ct, flyer wall and fire pit</div>
+<div class="steal">The flyer-covered wall and painted plywood are the color story: sky blue, red, sun-bleached paper.</div>
+<div class="row"><a href="https://kilbycourt.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/13-kilby-court-show.jpg">
+<img src="web/streetwear/13-kilby-court-show.jpg" alt="Kilby Court show photo, og image" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kilby Court (venue site)</span> · 2024</div>
+<div class="piece">Kilby Court show photo, og image</div>
+<div class="steal">Low ceiling, string lights, crowd right on the band; the energy for lookbook shots.</div>
+<div class="row"><a href="https://kilbycourt.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/16-kilby-block-party-2026.jpg">
+<img src="web/streetwear/16-kilby-block-party-2026.jpg" alt="KBP 2026 lineup banner" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kilby Block Party</span> · 2026</div>
+<div class="piece">KBP 2026 lineup banner</div>
+<div class="steal">Lineup list typography as graphic: band names stacked like a tour-date back print.</div>
+<div class="row"><a href="https://www.kilbyblockparty.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/17-slc-inversion.jpg">
+<img src="web/streetwear/17-slc-inversion.jpg" alt="Winter inversion over the Salt Lake valley" loading="lazy">
+<figcaption><div class="meta"><span class="src">Wikimedia Commons (Derrellwilliams, CC BY-SA 4.0)</span> · 2022</div>
+<div class="piece">Winter inversion over the Salt Lake valley</div>
+<div class="steal">Smog layer as a horizon stripe; print it as a dirty gradient or a bleach line across the chest.</div>
+<div class="row"><a href="https://commons.wikimedia.org/wiki/File:Inversion_in_Salt_Lake_City.jpg" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/19-flickr-straight-edge.jpg">
+<img src="web/streetwear/19-flickr-straight-edge.jpg" alt="Straight edge hardcore vocalist, X&#x27;d hands" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (user photo, titled Straight Edge)</span> · 2007</div>
+<div class="piece">Straight edge hardcore vocalist, X&#x27;d hands</div>
+<div class="steal">Fist and mic, tattooed forearms, tungsten light; sXe body language as the pose.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=517437219" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/20-flickr-kilby-a.jpg">
+<img src="web/streetwear/20-flickr-kilby-a.jpg" alt="Great Lake Swimmers at Kilby Court, Salt Lake City" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr</span> · 2007</div>
+<div class="piece">Great Lake Swimmers at Kilby Court, Salt Lake City</div>
+<div class="steal">Documentary flash on the Kilby stage, warm and blown out; use for a campaign look.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=640547663" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/22-flickr-kilby-c.jpg">
+<img src="web/streetwear/22-flickr-kilby-c.jpg" alt="Kevin brings an amp into a local Salt Lake venue" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (Peace)</span> · 2009</div>
+<div class="piece">Kevin brings an amp into a local Salt Lake venue</div>
+<div class="steal">Sticker-covered door, load-in moment, grainy black and white: the between-the-songs photo.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=4090960324" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/23-flickr-sxe-b.jpg">
+<img src="web/streetwear/23-flickr-sxe-b.jpg" alt="Straight edge hardcore band on stage, tie dye tee" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (Austeridad, Rosario Straight Edge)</span> · 2014</div>
+<div class="piece">Straight edge hardcore band on stage, tie dye tee</div>
+<div class="steal">Tie dye and a jersey tee in a hardcore room; proof the Dead and sXe can share a wardrobe.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=15089325277" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/26-slc-punk-still-b.jpg">
+<img src="web/streetwear/26-slc-punk-still-b.jpg" alt="Stevo and Bob, blue hair and mohawk" loading="lazy">
+<figcaption><div class="meta"><span class="src">SLC Punk! (Sony Pictures Classics, via TMDB)</span> · 1998</div>
+<div class="piece">Stevo and Bob, blue hair and mohawk</div>
+<div class="steal">Blue hair, plaid, dirty green jacket; the film&#x27;s color trio for a capsule.</div>
+<div class="row"><a href="https://www.themoviedb.org/movie/6396-slc-punk/images/backdrops" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/28-slc-punk-still-d.jpg">
+<img src="web/streetwear/28-slc-punk-still-d.jpg" alt="Stevo and Heroin Bob carrying boxes" loading="lazy">
+<figcaption><div class="meta"><span class="src">SLC Punk! (Sony Pictures Classics, via TMDB)</span> · 1998</div>
+<div class="piece">Stevo and Heroin Bob carrying boxes</div>
+<div class="steal">Army surplus jacket over a white tee; sleeve studs and pins as the only decoration.</div>
+<div class="row"><a href="https://www.themoviedb.org/movie/6396-slc-punk/images/backdrops" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/29-flickr-flyer-a.jpg">
+<img src="web/streetwear/29-flickr-flyer-a.jpg" alt="Hand-lettered pink hardcore show flyer, Juze Immenhausen, Snapcase, Refused" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (american hardcore)</span> · 1990s</div>
+<div class="piece">Hand-lettered pink hardcore show flyer, Juze Immenhausen, Snapcase, Refused</div>
+<div class="steal">Marker-on-pink-paper lettering with the date column down the left; print it as a back print.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=358606924" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/30-flickr-flyer-b.jpg">
+<img src="web/streetwear/30-flickr-flyer-b.jpg" alt="Angry Red Planet at Cicero&#x27;s basement bar, red one-color flyer" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr</span> · 1980s</div>
+<div class="piece">Angry Red Planet at Cicero&#x27;s basement bar, red one-color flyer</div>
+<div class="steal">One ink color, cut-and-paste collage, radio station logos as a sponsor row.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=2267107423" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/31-flickr-flyer-c.jpg">
+<img src="web/streetwear/31-flickr-flyer-c.jpg" alt="The Flaming Lips at Furst Rock, xerox flyer" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr</span> · 1980s</div>
+<div class="piece">The Flaming Lips at Furst Rock, xerox flyer</div>
+<div class="steal">High-contrast xerox photo with a heavy black type bar; the classic gig poster grid.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=2255656055" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/32-flickr-flyer-d.jpg">
+<img src="web/streetwear/32-flickr-flyer-d.jpg" alt="Multi-show flyer, Descendents, JFA, The Freeze, Turner&#x27;s" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (Multi-Show Flyer)</span> · 1980s</div>
+<div class="piece">Multi-show flyer, Descendents, JFA, The Freeze, Turner&#x27;s</div>
+<div class="steal">Multiple dates on one sheet, hand-drawn cartoons, yellow stock; a tour-date list that is also a drawing.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=2274349509" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/34-flickr-zine-a.jpg">
+<img src="web/streetwear/34-flickr-zine-a.jpg" alt="Black and white zine spread on gravel" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr (GRUZ magazine)</span> · 2015</div>
+<div class="piece">Black and white zine spread on gravel</div>
+<div class="steal">Full-bleed photo spreads, no margins, shot on the ground; the zine as lookbook format.</div>
+<div class="row"><a href="https://www.flickr.com/photo.gne?id=21221337630" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="streetwear/36-slc-punk-poster.jpg">
+<img src="web/streetwear/36-slc-punk-poster.jpg" alt="SLC Punk! theatrical poster" loading="lazy">
+<figcaption><div class="meta"><span class="src">SLC Punk! (Sony Pictures Classics, via TMDB)</span> · 1998</div>
+<div class="piece">SLC Punk! theatrical poster</div>
+<div class="steal">Condensed white title on black bars over flat blue; the poster palette is already a tee.</div>
+<div class="row"><a href="https://www.themoviedb.org/movie/6396-slc-punk/images/posters" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure></div></section><section class="lane" id="performance" style="--lane:#147CB2">
+<header class="lanehead"><div class="k">Lane 2 of 5 · 26 references</div><h2>Performance</h2><p class="line">We run on Salt Lake</p><p class="thesis">Salt Lake is not a ski town with a city attached. It is a training ground with a zip code. People here get up at 5 to run the Bonneville Shoreline before work, skin up Alta in the dark, climb granite in Little Cottonwood on a lunch break, and ride the canyon road until their legs quit. They race the Wasatch 100 and the Speedgoat because the mountain is right there and so is the clock. This line should feel like race kit, not resort merch. Think bibs pinned to a singlet, laser perforation where you sweat, bonded hems, a reflective hit that only shows up in headlights, split times printed like a hard copy line from a 1990 Nike ad. Honest fabrics shown close up: Alpha Direct grid, mesh, ripstop. Photography is cold light, breath, dirt, effort. Nothing cute. The payoff line is simple: Salt Lake is performance. We just make the gear that proves it.</p></header>
+<div class="grid"><figure class="card" data-id="performance/03-arcteryx-system-a-drop6-fieldmag.jpg">
+<img src="web/performance/03-arcteryx-system-a-drop6-fieldmag.jpg" alt="Drop 06 &quot;Run to Rock&quot; trail-run capsule, in motion" loading="lazy">
+<figcaption><div class="meta"><span class="src">Arc&#x27;teryx System_A (Field Mag)</span> · 2023</div>
+<div class="piece">Drop 06 &quot;Run to Rock&quot; trail-run capsule, in motion</div>
+<div class="steal">Movement shot mid-stride, kit built for running to the climb</div>
+<div class="row"><a href="https://www.fieldmag.com/articles/arcteryx-system-a-drop-06-review" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/07-district-vision-lab-tights-film.jpg">
+<img src="web/performance/07-district-vision-lab-tights-film.jpg" alt="Performance Lab Tights, 35mm film campaign frame" loading="lazy">
+<figcaption><div class="meta"><span class="src">District Vision</span> · 2026</div>
+<div class="piece">Performance Lab Tights, 35mm film campaign frame</div>
+<div class="steal">Shoot product on grainy film in flat cold light, zero gloss</div>
+<div class="row"><a href="https://www.districtvision.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/09-satisfy-rippy-trail-shorts-focus.jpg">
+<img src="web/performance/09-satisfy-rippy-trail-shorts-focus.jpg" alt="Rippy 3&quot; Trail Shorts, construction focus shot" loading="lazy">
+<figcaption><div class="meta"><span class="src">Satisfy Running</span> · 2025</div>
+<div class="piece">Rippy 3&quot; Trail Shorts, construction focus shot</div>
+<div class="steal">The &quot;focus&quot; detail crop: ripstop grid, bar tacks, bonded edges</div>
+<div class="row"><a href="https://satisfyrunning.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/17-nasa-lake-effect-slc-2001.jpg">
+<img src="web/performance/17-nasa-lake-effect-slc-2001.jpg" alt="Lake-effect snow band off the Great Salt Lake, satellite" loading="lazy">
+<figcaption><div class="meta"><span class="src">NASA Earth Observatory</span> · 2001</div>
+<div class="piece">Lake-effect snow band off the Great Salt Lake, satellite</div>
+<div class="steal">Data-as-image: the storm science that makes Wasatch training real</div>
+<div class="row"><a href="https://science.nasa.gov/earth/earth-observatory/blanket-of-snow-covers-salt-lake-city-2049/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/19-alta-rolling-in-the-deep-2023.jpg">
+<img src="web/performance/19-alta-rolling-in-the-deep-2023.jpg" alt="Skiers in deep Wasatch snow, record 903-inch season" loading="lazy">
+<figcaption><div class="meta"><span class="src">Alta Ski Area</span> · 2023</div>
+<div class="piece">Skiers in deep Wasatch snow, record 903-inch season</div>
+<div class="steal">Top-down scale, tiny athlete against huge terrain</div>
+<div class="row"><a href="https://www.alta.com/stories/rolling-in-the-deep" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/20-bst-trail-runner-deseret-2025.jpg">
+<img src="web/performance/20-bst-trail-runner-deseret-2025.jpg" alt="Pro trail runner Grant Barnette on the Bonneville Shoreline Trail above SLC" loading="lazy">
+<figcaption><div class="meta"><span class="src">Deseret News</span> · 2025</div>
+<div class="piece">Pro trail runner Grant Barnette on the Bonneville Shoreline Trail above SLC</div>
+<div class="steal">The signature SLC frame: runner on the bench, city grid below</div>
+<div class="row"><a href="https://www.deseret.com/utah/2025/05/24/bonneville-shoreline-trail-what-it-looks-like-today/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/21-polartec-alpha-direct-swatch.jpg">
+<img src="web/performance/21-polartec-alpha-direct-swatch.jpg" alt="Alpha Direct 90 insulation, fabric macro" loading="lazy">
+<figcaption><div class="meta"><span class="src">Polartec Alpha Direct (Discovery Fabrics)</span> · 2025</div>
+<div class="piece">Alpha Direct 90 insulation, fabric macro</div>
+<div class="steal">Show the fabric itself as a graphic: lofted fiber on an open grid</div>
+<div class="row"><a href="https://discoveryfabrics.com/products/polartec-alpha-direct" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/24-satisfy-mothtech-logo-detail.jpg">
+<img src="web/performance/24-satisfy-mothtech-logo-detail.jpg" alt="MothTech T-Shirt, Chamonix goat graphic, laser-cut holes" loading="lazy">
+<figcaption><div class="meta"><span class="src">Satisfy Running</span> · 2025</div>
+<div class="piece">MothTech T-Shirt, Chamonix goat graphic, laser-cut holes</div>
+<div class="steal">Race-town souvenir graphic done chrome and perforated, not cute</div>
+<div class="row"><a href="https://satisfyrunning.com/products/mothtech-t-shirt-fadedblack-chamonix" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/28-nike-acg-fall-2026-trail.jpg">
+<img src="web/performance/28-nike-acg-fall-2026-trail.jpg" alt="Fall 2026 ACG trail footwear lineup" loading="lazy">
+<figcaption><div class="meta"><span class="src">Nike ACG (Sneaker Bar Detroit)</span> · 2026</div>
+<div class="piece">Fall 2026 ACG trail footwear lineup</div>
+<div class="steal">ACG reborn as trail-race gear, earth tones with one hot hit</div>
+<div class="row"><a href="https://sneakerbardetroit.com/nike-acg-fall-2026-releases/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/32-bandit-coolgrid-singlet-flopack-detail.jpg">
+<img src="web/performance/32-bandit-coolgrid-singlet-flopack-detail.jpg" alt="CoolGrid Distance Singlet with Flopack, flat lay" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bandit Running</span> · 2026</div>
+<div class="piece">CoolGrid Distance Singlet with Flopack, flat lay</div>
+<div class="steal">Engineered mesh zones, bonded hem, one small chest wordmark</div>
+<div class="row"><a href="https://banditrunning.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/33-bandit-cadence-race-crop.jpg">
+<img src="web/performance/33-bandit-cadence-race-crop.jpg" alt="Women&#x27;s Striped Cadence Race Crop, on body" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bandit Running</span> · 2026</div>
+<div class="piece">Women&#x27;s Striped Cadence Race Crop, on body</div>
+<div class="steal">Race crop with stitch stripes as the only graphic</div>
+<div class="row"><a href="https://banditrunning.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/34-ciele-fstcap-elite.jpg">
+<img src="web/performance/34-ciele-fstcap-elite.jpg" alt="FSTCap Elite, studio detail" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ciele Athletics</span> · 2025</div>
+<div class="piece">FSTCap Elite, studio detail</div>
+<div class="steal">Perforated panels and reflective trim on a cap, hardware-free</div>
+<div class="row"><a href="https://www.cieleathletics.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/35-norda-blackdiamond-fkt-poles.jpg">
+<img src="web/performance/35-norda-blackdiamond-fkt-poles.jpg" alt="Distance Carbon Z FKT poles collab" loading="lazy">
+<figcaption><div class="meta"><span class="src">norda x Black Diamond</span> · 2026</div>
+<div class="piece">Distance Carbon Z FKT poles collab</div>
+<div class="steal">SLC-based Black Diamond as a run brand collaborator, FKT language</div>
+<div class="row"><a href="https://nordarun.com/products.json" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/36-nike-acg-lava-loft-official.jpg">
+<img src="web/performance/36-nike-acg-lava-loft-official.jpg" alt="ACG Lava Loft down running jacket, dirty flat lay with editorial headline" loading="lazy">
+<figcaption><div class="meta"><span class="src">Nike (newsroom)</span> · 2025</div>
+<div class="piece">ACG Lava Loft down running jacket, dirty flat lay with editorial headline</div>
+<div class="steal">Perforated baffles, mud left on, serif headline over product</div>
+<div class="row"><a href="https://about.nike.com/newsroom/releases/nike-acg-lava-loft-down-jacket-official-images" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/40-tracksmith-amateur-spirit-cover.jpg">
+<img src="web/performance/40-tracksmith-amateur-spirit-cover.jpg" alt="&quot;The Amateur Spirit&quot; film cover" loading="lazy">
+<figcaption><div class="meta"><span class="src">Tracksmith (dir. Emily Maye)</span> · 2021</div>
+<div class="piece">&quot;The Amateur Spirit&quot; film cover</div>
+<div class="steal">Training as devotion, the amateur who races like a pro</div>
+<div class="row"><a href="https://www.tracksmith.com/journal/article/the-amateur-spirit" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/41-tracksmith-us-trials-emily-maye.jpg">
+<img src="web/performance/41-tracksmith-us-trials-emily-maye.jpg" alt="US Olympic Trials marathon, bibs and singlets" loading="lazy">
+<figcaption><div class="meta"><span class="src">Tracksmith (photo Emily Maye)</span> · 2020</div>
+<div class="piece">US Olympic Trials marathon, bibs and singlets</div>
+<div class="steal">Number pinned to a singlet, effort faces, documentary crop</div>
+<div class="row"><a href="https://www.tracksmith.com/journal/article/racing-out-of-the-traps" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/42-tracksmith-falmouth-race-day.jpg">
+<img src="web/performance/42-tracksmith-falmouth-race-day.jpg" alt="Falmouth Road Race weekend" loading="lazy">
+<figcaption><div class="meta"><span class="src">Tracksmith (photo Emily Maye)</span> · 2022</div>
+<div class="piece">Falmouth Road Race weekend</div>
+<div class="steal">Finish-line color and sweat shot like a family photo</div>
+<div class="row"><a href="https://www.tracksmith.com/journal/article/last-days-of-summer-racing" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/43-blackdiamond-lcc-home-crag.jpg">
+<img src="web/performance/43-blackdiamond-lcc-home-crag.jpg" alt="Climber on Little Cottonwood Canyon granite, &quot;The Home Crag&quot;" loading="lazy">
+<figcaption><div class="meta"><span class="src">Black Diamond Equipment</span> · 2020</div>
+<div class="piece">Climber on Little Cottonwood Canyon granite, &quot;The Home Crag&quot;</div>
+<div class="steal">SLC&#x27;s own brand on SLC&#x27;s own rock, chalk and quartz monzonite</div>
+<div class="row"><a href="https://blackdiamondequipment.com/blogs/stories/little-cottonwood-canyon-the-home-crag" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/44-speedgoat-50k-2024-sinclair-irunfar.jpg">
+<img src="web/performance/44-speedgoat-50k-2024-sinclair-irunfar.jpg" alt="David Sinclair setting the Speedgoat 50K record at Snowbird" loading="lazy">
+<figcaption><div class="meta"><span class="src">iRunFar (photo Nils Nilsen)</span> · 2024</div>
+<div class="piece">David Sinclair setting the Speedgoat 50K record at Snowbird</div>
+<div class="steal">Ridge-line racing above Snowbird, bib and poles</div>
+<div class="row"><a href="https://www.irunfar.com/2024-speedgoat-by-utmb-50k-results" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/46-wasatch-powderkeg-skimo-2023-townlift.jpg">
+<img src="web/performance/46-wasatch-powderkeg-skimo-2023-townlift.jpg" alt="Wasatch Powder Keg skimo nationals, Brighton and Solitude" loading="lazy">
+<figcaption><div class="meta"><span class="src">TownLift (photo Ron Winslett)</span> · 2023</div>
+<div class="piece">Wasatch Powder Keg skimo nationals, Brighton and Solitude</div>
+<div class="steal">Skin suits, race bibs and skis on the pack: skimo is the Wasatch&#x27;s sprint</div>
+<div class="row"><a href="https://townlift.com/2023/03/loomis-comes-in-third-in-wasatch-powder-keg-skimo-nationals/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/48-wasatch-100-cody-priest-brighton-aid.jpg">
+<img src="web/performance/48-wasatch-100-cody-priest-brighton-aid.jpg" alt="Cody Priest leaving the Brighton Lodge aid station leading the Wasatch 100" loading="lazy">
+<figcaption><div class="meta"><span class="src">Anchorage Daily News (photo Stan Carrick)</span> · 2021</div>
+<div class="piece">Cody Priest leaving the Brighton Lodge aid station leading the Wasatch 100</div>
+<div class="steal">Night aid station, headlamp and bottle, 100 miles as a job</div>
+<div class="row"><a href="https://www.adn.com/sports/2021/09/11/pickles-ice-and-a-stellar-race-crew-help-anchorage-runner-cody-priest-conquer-the-wasatch-100/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/49-nike-1990-group-therapy-ad.jpg">
+<img src="web/performance/49-nike-1990-group-therapy-ad.jpg" alt="&quot;Group Therapy&quot; Just Do It print insert, Vogue" loading="lazy">
+<figcaption><div class="meta"><span class="src">Nike, Wieden+Kennedy (Internet Archive)</span> · 1990</div>
+<div class="piece">&quot;Group Therapy&quot; Just Do It print insert, Vogue</div>
+<div class="steal">Stacked condensed copy over a flat photo, the hard copy line format</div>
+<div class="row"><a href="https://archive.org/details/1990NikePrintAdGroupTherapy" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/50-nike-1990-stress-management-ad.jpg">
+<img src="web/performance/50-nike-1990-stress-management-ad.jpg" alt="&quot;Stress Management&quot; Just Do It print insert" loading="lazy">
+<figcaption><div class="meta"><span class="src">Nike, Wieden+Kennedy (Internet Archive)</span> · 1990</div>
+<div class="piece">&quot;Stress Management&quot; Just Do It print insert</div>
+<div class="steal">Copy that talks straight to the runner, not the shopper</div>
+<div class="row"><a href="https://archive.org/details/1990NikePrintAdStressManagement" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/52-porcupine-hill-climb-2016-mccutcheon.jpg">
+<img src="web/performance/52-porcupine-hill-climb-2016-mccutcheon.jpg" alt="Mindy McCutcheon winning the Porcupine Big Cottonwood Hill Climb" loading="lazy">
+<figcaption><div class="meta"><span class="src">Cycling West (photo Dave Iltis)</span> · 2016</div>
+<div class="piece">Mindy McCutcheon winning the Porcupine Big Cottonwood Hill Climb</div>
+<div class="steal">Canyon road climb, number on the bike, pure suffering</div>
+<div class="row"><a href="https://www.cyclingwest.com/racing/road-racing/mccutcheon-brown-climb-top-2016-porcupine-hill-climb-podium-report-photo-gallery-results-interviews/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/53-porcupine-hill-climb-2015-break.jpg">
+<img src="web/performance/53-porcupine-hill-climb-2015-break.jpg" alt="Pro men&#x27;s break, Big Cottonwood Hill Climb" loading="lazy">
+<figcaption><div class="meta"><span class="src">Cycling West (photo Dave Iltis)</span> · 2015</div>
+<div class="piece">Pro men&#x27;s break, Big Cottonwood Hill Climb</div>
+<div class="steal">Pack in the canyon, 3800 feet of vertical as the brief</div>
+<div class="row"><a href="https://cyclingwest.com/?p=5021" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="performance/54-wasatch-avalanche-danger-kutv.jpg">
+<img src="web/performance/54-wasatch-avalanche-danger-kutv.jpg" alt="Backcountry skiers dropping in, Wasatch avalanche-danger story" loading="lazy">
+<figcaption><div class="meta"><span class="src">KUTV</span> · 2024</div>
+<div class="piece">Backcountry skiers dropping in, Wasatch avalanche-danger story</div>
+<div class="steal">Skin track crossing the frame, terrain as data, risk as context</div>
+<div class="row"><a href="https://kutv.com/news/local/gallery/winter-storms-expected-to-rapidly-increase-avalanche-danger-along-wasatch-front" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure></div></section><section class="lane" id="objects" style="--lane:#F58B88">
+<header class="lanehead"><div class="k">Lane 3 of 5 · 33 references</div><h2>Objects</h2><p class="line">The unseen objects of a Salt Lake day</p><p class="thesis">The unseen objects of a Salt Lake day, designed like they matter. Not souvenirs, not mugs. The stuff you actually touch between the airport and the lift line: the ice scraper in the trunk, the goggle case in your glovebox, the Zippo and matchbook at the bar, the rack your skis hang on all week, the record you put on when the snow is coming down. Hermès petit h and Loewe prove a scrap of leather or a lump of clay can carry a whole house. Aimé Leon Dore, Kith and Supreme prove a lighter or an ashtray can be the hero SKU. A24 proves a candle label or a vinyl sleeve can be a brand voice. We borrow that care and point it at Salt Lake&#x27;s daily rituals, with the lake, the brine shrimp, the salt crust and the Alta chairlift as the raw material. Hard light, one object, no props. If a local would not use it on a Tuesday in February, it is not in the line.</p></header>
+<div class="grid"><figure class="card" data-id="objects/01-a24-joya-genre-candles.jpg">
+<img src="web/objects/01-a24-joya-genre-candles.jpg" alt="Genre candles, hero shot" loading="lazy">
+<figcaption><div class="meta"><span class="src">A24 x Joya</span> · 2019</div>
+<div class="piece">Genre candles, hero shot</div>
+<div class="steal">A scented object named for a mood, not a place. &quot;Powder Day&quot; candle.</div>
+<div class="row"><a href="https://shop.a24films.com/products/a24-x-joya-genre-candles" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/02-a24-candle-label-detail.jpg">
+<img src="web/objects/02-a24-candle-label-detail.jpg" alt="Candle label typographic detail" loading="lazy">
+<figcaption><div class="meta"><span class="src">A24 x Joya</span> · 2019</div>
+<div class="piece">Candle label typographic detail</div>
+<div class="steal">Label as spec sheet: all type, no illustration, feels like a lab.</div>
+<div class="row"><a href="https://shop.a24films.com/products/a24-x-joya-genre-candles" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/03-a24-houseplant-ashtray-matchbook.jpg">
+<img src="web/objects/03-a24-houseplant-ashtray-matchbook.jpg" alt="Stacking ashtrays and matchbook set" loading="lazy">
+<figcaption><div class="meta"><span class="src">A24 x Houseplant</span> · 2026</div>
+<div class="piece">Stacking ashtrays and matchbook set</div>
+<div class="steal">Matchbook as a brand carrier, bundled with a ceramic. Bar-top objects.</div>
+<div class="row"><a href="https://shop.a24films.com/products/the-invite-x-houseplant-ashtray-set" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/06-parksproject-brass-french-press.jpg">
+<img src="web/objects/06-parksproject-brass-french-press.jpg" alt="National Parks brass French press" loading="lazy">
+<figcaption><div class="meta"><span class="src">Parks Project</span> · 2024</div>
+<div class="piece">National Parks brass French press</div>
+<div class="steal">Morning ritual object in cast brass. Daily use, not display.</div>
+<div class="row"><a href="https://www.parksproject.us/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/09-onlyny-nyc-parks-catchall-tray.jpg">
+<img src="web/objects/09-onlyny-nyc-parks-catchall-tray.jpg" alt="Court catch-all tray" loading="lazy">
+<figcaption><div class="meta"><span class="src">Only NY x NYC Parks</span> · 2025</div>
+<div class="piece">Court catch-all tray</div>
+<div class="steal">A civic logo on a keys-and-coins tray. Unseen, used daily.</div>
+<div class="row"><a href="https://onlyny.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/13-bonneville-salt-flats-blm.jpg">
+<img src="web/objects/13-bonneville-salt-flats-blm.jpg" alt="Bonneville Salt Flats crust" loading="lazy">
+<figcaption><div class="meta"><span class="src">BLM Utah via Flickr</span> · 2015</div>
+<div class="piece">Bonneville Salt Flats crust</div>
+<div class="steal">Hex crust texture for a mold, emboss or debossed box lid.</div>
+<div class="row"><a href="https://www.flickr.com/photos/mypubliclands/17235453660" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/16-hermes-petit-h-atelier-nuvo.jpg">
+<img src="web/objects/16-hermes-petit-h-atelier-nuvo.jpg" alt="Objects packed in the Pantin atelier" loading="lazy">
+<figcaption><div class="meta"><span class="src">Hermès petit h, photo Charly Gosp for Nuvo</span> · 2025</div>
+<div class="piece">Objects packed in the Pantin atelier</div>
+<div class="steal">Offcuts become objects, shot in plain cardboard. Workshop honesty.</div>
+<div class="row"><a href="https://nuvomagazine.com/magazine/issue-107-winter-2025/hermes-reimagines-the-leftovers-of-luxury-with-petit-h" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/21-nasa-iss-great-salt-lake.jpg">
+<img src="web/objects/21-nasa-iss-great-salt-lake.jpg" alt="Great Salt Lake, pink north arm vs blue south" loading="lazy">
+<figcaption><div class="meta"><span class="src">NASA Earth Observatory, ISS</span> · 2025</div>
+<div class="piece">Great Salt Lake, pink north arm vs blue south</div>
+<div class="steal">Two-tone pink and teal is the lane palette. Split color on every object.</div>
+<div class="row"><a href="https://science.nasa.gov/earth/earth-observatory/sweeping-vistas-above-the-great-salt-lake-154632/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/23-loewe-craft-prize-2025-winner-aoki.jpg">
+<img src="web/objects/23-loewe-craft-prize-2025-winner-aoki.jpg" alt="Kunimasa Aoki, Realm of Living Things 19, with maker" loading="lazy">
+<figcaption><div class="meta"><span class="src">Loewe Foundation Craft Prize</span> · 2025</div>
+<div class="piece">Kunimasa Aoki, Realm of Living Things 19, with maker</div>
+<div class="steal">Maker and object in one frame. Credit the hands.</div>
+<div class="row"><a href="https://craftprize.loewe.com/en/craftprize2025" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/24-snowpeak-local-wear-iwate.jpg">
+<img src="web/objects/24-snowpeak-local-wear-iwate.jpg" alt="Iwate collection, local craft" loading="lazy">
+<figcaption><div class="meta"><span class="src">Snow Peak Local Wear</span> · 2019</div>
+<div class="piece">Iwate collection, local craft</div>
+<div class="steal">A brand doing a region through makers, not logos.</div>
+<div class="row"><a href="https://www.eyecmag.com/news/2019/6/27/snow-peak-local-wear-iwate" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/27-le-labo-mazarine-label.jpg">
+<img src="web/objects/27-le-labo-mazarine-label.jpg" alt="Lab-style personalized label system" loading="lazy">
+<figcaption><div class="meta"><span class="src">Le Labo, identity by Mazarine</span> · 2006 onward</div>
+<div class="piece">Lab-style personalized label system</div>
+<div class="steal">Label with a blank for the city and the date. Hand-filled at point of sale.</div>
+<div class="row"><a href="https://www.mazarine.com/en/projects/le-labo" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/31-spiral-jetty-uibel-aerial.jpg">
+<img src="web/objects/31-spiral-jetty-uibel-aerial.jpg" alt="Spiral Jetty aerial in pink water" loading="lazy">
+<figcaption><div class="meta"><span class="src">Holt/Smithson Foundation, photo Charles Uibel</span> · c.2020</div>
+<div class="piece">Spiral Jetty aerial in pink water</div>
+<div class="steal">The one SLC art object. Spiral as a record label or coaster shape.</div>
+<div class="row"><a href="https://holtsmithsonfoundation.org/spiral-jetty" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/32-great-salt-lake-salt-crystals-imaggeo.jpg">
+<img src="web/objects/32-great-salt-lake-salt-crystals-imaggeo.jpg" alt="Great Salt Lake salt crystals, close up" loading="lazy">
+<figcaption><div class="meta"><span class="src">EGU Imaggeo</span> · 2016</div>
+<div class="piece">Great Salt Lake salt crystals, close up</div>
+<div class="steal">Raw material macro. Cast resin paperweight, or the actual crystal in a box.</div>
+<div class="row"><a href="https://imaggeo.egu.eu/view/5203/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/34-ald-brass-zippo.jpg">
+<img src="web/objects/34-ald-brass-zippo.jpg" alt="Brass Zippo lighter" loading="lazy">
+<figcaption><div class="meta"><span class="src">Aimé Leon Dore</span> · 2026</div>
+<div class="piece">Brass Zippo lighter</div>
+<div class="steal">A lighter treated as a hero product shot.</div>
+<div class="row"><a href="https://www.aimeleondore.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/35-ald-leather-portable-ashtray.jpg">
+<img src="web/objects/35-ald-leather-portable-ashtray.jpg" alt="Queens Crest leather portable ashtray" loading="lazy">
+<figcaption><div class="meta"><span class="src">Aimé Leon Dore</span> · 2024</div>
+<div class="piece">Queens Crest leather portable ashtray</div>
+<div class="steal">A pocket object with a crest. Neighborhood pride in leather.</div>
+<div class="row"><a href="https://www.aimeleondore.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/36-ald-leather-keychain-pouch.jpg">
+<img src="web/objects/36-ald-leather-keychain-pouch.jpg" alt="Full grain leather keychain pouch" loading="lazy">
+<figcaption><div class="meta"><span class="src">Aimé Leon Dore</span> · 2026</div>
+<div class="piece">Full grain leather keychain pouch</div>
+<div class="steal">Keys and a transit card. Unseen, carried daily.</div>
+<div class="row"><a href="https://www.aimeleondore.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/37-kith-croc-lighter-cover.jpg">
+<img src="web/objects/37-kith-croc-lighter-cover.jpg" alt="Croc lighter cover" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kith x Malagon</span> · 2026</div>
+<div class="piece">Croc lighter cover</div>
+<div class="steal">Cover the cheap thing in a good material. Bic sleeve.</div>
+<div class="row"><a href="https://kith.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/39-satisfy-merino-tube-socks.jpg">
+<img src="web/objects/39-satisfy-merino-tube-socks.jpg" alt="Merino nylon tube socks, tie dye" loading="lazy">
+<figcaption><div class="meta"><span class="src">Satisfy Running</span> · 2026</div>
+<div class="piece">Merino nylon tube socks, tie dye</div>
+<div class="steal">Socks with a point of view. Flat lay, hard shadow.</div>
+<div class="row"><a href="https://satisfyrunning.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/40-ace-hotel-nalgene.jpg">
+<img src="web/objects/40-ace-hotel-nalgene.jpg" alt="Nalgene H2O bottle" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ace Hotel</span> · 2026</div>
+<div class="piece">Nalgene H2O bottle</div>
+<div class="steal">Hotel-room object as merch. Bottle collab with restraint.</div>
+<div class="row"><a href="https://shop.acehotel.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/41-jmm-artemis-lighter-case.jpg">
+<img src="web/objects/41-jmm-artemis-lighter-case.jpg" alt="Yellowstone VII Artemis lighter case" loading="lazy">
+<figcaption><div class="meta"><span class="src">Jacques Marie Mage</span> · 2026</div>
+<div class="piece">Yellowstone VII Artemis lighter case</div>
+<div class="steal">Jewelry-grade metal on a lighter. Mountain West done luxe.</div>
+<div class="row"><a href="https://jacquesmariemage.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/42-hermes-petit-h-artichoke-box.jpg">
+<img src="web/objects/42-hermes-petit-h-artichoke-box.jpg" alt="Artichoke elastic-lid box, calfskin, ash, porcelain" loading="lazy">
+<figcaption><div class="meta"><span class="src">Hermès petit h, photo Clémentine Passet for Lampoon</span> · 2026</div>
+<div class="piece">Artichoke elastic-lid box, calfskin, ash, porcelain</div>
+<div class="steal">A box that is the gift. Salt box in ash and leather.</div>
+<div class="row"><a href="https://lampoonmagazine.com/hermes-petit-h-design-hermes-offcuts-reuse-godefroy-de-virieu-pascale-mussa/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/43-hermes-petit-h-porcelain-necklace.jpg">
+<img src="web/objects/43-hermes-petit-h-porcelain-necklace.jpg" alt="Porcelain fragment and calfskin necklace" loading="lazy">
+<figcaption><div class="meta"><span class="src">Hermès petit h, photo Clémentine Passet for Lampoon</span> · 2026</div>
+<div class="piece">Porcelain fragment and calfskin necklace</div>
+<div class="steal">A broken piece set like a stone. Salt crystal pendant.</div>
+<div class="row"><a href="https://lampoonmagazine.com/hermes-petit-h-design-hermes-offcuts-reuse-godefroy-de-virieu-pascale-mussa/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/44-onlyny-mini-hat-keychain.jpg">
+<img src="web/objects/44-onlyny-mini-hat-keychain.jpg" alt="Mini hat keychain" loading="lazy">
+<figcaption><div class="meta"><span class="src">Only NY x NYC Parks</span> · 2025</div>
+<div class="piece">Mini hat keychain</div>
+<div class="steal">Tiny, dumb, perfect. Keychain as mascot.</div>
+<div class="row"><a href="https://onlyny.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/45-storeyourboard-vail-wood-ski-rack.jpg">
+<img src="web/objects/45-storeyourboard-vail-wood-ski-rack.jpg" alt="Vail minimalist wood ski display rack" loading="lazy">
+<figcaption><div class="meta"><span class="src">StoreYourBoard</span> · 2023</div>
+<div class="piece">Vail minimalist wood ski display rack</div>
+<div class="steal">Skis as art on the wall. The rack is the product.</div>
+<div class="row"><a href="https://storeyourboard.com/products/minimalist-wood-ski-display-rack-wall-mount" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/46-supreme-zippo.jpg">
+<img src="web/objects/46-supreme-zippo.jpg" alt="Supreme Zippo lighter, red" loading="lazy">
+<figcaption><div class="meta"><span class="src">Supreme (via Saint Lucias)</span> · 2020</div>
+<div class="piece">Supreme Zippo lighter, red</div>
+<div class="steal">Logo on a ubiquitous object. One color, one word.</div>
+<div class="row"><a href="https://saintlucias.com/products/supreme-glow-zippo" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/47-district-vision-annapurna-eyewear-pouch.jpg">
+<img src="web/objects/47-district-vision-annapurna-eyewear-pouch.jpg" alt="Annapurna Dyneema eyewear pouch" loading="lazy">
+<figcaption><div class="meta"><span class="src">District Vision</span> · 2023</div>
+<div class="piece">Annapurna Dyneema eyewear pouch</div>
+<div class="steal">Goggle and glasses case in technical fabric. Glovebox hero.</div>
+<div class="row"><a href="https://distance-store.com/en/products/district-vision-annapurna-eyewear-pouch" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/48-district-vision-packaging-brokamp.jpg">
+<img src="web/objects/48-district-vision-packaging-brokamp.jpg" alt="Center for Inner Peace packaging, HydraPak pouch" loading="lazy">
+<figcaption><div class="meta"><span class="src">District Vision, design Alex Brokamp</span> · c.2019</div>
+<div class="piece">Center for Inner Peace packaging, HydraPak pouch</div>
+<div class="steal">Packaging that is also a usable object. Hard light, gradient backdrop.</div>
+<div class="row"><a href="https://alexbrokamp.com/district-vision-packaging" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/49-alta-wildcat-chairlift-liftblog.jpg">
+<img src="web/objects/49-alta-wildcat-chairlift-liftblog.jpg" alt="Wildcat chairlift terminal, Alta" loading="lazy">
+<figcaption><div class="meta"><span class="src">Lift Blog</span> · 2015</div>
+<div class="piece">Wildcat chairlift terminal, Alta</div>
+<div class="steal">Lift-green as a brand color. Sheave wheels as a graphic. Sound of the lift for a field recording.</div>
+<div class="row"><a href="https://liftblog.com/wildcat-alta-ski-area-ut/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/50-brine-shrimp-dwr.jpg">
+<img src="web/objects/50-brine-shrimp-dwr.jpg" alt="Great Salt Lake brine shrimp, Utah state crustacean" loading="lazy">
+<figcaption><div class="meta"><span class="src">Utah DWR via KUTV</span> · 2023</div>
+<div class="piece">Great Salt Lake brine shrimp, Utah state crustacean</div>
+<div class="steal">The mascot nobody has used. Enamel pin, embroidered patch, record label art.</div>
+<div class="row"><a href="https://kutv.com/news/local/brine-shrimp-named-utahs-official-state-crustacean-great-salt-lake-dwr-ecosystem-salt-water-birds-wildlife" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/51-porsche-ice-scraper.jpg">
+<img src="web/objects/51-porsche-ice-scraper.jpg" alt="Ice scraper with telescopic arm" loading="lazy">
+<figcaption><div class="meta"><span class="src">Porsche Design</span> · 2025</div>
+<div class="piece">Ice scraper with telescopic arm</div>
+<div class="steal">The most unseen Salt Lake winter object, engineered. Ours in lift green.</div>
+<div class="row"><a href="https://shop.porsche.com/us/en-US/p/ice-scraper-with-telescopic-arm-95B044005-B/95B044005" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/52-snow-car-slc-flickr.jpg">
+<img src="web/objects/52-snow-car-slc-flickr.jpg" alt="Snow-covered car, Salt Lake City winter" loading="lazy">
+<figcaption><div class="meta"><span class="src">Flickr, CC</span> · 2018</div>
+<div class="piece">Snow-covered car, Salt Lake City winter</div>
+<div class="steal">The daily reality the scraper and brush exist for. Shoot the objects in this.</div>
+<div class="row"><a href="https://www.flickr.com/photos/56609920@N00/28310015439" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/53-a24-monsters-of-god-vinyl.jpg">
+<img src="web/objects/53-a24-monsters-of-god-vinyl.jpg" alt="Monsters of God original soundtrack, vinyl" loading="lazy">
+<figcaption><div class="meta"><span class="src">A24 Music</span> · 2026</div>
+<div class="piece">Monsters of God original soundtrack, vinyl</div>
+<div class="steal">A film studio with a record label. Sleeve as object.</div>
+<div class="row"><a href="https://shop.a24films.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="objects/54-a24-primetime-vinyl.jpg">
+<img src="web/objects/54-a24-primetime-vinyl.jpg" alt="Primetime original soundtrack, vinyl" loading="lazy">
+<figcaption><div class="meta"><span class="src">A24 Music</span> · 2026</div>
+<div class="piece">Primetime original soundtrack, vinyl</div>
+<div class="steal">Field recording LP: lake wind, lift hum, snow on a windshield.</div>
+<div class="row"><a href="https://shop.a24films.com/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure></div></section><section class="lane" id="western" style="--lane:#D24B27">
+<header class="lanehead"><div class="k">Lane 4 of 5 · 24 references</div><h2>Neo-Western</h2><p class="line">Rancher at 7,000 feet</p><p class="thesis">Here is the pitch. Western is having its biggest moment in decades, but the version winning right now is not costume cowboy. It is Bode cutting rodeo tailoring from old quilts, Pharrell putting fringe and turquoise on a Louis Vuitton runway, and Native-owned Ginew lining a chore coat with a Pendleton blanket an Osage artist designed. The trick is restraint: one chain stitched motif on a back yoke, pearl snaps on a cuff, a chenille flower, a bolo on a plain shirt. Salt Lake earns this lane honestly. We have the Days of &#x27;47 Rodeo and a longhorn drive through downtown, the Antelope Island bison roundup, sheep and cattle in Heber and Sanpete, cowboy poetry, paintbrush in Albion Basin and aspen gold in the fall. So the merch reads like a working Utah ranch shirt that a design kid would wear in the city. Serif and rodeo script type, Wasatch sunset palette, natural light photography, no cartoon cowboys. Workwear first, embroidery second, nostalgia last.</p></header>
+<div class="grid"><figure class="card" data-id="western/01-rockmount-floral-embroidered-sawtooth.jpg">
+<img src="web/western/01-rockmount-floral-embroidered-sawtooth.jpg" alt="Men&#x27;s vintage 2-tone floral embroidered western shirt, black and grey, sawtooth pockets, piped yokes" loading="lazy">
+<figcaption><div class="meta"><span class="src">Rockmount Ranch Wear</span> · 2024</div>
+<div class="piece">Men&#x27;s vintage 2-tone floral embroidered western shirt, black and grey, sawtooth pockets, piped yokes</div>
+<div class="steal">The two-tone yoke with piping is a full pattern language in one shirt</div>
+<div class="row"><a href="https://www.rockmount.com/products/mens-vintage-2-tone-floral-embroidered-western-shirt-in-black-grey" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/02-levis-1950s-shorthorn-denim-western.jpg">
+<img src="web/western/02-levis-1950s-shorthorn-denim-western.jpg" alt="Original 1950s Levi&#x27;s Shorthorn denim western shirt with sawtooth flaps" loading="lazy">
+<figcaption><div class="meta"><span class="src">Second Sunrise archive (Levi&#x27;s)</span> · 1950s (post 2018)</div>
+<div class="piece">Original 1950s Levi&#x27;s Shorthorn denim western shirt with sawtooth flaps</div>
+<div class="steal">The faded indigo plus the shorthorn label is the reference for any denim snap shirt</div>
+<div class="row"><a href="https://secondsunrise.se/blogs/news/second-sunrise-archive-50s-levis-shorthorn-denim-shirt" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/03-ginew-western-snap-chambray.jpg">
+<img src="web/western/03-ginew-western-snap-chambray.jpg" alt="Western Snap Shirt, chambray, worn in-field" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ginew</span> · 2025</div>
+<div class="piece">Western Snap Shirt, chambray, worn in-field</div>
+<div class="steal">Golden hour, model shot from behind, braid and yoke doing the talking</div>
+<div class="row"><a href="https://ginewusa.com/collections/western" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/04-bode-ss27-rodeo-bodeo-look5.jpg">
+<img src="web/western/04-bode-ss27-rodeo-bodeo-look5.jpg" alt="Spring 2027 &quot;Rodeo Bodeo&quot; runway look, embroidered brown leather jacket on wood-plank set" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bode, via The Impression</span> · 2026</div>
+<div class="piece">Spring 2027 &quot;Rodeo Bodeo&quot; runway look, embroidered brown leather jacket on wood-plank set</div>
+<div class="steal">Cedar plank backdrop and small-scale embroidery, quiet rather than loud</div>
+<div class="row"><a href="https://theimpression.com/bode-spring-2027-fashion-show/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/05-bode-homer-quilt-jacket.jpg">
+<img src="web/western/05-bode-homer-quilt-jacket.jpg" alt="Homer Quilt Jacket, cut from an antique 1910s to 1930s patchwork quilt" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bode</span> · 2022</div>
+<div class="piece">Homer Quilt Jacket, cut from an antique 1910s to 1930s patchwork quilt</div>
+<div class="steal">A triangle quilt graphic could be our repeat print or a chore coat lining</div>
+<div class="row"><a href="https://bode.com/products/homer-quilt-jacket" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/06-fort-lonesome-texas-suit.jpg">
+<img src="web/western/06-fort-lonesome-texas-suit.jpg" alt="The Texas Suit, red satin chain stitched with cactus, bluebonnet and leopard" loading="lazy">
+<figcaption><div class="meta"><span class="src">Fort Lonesome</span> · 2022</div>
+<div class="piece">The Texas Suit, red satin chain stitched with cactus, bluebonnet and leopard</div>
+<div class="steal">Dense chain stitch on satin, the maximal end of the lane for a hero piece</div>
+<div class="row"><a href="https://ftlonesome.com/products/the-texas-suit" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/07-nudies-hank-snow-locomotive-suit-back.jpg">
+<img src="web/western/07-nudies-hank-snow-locomotive-suit-back.jpg" alt="Hank Snow &quot;I&#x27;m Moving On&quot; suit back, embroidered locomotive and lantern" loading="lazy">
+<figcaption><div class="meta"><span class="src">Country Music Hall of Fame, Nudie&#x27;s Rodeo Tailors</span> · 1950s suit, museum photo 2020</div>
+<div class="piece">Hank Snow &quot;I&#x27;m Moving On&quot; suit back, embroidered locomotive and lantern</div>
+<div class="steal">A single narrative illustration on the back, a storytelling back panel for SLC</div>
+<div class="row"><a href="https://countrymusichalloffame.org/exhibit/suiting-the-sound/nudie-cohn-the-original-rhinestone-cowboy/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/08-tecovas-boot-truck-window.jpg">
+<img src="web/western/08-tecovas-boot-truck-window.jpg" alt="The Doc boot, feet out a pickup window" loading="lazy">
+<figcaption><div class="meta"><span class="src">Tecovas</span> · 2025</div>
+<div class="piece">The Doc boot, feet out a pickup window</div>
+<div class="steal">Lifestyle framing that sells the boot without showing a face</div>
+<div class="row"><a href="https://www.tecovas.com/products/the-doc" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/09-imogene-willie-x-wrangler-27mw.jpg">
+<img src="web/western/09-imogene-willie-x-wrangler-27mw.jpg" alt="27MW washed western snap shirt, collab label and W pocket stitch" loading="lazy">
+<figcaption><div class="meta"><span class="src">Imogene + Willie x Wrangler</span> · 2026</div>
+<div class="piece">27MW washed western snap shirt, collab label and W pocket stitch</div>
+<div class="steal">Heritage collab done with a co-branded neck label, concrete wall, soft daylight</div>
+<div class="row"><a href="https://imogeneandwillie.com/products/i-w-x-wrangler-27mw-washed-western-snap-m" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/10-understated-leather-bolo-fringe.jpg">
+<img src="web/western/10-understated-leather-bolo-fringe.jpg" alt="Sweet Home bolo tie on studded suede fringe jacket" loading="lazy">
+<figcaption><div class="meta"><span class="src">Understated Leather</span> · 2026</div>
+<div class="piece">Sweet Home bolo tie on studded suede fringe jacket</div>
+<div class="steal">Bolo as the small accessory SKU with big attitude, braided cord and a stamped slide</div>
+<div class="row"><a href="https://understatedleather.com/products/sweet-home-bolo-tie" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/11-fort-lonesome-chainstitch-machine.jpg">
+<img src="web/western/11-fort-lonesome-chainstitch-machine.jpg" alt="Chain stitch work in progress on a vintage Singer, cactus and sun motif" loading="lazy">
+<figcaption><div class="meta"><span class="src">Fort Lonesome via Stag Provisions</span> · 2017</div>
+<div class="piece">Chain stitch work in progress on a vintage Singer, cactus and sun motif</div>
+<div class="steal">Show the craft, the machine and the hand in our content</div>
+<div class="row"><a href="https://stagprovisions.com/blogs/dispatches/fort-lonesome" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/12-fort-lonesome-mountain-pocket-chainstitch.jpg">
+<img src="web/western/12-fort-lonesome-mountain-pocket-chainstitch.jpg" alt="Chain stitched mountain skyline and constellation on a denim pocket" loading="lazy">
+<figcaption><div class="meta"><span class="src">Fort Lonesome via Stag Provisions</span> · 2017</div>
+<div class="piece">Chain stitched mountain skyline and constellation on a denim pocket</div>
+<div class="steal">A Wasatch skyline chain stitched on a pocket, this is almost the product already</div>
+<div class="row"><a href="https://stagprovisions.com/blogs/dispatches/fort-lonesome" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/13-rockmount-chenille-embroidery-closeup.jpg">
+<img src="web/western/13-rockmount-chenille-embroidery-closeup.jpg" alt="Chenille floral embroidery and piping close-up, shirt back yoke" loading="lazy">
+<figcaption><div class="meta"><span class="src">Rockmount Ranch Wear</span> · 2024</div>
+<div class="piece">Chenille floral embroidery and piping close-up, shirt back yoke</div>
+<div class="steal">Chenille thread texture against smooth sateen, contrast piping on the yoke edge</div>
+<div class="row"><a href="https://www.rockmount.com/products/mens-vintage-2-tone-floral-embroidered-western-shirt-in-black-grey" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/14-ginew-pearl-snap-cuff-detail.jpg">
+<img src="web/western/14-ginew-pearl-snap-cuff-detail.jpg" alt="Western Snap Shirt cuff, pearl snaps and contrast stitching" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ginew</span> · 2025</div>
+<div class="piece">Western Snap Shirt cuff, pearl snaps and contrast stitching</div>
+<div class="steal">Three-snap cuff macro, copper and pearl hardware spec</div>
+<div class="row"><a href="https://ginewusa.com/collections/western" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/15-ginew-milton-rider-pendleton-lining.jpg">
+<img src="web/western/15-ginew-milton-rider-pendleton-lining.jpg" alt="Milton Rider Coat, brush brown with Pendleton Harding jacquard lining" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ginew</span> · 2026</div>
+<div class="piece">Milton Rider Coat, brush brown with Pendleton Harding jacquard lining</div>
+<div class="steal">Plain canvas outside, jacquard inside, the reveal is the design (use licensed Pendleton, never knockoff Native pattern)</div>
+<div class="row"><a href="https://ginewusa.com/collections/coats" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/16-louis-vuitton-fw24-pharrell-finale.jpg">
+<img src="web/western/16-louis-vuitton-fw24-pharrell-finale.jpg" alt="FW24 menswear finale lineup, Damier denim, fringe, blanket coats, cowboy hats" loading="lazy">
+<figcaption><div class="meta"><span class="src">Louis Vuitton, Pharrell Williams, via Highsnobiety</span> · 2024</div>
+<div class="piece">FW24 menswear finale lineup, Damier denim, fringe, blanket coats, cowboy hats</div>
+<div class="steal">Western silhouettes with a monogram, plus the reframing of who the cowboy is</div>
+<div class="row"><a href="https://www.highsnobiety.com/p/louis-vuitton-fw24-mens/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/17-beyonce-cowboy-carter-w-magazine.jpg">
+<img src="web/western/17-beyonce-cowboy-carter-w-magazine.jpg" alt="Beyonce in black leather cape, bolo and hat, hay bale set" loading="lazy">
+<figcaption><div class="meta"><span class="src">W Magazine, Cowboy Carter cover story</span> · 2024</div>
+<div class="piece">Beyonce in black leather cape, bolo and hat, hay bale set</div>
+<div class="steal">Black leather plus bolo plus hat, the formal version of the lane</div>
+<div class="row"><a href="https://www.wmagazine.com/culture/beyonce-cowboy-carter-cover-story-photos" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/18-ginew-gently-strikes-wild-rag-portrait.jpg">
+<img src="web/western/18-ginew-gently-strikes-wild-rag-portrait.jpg" alt="Gently Strikes wild rag (Addie Roanhorse design, woven by Pendleton) with denim jacket, forest portrait" loading="lazy">
+<figcaption><div class="meta"><span class="src">Ginew</span> · 2025</div>
+<div class="piece">Gently Strikes wild rag (Addie Roanhorse design, woven by Pendleton) with denim jacket, forest portrait</div>
+<div class="steal">Natural light portrait, a bandana as the color hit, licensed Native design done right</div>
+<div class="row"><a href="https://ginewusa.com/collections/western" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/19-days-of-47-longhorn-drive-slc.jpg">
+<img src="web/western/19-days-of-47-longhorn-drive-slc.jpg" alt="Days of &#x27;47 longhorn cattle drive through downtown Salt Lake City" loading="lazy">
+<figcaption><div class="meta"><span class="src">Church News / Deseret News</span> · 2025</div>
+<div class="piece">Days of &#x27;47 longhorn cattle drive through downtown Salt Lake City</div>
+<div class="steal">Longhorns in front of SLC skyline, the city and the ranch in one frame</div>
+<div class="row"><a href="https://www.thechurchnews.com/members/2025/07/31/days-of-47-photo-gallery-images-rodeo-cattle-drive-sunrise-service-parade/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/20-days-of-47-rodeo-bareback.jpg">
+<img src="web/western/20-days-of-47-rodeo-bareback.jpg" alt="Days of &#x27;47 Rodeo bareback bronc ride at the Utah State Fairpark arena" loading="lazy">
+<figcaption><div class="meta"><span class="src">Church News / Deseret News</span> · 2025</div>
+<div class="piece">Days of &#x27;47 Rodeo bareback bronc ride at the Utah State Fairpark arena</div>
+<div class="steal">Arena orange and chute signage, a rodeo type and color reference</div>
+<div class="row"><a href="https://www.thechurchnews.com/members/2025/07/31/days-of-47-photo-gallery-images-rodeo-cattle-drive-sunrise-service-parade/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/21-antelope-island-roundup-rider-glove.jpg">
+<img src="web/western/21-antelope-island-roundup-rider-glove.jpg" alt="Rider Don Bradshaw holds reins before the 36th Antelope Island Bison Roundup, beaded gauntlet glove" loading="lazy">
+<figcaption><div class="meta"><span class="src">Deseret News, photo Isaac Hale</span> · 2024</div>
+<div class="piece">Rider Don Bradshaw holds reins before the 36th Antelope Island Bison Roundup, beaded gauntlet glove</div>
+<div class="steal">Hands, reins, beadwork, a detail-first way to shoot a product</div>
+<div class="row"><a href="https://www.deseret.com/environment/2024/10/28/photo-gallery-36th-annual-bison-roundup-at-antelope-island-state-park/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/22-antelope-island-roundup-riders-herd.jpg">
+<img src="web/western/22-antelope-island-roundup-riders-herd.jpg" alt="Riders follow the bison herd across Antelope Island, roundup day" loading="lazy">
+<figcaption><div class="meta"><span class="src">Deseret News, photo Isaac Hale</span> · 2024</div>
+<div class="piece">Riders follow the bison herd across Antelope Island, roundup day</div>
+<div class="steal">Tan grass, dark bison, tiny riders, a palette and a graphic for a tee</div>
+<div class="row"><a href="https://www.deseret.com/environment/2024/10/28/photo-gallery-36th-annual-bison-roundup-at-antelope-island-state-park/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/23-albion-basin-indian-paintbrush.jpg">
+<img src="web/western/23-albion-basin-indian-paintbrush.jpg" alt="Indian paintbrush field in Albion Basin, Wasatch Mountains, just after sunrise" loading="lazy">
+<figcaption><div class="meta"><span class="src">Royce Bair (IronRodArt), Flickr</span> · 2009</div>
+<div class="piece">Indian paintbrush field in Albion Basin, Wasatch Mountains, just after sunrise</div>
+<div class="steal">Paintbrush red against pine green, the floral embroidery motif we actually own</div>
+<div class="row"><a href="https://www.flickr.com/photos/ironrodart/3777934592" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="western/24-wasatch-aspen-grove.jpg">
+<img src="web/western/24-wasatch-aspen-grove.jpg" alt="Aspen grove, Wasatch Mountain State Park, mid September" loading="lazy">
+<figcaption><div class="meta"><span class="src">verlacosa, Flickr</span> · 2008</div>
+<div class="piece">Aspen grove, Wasatch Mountain State Park, mid September</div>
+<div class="steal">Aspen bark stripes and green-gold, a texture and secondary colorway</div>
+<div class="row"><a href="https://www.flickr.com/photos/joelhwilliams/2862799813" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure></div></section><section class="lane" id="latino" style="--lane:#F29F1F">
+<header class="lanehead"><div class="k">Lane 5 of 5 · 25 references</div><h2>Latino</h2><p class="line">Latin life in the West</p><p class="thesis">This lane is not &quot;Salt Lake does Hispanic Heritage Month.&quot; It is Latin life as it is already lived in the West: a lowrider parked under the Wasatch, a quinceañera posing in the Capitol rotunda, Chapulín cosplay at a Mexico match at Rice-Eccles, a jaripeo at the Fairpark during Days of &#x27;47. The words on the shirts come from the community, not from a tourism office, so no invented taglines. We borrow the merch logic that already works: Born x Raised gothic script and jersey block type, Kids of Immigrants plainspoken slogans, Paisa Boys fútbol crests, Bad Bunny&#x27;s residency that turned a coquí into a tee. Paired with rótulo sign painting and lotería color, that is the type system. Photography should follow Estevan Oriol: honest, high contrast, in the neighborhood. The line has to be designed by Latino designers from Salt Lake County, co-signed by West Valley, Rose Park and Glendale, with a revenue share going to a community org like Centro Civico Mexicano or Comunidades Unidas. If the community would not wear it to a Sunday car show, we cut it.</p></header>
+<div class="grid"><figure class="card" data-id="latino/01-bxr-hyna-tee.jpg">
+<img src="web/latino/01-bxr-hyna-tee.jpg" alt="HYNA tee, Chicano slang in heavy gothic script" loading="lazy">
+<figcaption><div class="meta"><span class="src">Born x Raised</span> · 2026</div>
+<div class="piece">HYNA tee, Chicano slang in heavy gothic script</div>
+<div class="steal">One community word, set huge, no explanation.</div>
+<div class="row"><a href="https://bornxraised.com/products/hyna-tee-black" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/02-bxr-gothic-rocker-tee.jpg">
+<img src="web/latino/02-bxr-gothic-rocker-tee.jpg" alt="Gothic Rocker tee, arched Old English wordmark" loading="lazy">
+<figcaption><div class="meta"><span class="src">Born x Raised</span> · 2026</div>
+<div class="piece">Gothic Rocker tee, arched Old English wordmark</div>
+<div class="steal">The arched rocker lockup is the Chicano jersey back. Use it for a neighborhood name.</div>
+<div class="row"><a href="https://bornxraised.com/products/gothic-rocker-tee-black" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/03-bxr-worldwide-mexico.jpg">
+<img src="web/latino/03-bxr-worldwide-mexico.jpg" alt="WORLDWIDE collection, country jerseys in flag colorways with Old English numbers" loading="lazy">
+<figcaption><div class="meta"><span class="src">Born x Raised, via Complex</span> · 2026</div>
+<div class="piece">WORLDWIDE collection, country jerseys in flag colorways with Old English numbers</div>
+<div class="steal">Flag color plus block numbering reads as fútbol first, souvenir never.</div>
+<div class="row"><a href="https://www.complex.com/style/a/jadegomez510/born-x-raised-worldwide-collection-2026" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/05-koi-this-is-for-our-family-tee.jpg">
+<img src="web/latino/05-koi-this-is-for-our-family-tee.jpg" alt="This Is For Our Family tee, back print" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kids of Immigrants</span> · 2025</div>
+<div class="piece">This Is For Our Family tee, back print</div>
+<div class="steal">A plain sentence about family does more than any logo.</div>
+<div class="row"><a href="https://kidsofimmigrants.us/products/koi0625thisisforteeblk" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/07-koi-nike-jersey.jpg">
+<img src="web/latino/07-koi-nike-jersey.jpg" alt="Mesh jersey, anthracite" loading="lazy">
+<figcaption><div class="meta"><span class="src">Nike x Kids of Immigrants</span> · 2026</div>
+<div class="piece">Mesh jersey, anthracite</div>
+<div class="steal">A jersey is the most worn garment in this community. Make one.</div>
+<div class="row"><a href="https://kidsofimmigrants.us/products/koi-x-nike-jersey" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/08-koi-chirla-love-beyond-borders.jpg">
+<img src="web/latino/08-koi-chirla-love-beyond-borders.jpg" alt="Love Beyond Borders tee, campaign shot by Estevan Oriol, proceeds to an immigrant rights org" loading="lazy">
+<figcaption><div class="meta"><span class="src">Kids of Immigrants x CHIRLA, via Remezcla</span> · 2025</div>
+<div class="piece">Love Beyond Borders tee, campaign shot by Estevan Oriol, proceeds to an immigrant rights org</div>
+<div class="steal">The cause-partner model: a real org on the hangtag, money going back.</div>
+<div class="row"><a href="https://remezcla.com/culture/kids-of-immigrants-teams-up-with-chirla-to-support-immigration-advocacy/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/09-paisaboys-club-deportivo-tee.jpg">
+<img src="web/latino/09-paisaboys-club-deportivo-tee.jpg" alt="Club Deportivo tee, Chivas crest and retro sport type" loading="lazy">
+<figcaption><div class="meta"><span class="src">Paisa Boys</span> · 2026</div>
+<div class="piece">Club Deportivo tee, Chivas crest and retro sport type</div>
+<div class="steal">Club-badge logic for a city: crest, founding year, Spanish wordmark.</div>
+<div class="row"><a href="https://paisaboys.com/products/club-deportivo-t-shirt-red" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/10-paisaboys-doce-estrellas-jacket.jpg">
+<img src="web/latino/10-paisaboys-doce-estrellas-jacket.jpg" alt="Doce Estrellas leather jacket, Chivas stars down the sleeve" loading="lazy">
+<figcaption><div class="meta"><span class="src">Paisa Boys</span> · 2026</div>
+<div class="piece">Doce Estrellas leather jacket, Chivas stars down the sleeve</div>
+<div class="steal">Sleeve striping and star count as a storytelling device (count the neighborhoods).</div>
+<div class="row"><a href="https://paisaboys.com/products/doce-estrellas-jacket-multi" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/12-vivalabonita-alacrana-tee.jpg">
+<img src="web/latino/12-vivalabonita-alacrana-tee.jpg" alt="La Alacrana tee, scorpion and rose, &quot;Bonita y Peligrosa,&quot; shot under papel picado" loading="lazy">
+<figcaption><div class="meta"><span class="src">Viva La Bonita</span> · 2024</div>
+<div class="piece">La Alacrana tee, scorpion and rose, &quot;Bonita y Peligrosa,&quot; shot under papel picado</div>
+<div class="steal">Women-led Latina brand voice. Tattoo flash plus papel picado backdrop.</div>
+<div class="row"><a href="https://vivalabonita.com/products/bonita-y-peligrosa-t-shirt" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/23-cnn-badbunny-merch-designer.jpg">
+<img src="web/latino/23-cnn-badbunny-merch-designer.jpg" alt="Coquí frog tee from the No Me Quiero Ir de Aquí residency" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bad Bunny residency merch, designer Sebastián Muñiz, via CNN</span> · 2025</div>
+<div class="piece">Coquí frog tee from the No Me Quiero Ir de Aquí residency</div>
+<div class="steal">A 20-year-old local designer drew a national symbol loose and hand-made. Hire young and local.</div>
+<div class="row"><a href="https://www.cnn.com/2025/09/13/entertainment/video/bad-bunny-graphic-designer-merch-culture-vrtc" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/16-badbunny-residency-outfits-r29.jpg">
+<img src="web/latino/16-badbunny-residency-outfits-r29.jpg" alt="Residency visual, pava hat and checkerboard border" loading="lazy">
+<figcaption><div class="meta"><span class="src">Bad Bunny, via Refinery29</span> · 2025</div>
+<div class="piece">Residency visual, pava hat and checkerboard border</div>
+<div class="steal">Rural hat worn as high style. Same move with a tejana in Utah.</div>
+<div class="row"><a href="https://www.refinery29.com/en-us/bad-bunny-no-me-quiero-ir-de-aqui-residency-outfits" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/46-fuerza-regida-kidsuper-paris.jpg">
+<img src="web/latino/46-fuerza-regida-kidsuper-paris.jpg" alt="Corridos tumbados on a runway, fur, tejana energy" loading="lazy">
+<figcaption><div class="meta"><span class="src">Fuerza Regida at KidSuper, Paris Fashion Week, via TV Azteca Jalisco</span> · 2025</div>
+<div class="piece">Corridos tumbados on a runway, fur, tejana energy</div>
+<div class="steal">Norteño meets streetwear is already a fashion story. Lean in on ranch textures.</div>
+<div class="row"><a href="https://www.aztecajalisco.com/espectaculos/fuerza-regida-en-paris-fashion-week-kidsuper-adidas-y-mas-colaboraciones" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/13-estevan-oriol-lamag.jpg">
+<img src="web/latino/13-estevan-oriol-lamag.jpg" alt="Black and white lowrider portrait, three figures and a wire wheel" loading="lazy">
+<figcaption><div class="meta"><span class="src">Estevan Oriol, via LAmag</span> · 2023</div>
+<div class="piece">Black and white lowrider portrait, three figures and a wire wheel</div>
+<div class="steal">The campaign look: high contrast B/W, subjects face the camera, car in frame.</div>
+<div class="row"><a href="https://lamag.com/art/estevan-oriol/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/25-mister-cartoon-by-oriol-1994.jpg">
+<img src="web/latino/25-mister-cartoon-by-oriol-1994.jpg" alt="Cartoon at the drafting table, 1994" loading="lazy">
+<figcaption><div class="meta"><span class="src">Mister Cartoon, photo by Estevan Oriol, via Beyond the Streets</span> · 1994</div>
+<div class="piece">Cartoon at the drafting table, 1994</div>
+<div class="steal">Fine-line, hand-drawn lettering as the origin of the whole look. Commission a letterer, not a font.</div>
+<div class="row"><a href="https://beyondthestreets.com/blogs/articles/mister-cartoon" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/26-cdmx-rotulos-zocalo.jpg">
+<img src="web/latino/26-cdmx-rotulos-zocalo.jpg" alt="Hand-painted rótulo on a juice cart, Mexico City" loading="lazy">
+<figcaption><div class="meta"><span class="src">Zócalo Public Square</span> · 2022</div>
+<div class="piece">Hand-painted rótulo on a juice cart, Mexico City</div>
+<div class="steal">Rótulo script plus fruit illustration. This is the paleta cart and taco truck type on State Street.</div>
+<div class="row"><a href="https://www.zocalopublicsquare.org/whitewashing-mexico-citys-hand-painted-signs/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/47-loteria-boards.jpg">
+<img src="web/latino/47-loteria-boards.jpg" alt="Lotería boards fanned out" loading="lazy">
+<figcaption><div class="meta"><span class="src">Wikimedia Commons</span> · n.d.</div>
+<div class="piece">Lotería boards fanned out</div>
+<div class="steal">Lotería grid and numbered-card framing as a layout system for a Salt Lake card deck (El Trax, La Montaña, El Taco).</div>
+<div class="row"><a href="https://commons.wikimedia.org/wiki/File:Loteria_boards.jpg" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/14-ksl-mexican-independence-slc.jpg">
+<img src="web/latino/14-ksl-mexican-independence-slc.jpg" alt="El Grito at the Mexican Civic Center, Salt Lake City, flag and confetti" loading="lazy">
+<figcaption><div class="meta"><span class="src">KSL, photo Tim Vandenack</span> · 2026</div>
+<div class="piece">El Grito at the Mexican Civic Center, Salt Lake City, flag and confetti</div>
+<div class="steal">The Grito is the city&#x27;s real Latino holiday. Date-stamp the drop to September 15.</div>
+<div class="row"><a href="https://www.ksl.com/article/51624759/long-live-mexico-utahs-mexican-community-marks-mexican-independence-day" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/15-ksl-hispanic-heritage-utah.jpg">
+<img src="web/latino/15-ksl-hispanic-heritage-utah.jpg" alt="Folklórico dancer on the steps of the Salt Lake City and County Building" loading="lazy">
+<figcaption><div class="meta"><span class="src">KSL</span> · 2022</div>
+<div class="piece">Folklórico dancer on the steps of the Salt Lake City and County Building</div>
+<div class="steal">Embroidered skirt color against sandstone civic architecture. That palette is ours.</div>
+<div class="row"><a href="https://www.ksl.com/article/50724952/fiestas-food-dance-and-more-celebrating-hispanic-heritage-month-in-utah" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/19-sltrib-lowrider-urban-arts-2019.jpg">
+<img src="web/latino/19-sltrib-lowrider-urban-arts-2019.jpg" alt="Lowrider Buick Regal at the Gallivan Center, Urban Arts Festival" loading="lazy">
+<figcaption><div class="meta"><span class="src">Salt Lake Tribune, photo Trent Nelson</span> · 2019</div>
+<div class="piece">Lowrider Buick Regal at the Gallivan Center, Urban Arts Festival</div>
+<div class="steal">Lowrider downtown with the city behind it. Shoot our lookbook the same way, mountains in frame.</div>
+<div class="row"><a href="https://www.sltrib.com/artsliving/2019/09/10/lowrider-cars-added-urban/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/20-ksl-utah-lowrider-community.jpg">
+<img src="web/latino/20-ksl-utah-lowrider-community.jpg" alt="Kid on a lowrider bike, Utah lowrider community story" loading="lazy">
+<figcaption><div class="meta"><span class="src">KSL</span> · 2022</div>
+<div class="piece">Kid on a lowrider bike, Utah lowrider community story</div>
+<div class="steal">Lowriding here is family and kids, not gang stereotype. Cast real families.</div>
+<div class="row"><a href="https://www.ksl.com/article/50589816/challenging-stereotypes-utah-lowrider-community-a-source-of-culture-family" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/35-sltrib-la-barra-real-2021.jpg">
+<img src="web/latino/35-sltrib-la-barra-real-2021.jpg" alt="La Barra Real, RSL&#x27;s Hispanic supporters group, with drum and smoke" loading="lazy">
+<figcaption><div class="meta"><span class="src">Salt Lake Tribune</span> · 2021</div>
+<div class="piece">La Barra Real, RSL&#x27;s Hispanic supporters group, with drum and smoke</div>
+<div class="steal">Claret and cobalt belong to the barra too. A supporters scarf is a natural piece.</div>
+<div class="row"><a href="https://www.sltrib.com/sports/2021/04/12/rsls-once-loud-proud/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/42-ksl-latino-world-cup-utah-2026.jpg">
+<img src="web/latino/42-ksl-latino-world-cup-utah-2026.jpg" alt="Mexico fans in Chapulín Colorado costume and sombreros at the Salt Lake watch party" loading="lazy">
+<figcaption><div class="meta"><span class="src">KSL</span> · 2026</div>
+<div class="piece">Mexico fans in Chapulín Colorado costume and sombreros at the Salt Lake watch party</div>
+<div class="steal">Fan humor and homemade signs. The World Cup year is the window for this line.</div>
+<div class="row"><a href="https://www.ksl.com/article/51555715/a-passion-utahs-latino-community-uniting-around-world-cup-as-soccer-tournament-unfolds" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/37-deseret-quinceanera-capitol-2022.jpg">
+<img src="web/latino/37-deseret-quinceanera-capitol-2022.jpg" alt="Quinceañera from West Valley photographed in the Utah State Capitol rotunda" loading="lazy">
+<figcaption><div class="meta"><span class="src">Deseret News</span> · 2022</div>
+<div class="piece">Quinceañera from West Valley photographed in the Utah State Capitol rotunda</div>
+<div class="steal">Quince gown inside a Western civic landmark. Lilac on marble is a colorway.</div>
+<div class="row"><a href="https://www.deseret.com/utah/2022/1/14/22884150/photo-of-the-day-quinceanera-dress-utah-state-capitol-rotunda/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/41-deseret-jaripeo-days-of-47-2019.jpg">
+<img src="web/latino/41-deseret-jaripeo-days-of-47-2019.jpg" alt="Jaripeo at the Utah State Fairpark during Days of &#x27;47" loading="lazy">
+<figcaption><div class="meta"><span class="src">Deseret News</span> · 2019</div>
+<div class="piece">Jaripeo at the Utah State Fairpark during Days of &#x27;47</div>
+<div class="steal">Mexican rodeo inside Utah&#x27;s pioneer holiday. Vaquero and Western are the same silhouette here.</div>
+<div class="row"><a href="https://www.deseret.com/2019/7/21/8937579/photos-utah-s-latino-community-celebrated-during-days-of-47/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure><figure class="card" data-id="latino/45-cbs-ap-venezuelans-utah-2026.jpg">
+<img src="web/latino/45-cbs-ap-venezuelans-utah-2026.jpg" alt="Venezuelan-run business in a Salt Lake suburb, pageant photos on the wall" loading="lazy">
+<figcaption><div class="meta"><span class="src">AP via CBS News</span> · 2026</div>
+<div class="piece">Venezuelan-run business in a Salt Lake suburb, pageant photos on the wall</div>
+<div class="steal">Venezuelans are the third largest Latino group in Utah. Arepa, pageant, tricolor: give them a piece.</div>
+<div class="row"><a href="https://www.cbsnews.com/miami/news/venezuelan-immigrants-utah-miami-ap-analysis/" target="_blank" rel="noopener">source</a>
+<span class="marks"><button class="in" type="button">In</button><button class="out" type="button">Out</button></span></div>
+</figcaption></figure></div></section>
+<div class="foot" id="exportwrap" hidden><strong>Your marks</strong> (copy failed, so select and copy this text):<textarea id="export" readonly></textarea></div>
+<p class="foot">Sources are linked per card and are reference-only for an internal board. Brand product images, Deseret News, Tribune, KSL, and Flickr photos stay inside this review.</p>
+</div>
+<script>
+(function(){
+var KEY='vsl-moodboard-marks-v1';var marks={};
+try{marks=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){marks={};}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(marks));}catch(e){}}
+function apply(card){var id=card.dataset.id;card.classList.toggle('in',marks[id]==='in');card.classList.toggle('out',marks[id]==='out');}
+document.querySelectorAll('.card').forEach(function(card){apply(card);
+card.querySelector('.in').addEventListener('click',function(){var id=card.dataset.id;marks[id]=marks[id]==='in'?undefined:'in';if(!marks[id])delete marks[id];save();apply(card);});
+card.querySelector('.out').addEventListener('click',function(){var id=card.dataset.id;marks[id]=marks[id]==='out'?undefined:'out';if(!marks[id])delete marks[id];save();apply(card);});});
+function toast(t){var d=document.createElement('div');d.className='toast';d.textContent=t;document.body.appendChild(d);setTimeout(function(){d.remove();},1800);}
+document.getElementById('copy').addEventListener('click',function(){
+var ins=[],outs=[];Object.keys(marks).sort().forEach(function(k){(marks[k]==='in'?ins:outs).push(k);});
+var txt='MOOD BOARD MARKS\nIN ('+ins.length+'):\n'+ins.join('\n')+'\n\nOUT ('+outs.length+'):\n'+outs.join('\n');
+var done=function(){toast('Copied '+(ins.length+outs.length)+' marks');};
+var fail=function(){var w=document.getElementById('exportwrap');w.hidden=false;var ta=document.getElementById('export');ta.value=txt;ta.focus();ta.select();w.scrollIntoView();};
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fail);}else{fail();}
+});
+})();
+</script>

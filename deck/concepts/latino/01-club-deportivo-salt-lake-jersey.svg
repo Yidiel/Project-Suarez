@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Archivo Narrow', 'Arial Narrow', Arial, sans-serif">
+  <title>Club Deportivo Salt Lake jersey, Salt Pink and Forest, 801 on the back</title>
+  <defs>
+    <!-- jersey silhouette, origin at chest center -->
+    <path id="jersey" d="M -78,-250 L 0,-196 L 78,-250 L 228,-212 L 266,-92 L 182,-66 L 182,250 L -182,250 L -182,-66 L -266,-92 L -228,-212 Z"/>
+    <path id="jersey-seams" d="M -176,-236 L -182,-66 M 176,-236 L 182,-66 M -182,236 L 182,236" fill="none" stroke="#0D4C26" stroke-opacity="0.45" stroke-width="1.5"/>
+    <path id="cuff-l" d="M -266,-92 L -182,-66 L -186,-50 L -270,-76 Z"/>
+    <path id="cuff-r" d="M 266,-92 L 182,-66 L 186,-50 L 270,-76 Z"/>
+    <path id="vneck" d="M -78,-250 L 0,-196 L 78,-250 L 70,-262 L 0,-214 L -70,-262 Z"/>
+    <polygon id="star" points="0,-11 3.2,-3.6 11,-3.4 4.9,1.5 7,9 0,4.6 -7,9 -4.9,1.5 -11,-3.4 -3.2,-3.6"/>
+    <!-- crest, 100 x 100 box centred on 0,0 -->
+    <g id="crest">
+      <circle r="49" fill="#0D4C26" stroke="#F6F1EC" stroke-width="2"/>
+      <circle r="34" fill="#F6F1EC"/>
+      <path id="ring-top" d="M -37.5,0 A 37.5,37.5 0 0 1 37.5,0" fill="none"/>
+      <path id="ring-bot" d="M -46,0 A 46,46 0 0 0 46,0" fill="none"/>
+      <text font-size="8.2" font-weight="700" fill="#F6F1EC" letter-spacing="1.6"><textPath xlink:href="#ring-top" startOffset="50%" text-anchor="middle">CLUB DEPORTIVO</textPath></text>
+      <text font-size="8.2" font-weight="700" fill="#F6F1EC" letter-spacing="1.6"><textPath xlink:href="#ring-bot" startOffset="50%" text-anchor="middle">SALT LAKE · 1847</textPath></text>
+      <!-- Wasatch peaks -->
+      <path d="M -31,16 L -14,-10 L -6,2 L 4,-16 L 16,4 L 22,-4 L 31,16 Z" fill="#0D4C26"/>
+      <path d="M 4,-16 L 0,-8 L 8,-8 Z M -14,-10 L -17,-5 L -11,-5 Z" fill="#F6F1EC"/>
+      <!-- brine shrimp, artemia, curled over the ridge -->
+      <path d="M -22,-20 C -14,-30 6,-30 10,-22 C 14,-16 8,-12 2,-10 C -4,-8 -8,-12 -14,-14" fill="none" stroke="#F58B88" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M -22,-20 L -30,-26 M -22,-20 L -31,-20 M -22,-20 L -29,-14" stroke="#F58B88" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M -20,-22 L -12,-27 M -16,-20 L -8,-26 M -12,-18 L -3,-24 M -7,-16 L 2,-21 M -2,-14 L 6,-18" stroke="#F58B88" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 10,-22 L 20,-30 M 10,-22 L 22,-24" stroke="#F58B88" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="11" cy="-24" r="1.4" fill="#0D4C26"/>
+      <text y="29" font-size="9" font-weight="700" fill="#0D4C26" text-anchor="middle" letter-spacing="1">801</text>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#FFFFFF"/>
+  <text x="60" y="52" font-size="22" font-weight="700" fill="#212121" letter-spacing="2">LATINO LANE 01 · CLUB DEPORTIVO SALT LAKE</text>
+  <text x="1140" y="52" font-size="16" fill="#555" text-anchor="end">Fútbol club logic for a city: crest, year, sleeve stars, number</text>
+
+  <!-- FRONT -->
+  <g transform="translate(320,400)">
+    <use xlink:href="#jersey" fill="#F58B88" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#jersey-seams"/>
+    <use xlink:href="#cuff-l" fill="#0D4C26"/><use xlink:href="#cuff-r" fill="#0D4C26"/>
+    <use xlink:href="#vneck" fill="#0D4C26"/>
+    <!-- sleeve stars, 4 each side, 8 neighborhoods -->
+    <g fill="#0D4C26">
+      <use xlink:href="#star" transform="translate(-205,-200) scale(0.95)"/><use xlink:href="#star" transform="translate(-218,-172) scale(0.95)"/><use xlink:href="#star" transform="translate(-231,-144) scale(0.95)"/><use xlink:href="#star" transform="translate(-244,-116) scale(0.95)"/>
+      <use xlink:href="#star" transform="translate(205,-200) scale(0.95)"/><use xlink:href="#star" transform="translate(218,-172) scale(0.95)"/><use xlink:href="#star" transform="translate(231,-144) scale(0.95)"/><use xlink:href="#star" transform="translate(244,-116) scale(0.95)"/>
+    </g>
+    <!-- crest left chest (wearer's left) -->
+    <use xlink:href="#crest" transform="translate(88,-140) scale(0.95)"/>
+    <!-- small 801 right chest, block -->
+    <text x="-88" y="-130" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="30" fill="#0D4C26" text-anchor="middle" letter-spacing="1">801</text>
+    <!-- hem tag -->
+    <text x="-160" y="228" font-size="9" fill="#0D4C26" letter-spacing="1.5">WEST VALLEY · ROSE PARK · GLENDALE · MAGNA</text>
+    <text x="-160" y="244" font-size="9" fill="#0D4C26" letter-spacing="1.5">KEARNS · MIDVALE · SOUTH SALT LAKE · TAYLORSVILLE</text>
+    <text y="300" font-size="15" fill="#212121" text-anchor="middle" letter-spacing="2">FRONT</text>
+  </g>
+
+  <!-- BACK -->
+  <g transform="translate(880,400)">
+    <use xlink:href="#jersey" fill="#F58B88" stroke="#212121" stroke-width="2"/>
+    <use xlink:href="#jersey-seams"/>
+    <use xlink:href="#cuff-l" fill="#0D4C26"/><use xlink:href="#cuff-r" fill="#0D4C26"/>
+    <path d="M -78,-250 Q 0,-228 78,-250 L 70,-262 Q 0,-240 -70,-262 Z" fill="#0D4C26"/>
+    <g fill="#0D4C26">
+      <use xlink:href="#star" transform="translate(-205,-200) scale(0.95)"/><use xlink:href="#star" transform="translate(-218,-172) scale(0.95)"/><use xlink:href="#star" transform="translate(-231,-144) scale(0.95)"/><use xlink:href="#star" transform="translate(-244,-116) scale(0.95)"/>
+      <use xlink:href="#star" transform="translate(205,-200) scale(0.95)"/><use xlink:href="#star" transform="translate(218,-172) scale(0.95)"/><use xlink:href="#star" transform="translate(231,-144) scale(0.95)"/><use xlink:href="#star" transform="translate(244,-116) scale(0.95)"/>
+    </g>
+    <!-- arched name in blackletter, keylined -->
+    <path id="arch" d="M -150,-130 A 170,170 0 0 1 150,-130" fill="none"/>
+    <text font-family="'Pirata One', 'Old English Text MT', 'UnifrakturCook', serif" font-size="46" fill="#0D4C26" stroke="#F6F1EC" stroke-width="5" paint-order="stroke" letter-spacing="3"><textPath xlink:href="#arch" startOffset="50%" text-anchor="middle">SALT LAKE</textPath></text>
+    <!-- number -->
+    <text y="130" font-family="Anton, Impact, 'Arial Black', sans-serif" font-size="190" fill="#0D4C26" stroke="#F6F1EC" stroke-width="8" paint-order="stroke" text-anchor="middle" letter-spacing="4">801</text>
+    <text y="300" font-size="15" fill="#212121" text-anchor="middle" letter-spacing="2">BACK</text>
+  </g>
+
+  <!-- DETAIL ROW -->
+  <g transform="translate(0,760)">
+    <line x1="60" y1="0" x2="1140" y2="0" stroke="#DDD"/>
+    <text x="60" y="34" font-size="14" fill="#555" letter-spacing="2">CREST DETAIL, 3.5 IN EMBROIDERED PATCH</text>
+    <use xlink:href="#crest" transform="translate(220,230) scale(3.4)"/>
+    <g transform="translate(470,60)" font-size="15" fill="#212121">
+      <text y="0" font-weight="700">What is on the crest</text>
+      <text y="26">Ring: CLUB DEPORTIVO over SALT LAKE · 1847 (the founding year, civic heritage, not church).</text>
+      <text y="48">Charge: a brine shrimp (El Camarón, Artemia) curled over the Wasatch ridge, Salt Pink on Forest.</text>
+      <text y="70">Foot: 801, the 1947 area code, the number the city calls itself.</text>
+      <text y="110" font-weight="700">Sleeve stars: eight, four per arm</text>
+      <text y="136">West Valley, Rose Park, Glendale, Magna, Kearns, Midvale, South Salt Lake, Taylorsville.</text>
+      <text y="158">Hem tag prints the eight names so the count is explained on the garment, not on a hangtag.</text>
+      <text y="198" font-weight="700">Back</text>
+      <text y="224">SALT LAKE arched in blackletter with a Cream keyline (the Born x Raised WORLDWIDE jersey back),</text>
+      <text y="246">801 in jersey block, 9 in tall. Name arch is a letterer redraw in production; Pirata One stands in here.</text>
+      <text y="286" font-weight="700">Colorway</text>
+      <rect x="0" y="300" width="36" height="24" fill="#F58B88"/><text x="44" y="318">Salt Pink #F58B88 body</text>
+      <rect x="230" y="300" width="36" height="24" fill="#0D4C26"/><text x="274" y="318">Forest #0D4C26 trim, stars, ink</text>
+      <rect x="500" y="300" width="36" height="24" fill="#F6F1EC" stroke="#BBB"/><text x="544" y="318">Cream #F6F1EC keyline</text>
+      <text y="358" fill="#555">Alt colorway, RSL match days only and with RSL's blessing: claret and cobalt.</text>
+      <text y="378" fill="#555">Not the lead: without the club behind it, claret and cobalt reads as a knockoff kit.</text>
+    </g>
+    <!-- sleeve detail -->
+    <g transform="translate(60,372)">
+      <text y="0" font-size="14" fill="#555" letter-spacing="2">SLEEVE DETAIL</text>
+      <rect x="0" y="16" width="300" height="70" fill="#F58B88" stroke="#212121"/>
+      <rect x="0" y="86" width="300" height="14" fill="#0D4C26"/>
+      <g fill="#0D4C26">
+        <use xlink:href="#star" transform="translate(40,51) scale(2.2)"/><use xlink:href="#star" transform="translate(113,51) scale(2.2)"/><use xlink:href="#star" transform="translate(186,51) scale(2.2)"/><use xlink:href="#star" transform="translate(259,51) scale(2.2)"/>
+      </g>
+      <text x="0" y="124" font-size="13" fill="#212121">Stars are 1 in appliqué twill, stitched, not printed. Cuff is a 0.75 in Forest rib.</text>
+    </g>
+  </g>
+
+  <!-- SPEC STRIP -->
+  <g transform="translate(60,1300)">
+    <rect width="1080" height="170" fill="#F6F1EC" stroke="#212121"/>
+    <g font-size="13" fill="#212121">
+      <text x="20" y="28" font-weight="700" letter-spacing="2">SPEC</text>
+      <text x="20" y="54"><tspan font-weight="700">Blank:</tspan> custom-cut fútbol jersey, drop shoulder, v-neck with Forest rib collar and cuffs. Sized up one, worn loose.</text>
+      <text x="20" y="76"><tspan font-weight="700">Fabric:</tspan> 160 gsm recycled polyester bird's-eye mesh, Salt Pink dyed body; Forest rib trim.</text>
+      <text x="20" y="98"><tspan font-weight="700">Decoration:</tspan> crest 3.5 in embroidered patch, left chest; eight 1 in twill star appliqués on the sleeves; 801 block 2 in tall, right chest;</text>
+      <text x="20" y="118">back, SALT LAKE arch 10 in wide and 801 9 in tall in 2-color tackle twill (or sublimated on the retail tier); hem names 7 in wide, 1-color screen print.</text>
+      <text x="20" y="140"><tspan font-weight="700">Colorway:</tspan> Salt Pink #F58B88 / Forest #0D4C26 / Cream #F6F1EC.</text>
+      <text x="20" y="160"><tspan font-weight="700">Label:</tspan> interior neck, salt-crystal line icon plus "Diseñado en Salt Lake County" and the community-org partner line.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500" width="1200" height="1500" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <title>Main Street Drive Wild Rag - Neo-Western lane, Visit Salt Lake</title>
+  <defs>
+    <style>
+      .ink{fill:#13375D}
+      .inkline{fill:none;stroke:#13375D;stroke-linecap:round;stroke-linejoin:round}
+      .spec{font-size:15px;fill:#212121}
+      .spech{font-size:12px;letter-spacing:1.6px;fill:#13375D;font-weight:600}
+    </style>
+    <!-- one longhorn steer, walking, side view, single color. About 90 px long -->
+    <g id="steer">
+      <!-- body -->
+      <path class="ink" d="M10 30 C 8 20 16 14 28 14 L 62 14 C 74 14 80 20 80 28 L 80 40 L 74 40 L 72 30 L 66 30 L 66 42 L 60 42 L 58 30 L 34 30 L 32 42 L 26 42 L 24 30 L 20 30 L 18 42 L 12 42 L 12 32 Z"/>
+      <!-- head -->
+      <path class="ink" d="M80 26 C 86 22 94 24 96 30 C 98 36 94 40 90 40 L 86 44 L 82 42 L 80 36 Z"/>
+      <!-- horns: the signature line, very wide -->
+      <path class="inkline" stroke-width="2.6" d="M86 25 C 70 12 56 10 44 12 M90 25 C 108 12 122 10 134 14"/>
+      <!-- tail -->
+      <path class="inkline" stroke-width="2" d="M12 20 C 6 24 4 32 6 40"/>
+    </g>
+    <!-- rider on horse, small, trailing the herd -->
+    <g id="rider">
+      <path class="ink" d="M6 30 C 4 20 12 14 24 14 L 44 14 C 54 14 58 20 58 28 L 58 40 L 53 40 L 52 30 L 46 30 L 46 42 L 41 42 L 40 30 L 26 30 L 25 42 L 20 42 L 19 30 L 14 30 L 13 40 L 8 40 Z"/>
+      <path class="ink" d="M58 26 C 64 22 70 26 68 32 L 64 36 L 60 34 Z"/>
+      <path class="ink" d="M26 14 L 28 2 C 29 -2 35 -2 36 2 L 38 14 Z M27 -1 L 37 -1 L 36 -5 L 32 -9 L 28 -5 Z"/>
+      <path class="inkline" stroke-width="2" d="M24 10 L 20 18 M8 22 C 2 24 0 30 2 36"/>
+    </g>
+    <!-- skyline block set, downtown Salt Lake read, generic massing, no logos -->
+    <g id="skyline">
+      <g class="ink">
+        <rect x="0" y="90" width="40" height="70"/>
+        <rect x="46" y="60" width="30" height="100"/>
+        <rect x="82" y="100" width="50" height="60"/>
+        <rect x="140" y="30" width="34" height="130"/><rect x="152" y="20" width="10" height="12"/>
+        <rect x="180" y="80" width="46" height="80"/>
+        <!-- stepped tower -->
+        <rect x="236" y="54" width="60" height="106"/><rect x="246" y="38" width="40" height="18"/><rect x="258" y="26" width="16" height="14"/>
+        <rect x="304" y="96" width="36" height="64"/>
+        <!-- spired building, read as the stone church block without drawing it -->
+        <rect x="348" y="70" width="70" height="90"/><polygon points="354,70 362,40 370,70"/><polygon points="396,70 404,36 412,70"/>
+        <rect x="426" y="110" width="40" height="50"/>
+        <rect x="474" y="48" width="44" height="112"/><rect x="486" y="36" width="20" height="14"/>
+        <rect x="526" y="88" width="56" height="72"/>
+        <rect x="590" y="64" width="30" height="96"/>
+        <rect x="628" y="104" width="52" height="56"/>
+        <rect x="688" y="80" width="40" height="80"/>
+      </g>
+      <!-- windows as reverse knockouts, light on ink -->
+      <g fill="#FFDDA3">
+        <rect x="150" y="48" width="4" height="6"/><rect x="160" y="48" width="4" height="6"/><rect x="150" y="62" width="4" height="6"/><rect x="160" y="62" width="4" height="6"/><rect x="150" y="76" width="4" height="6"/><rect x="160" y="76" width="4" height="6"/>
+        <rect x="252" y="70" width="5" height="7"/><rect x="264" y="70" width="5" height="7"/><rect x="276" y="70" width="5" height="7"/><rect x="252" y="88" width="5" height="7"/><rect x="264" y="88" width="5" height="7"/><rect x="276" y="88" width="5" height="7"/>
+        <rect x="484" y="64" width="5" height="7"/><rect x="496" y="64" width="5" height="7"/><rect x="508" y="64" width="5" height="7"/><rect x="484" y="82" width="5" height="7"/><rect x="496" y="82" width="5" height="7"/><rect x="508" y="82" width="5" height="7"/>
+      </g>
+    </g>
+    <!-- ridgeline behind the city: the Wasatch, one line -->
+    <path id="ridge" class="inkline" stroke-width="2.4" d="M0 60 L 60 40 L 110 52 L 160 18 L 200 34 L 250 10 L 300 30 L 340 22 L 400 48 L 450 26 L 500 44 L 560 12 L 610 36 L 660 20 L 720 40"/>
+    <clipPath id="ragclip"><rect x="0" y="0" width="720" height="720"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#F6F1EC"/>
+
+  <text x="60" y="64" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="30" fill="#212121">Main Street Drive Wild Rag</text>
+  <text x="60" y="90" class="spech">NEO-WESTERN  ·  03  ·  WILD RAG, 22 x 22 IN, ONE-COLOR PRINT</text>
+  <text x="1140" y="64" text-anchor="end" font-size="14" fill="#555">Days of '47 cattle drive  ·  downtown Salt Lake, July</text>
+
+  <!-- ================= FLAT ================= -->
+  <g transform="translate(70 130)">
+    <text x="0" y="0" class="spech">FLAT, 22 x 22 IN (1 IN = 32.7 PX)</text>
+    <g transform="translate(0 16)" clip-path="url(#ragclip)">
+      <rect x="0" y="0" width="720" height="720" fill="#FFDDA3"/>
+      <g clip-path="url(#ragclip)">
+        <!-- hemmed edge: double rule -->
+        <rect x="14" y="14" width="692" height="692" fill="none" stroke="#13375D" stroke-width="3"/>
+        <rect x="24" y="24" width="672" height="672" fill="none" stroke="#13375D" stroke-width="1.2"/>
+        <!-- corner marks: horn pair, one per corner -->
+        <g class="inkline" stroke-width="3">
+          <path d="M44 70 C 52 50 68 44 84 48 M44 70 C 36 50 20 44 4 48" transform="translate(28 -4)"/>
+          <path d="M44 70 C 52 50 68 44 84 48 M44 70 C 36 50 20 44 4 48" transform="translate(632 -4)"/>
+          <path d="M44 70 C 52 50 68 44 84 48 M44 70 C 36 50 20 44 4 48" transform="translate(28 600) scale(1 -1) translate(0 -112)"/>
+          <path d="M44 70 C 52 50 68 44 84 48 M44 70 C 36 50 20 44 4 48" transform="translate(632 600) scale(1 -1) translate(0 -112)"/>
+        </g>
+        <!-- top text, from the scene -->
+        <text x="360" y="104" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="30" font-weight="700" letter-spacing="6" fill="#13375D">DAYS OF '47</text>
+        <text x="360" y="128" text-anchor="middle" font-size="12" letter-spacing="4" fill="#13375D">CATTLE DRIVE  ·  MAIN STREET  ·  SALT LAKE</text>
+
+        <!-- scene: ridge, skyline, street, herd -->
+        <g transform="translate(0 150)">
+          <use xlink:href="#ridge" transform="translate(0 40) scale(1 1.3)"/>
+          <!-- second lower ridge, faint -->
+          <path class="inkline" stroke-width="1.4" d="M0 120 L 80 96 L 160 112 L 240 84 L 330 108 L 420 90 L 500 112 L 600 94 L 720 116"/>
+          <use xlink:href="#skyline" transform="translate(0 70)"/>
+          <!-- street: a flat ink band with the TRAX rail as two knocked-out lines -->
+          <rect x="0" y="230" width="720" height="16" class="ink"/>
+          <line x1="0" y1="236" x2="720" y2="236" stroke="#FFDDA3" stroke-width="1.2"/>
+          <line x1="0" y1="241" x2="720" y2="241" stroke="#FFDDA3" stroke-width="1.2"/>
+          <!-- dust line -->
+          <path class="inkline" stroke-width="1.2" stroke-dasharray="6 5" d="M0 300 Q 180 292 360 300 T 720 298"/>
+          <!-- the herd, three ranks, far rank smaller -->
+          <g transform="translate(0 248)">
+            <use xlink:href="#steer" transform="translate(70 0) scale(0.55)"/>
+            <use xlink:href="#steer" transform="translate(200 -2) scale(0.55)"/>
+            <use xlink:href="#steer" transform="translate(330 0) scale(0.55)"/>
+            <use xlink:href="#steer" transform="translate(470 -2) scale(0.55)"/>
+            <use xlink:href="#steer" transform="translate(600 0) scale(0.55)"/>
+          </g>
+          <g transform="translate(0 262)">
+            <use xlink:href="#steer" transform="translate(20 0) scale(0.78)"/>
+            <use xlink:href="#steer" transform="translate(180 4) scale(0.78)"/>
+            <use xlink:href="#steer" transform="translate(360 0) scale(0.78)"/>
+            <use xlink:href="#steer" transform="translate(540 4) scale(0.78)"/>
+          </g>
+          <g transform="translate(0 290)">
+            <use xlink:href="#steer" transform="translate(90 0)"/>
+            <use xlink:href="#steer" transform="translate(300 6)"/>
+            <use xlink:href="#steer" transform="translate(500 0)"/>
+            <use xlink:href="#rider" transform="translate(650 2) scale(0.95)"/>
+          </g>
+        </g>
+
+        <!-- bottom text: a plain statement, not a tagline -->
+        <text x="360" y="640" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="16" font-style="italic" fill="#13375D">Longhorns down Main Street, the mountains behind the towers. Every July.</text>
+        <text x="360" y="664" text-anchor="middle" font-size="11" letter-spacing="3" fill="#13375D">40.7608° N  111.8910° W  ·  ELEV. 4,219 FT</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= TIED / DETAILS ================= -->
+  <g transform="translate(830 130)">
+    <text x="0" y="0" class="spech">WORN, BUCKAROO KNOT</text>
+    <!-- neck + rag -->
+    <g transform="translate(0 16)">
+      <path d="M90 0 L 190 0 L 200 120 L 80 120 Z" fill="#e8d6c2" stroke="#b7a98f" stroke-width="1"/>
+      <path d="M40 120 C 70 100 210 100 240 120 L 250 220 L 30 220 Z" fill="#13375D" stroke="#0b2440" stroke-width="2"/>
+      <path d="M120 110 C 150 96 190 100 200 122 C 170 134 140 138 110 134 Z" fill="#FFDDA3" stroke="#13375D" stroke-width="2"/>
+      <path d="M160 124 C 188 136 180 176 158 198 C 150 180 150 148 160 124 Z" fill="#FFDDA3" stroke="#13375D" stroke-width="2"/>
+      <path d="M160 124 C 142 148 126 170 118 196 C 134 190 150 180 160 124 Z" fill="#FFDDA3" stroke="#13375D" stroke-width="2"/>
+      <!-- bits of the print visible on the tail -->
+      <use xlink:href="#steer" transform="translate(126 170) scale(0.28)"/>
+      <rect x="145" y="112" width="40" height="3" class="ink"/>
+      <line x1="155" y1="106" x2="190" y2="106" class="inkline" stroke-width="2"/>
+    </g>
+    <text x="0" y="270" font-size="13" fill="#555">Hand-rolled hem. Folds to a 2 in band so the</text>
+    <text x="0" y="288" font-size="13" fill="#555">skyline shows in the knot and the herd in the tail.</text>
+
+    <text x="0" y="340" class="spech">HERD UNIT, 2X</text>
+    <g transform="translate(0 356) scale(2)"><use xlink:href="#steer"/></g>
+    <text x="0" y="470" font-size="13" fill="#555">One steer, one rider. Horns are the widest line in the</text>
+    <text x="0" y="488" font-size="13" fill="#555">piece on purpose. Redrawn by an illustrator as a</text>
+    <text x="0" y="506" font-size="13" fill="#555">dry-brush line; this is the massing.</text>
+
+    <text x="0" y="560" class="spech">COLORWAYS</text>
+    <rect x="0" y="574" width="60" height="40" fill="#FFDDA3"/><rect x="60" y="574" width="60" height="40" fill="#13375D"/>
+    <text x="0" y="632" font-size="12" fill="#212121">Mountain Navy on Sego Lily (shown)</text>
+    <rect x="0" y="646" width="60" height="40" fill="#F6F1EC" stroke="#ccc"/><rect x="60" y="646" width="60" height="40" fill="#A42F2C"/>
+    <text x="0" y="704" font-size="12" fill="#212121">Rodeo Red on Cream</text>
+    <rect x="0" y="718" width="60" height="40" fill="#0D4C26"/><rect x="60" y="718" width="60" height="40" fill="#8DCEA8"/>
+    <text x="0" y="776" font-size="12" fill="#212121">Sage on Forest (fall drop)</text>
+  </g>
+
+  <!-- bolo companion note -->
+  <g transform="translate(70 900)">
+    <text x="0" y="0" class="spech">COMPANION SKU: BOLO SLIDE</text>
+    <g transform="translate(0 20)">
+      <path class="inkline" stroke="#3a2a1a" stroke-width="4" d="M40 0 L 40 60 M100 0 L 100 60"/>
+      <ellipse cx="70" cy="60" rx="34" ry="28" fill="#b08d57" stroke="#6b4a2b" stroke-width="2"/>
+      <ellipse cx="70" cy="60" rx="26" ry="20" fill="#F6F1EC" stroke="#6b4a2b" stroke-width="1"/>
+      <use xlink:href="#steer" transform="translate(48 50) scale(0.3)"/>
+      <path class="inkline" stroke="#3a2a1a" stroke-width="4" d="M40 88 L 40 200 M100 88 L 100 200"/>
+      <path d="M34 200 L 46 200 L 44 230 L 36 230 Z M94 200 L 106 200 L 104 230 L 96 230 Z" fill="#b08d57" stroke="#6b4a2b" stroke-width="1"/>
+    </g>
+    <text x="160" y="60" font-size="13" fill="#555">Same steer, engraved on a 1.5 in brass slide with a white</text>
+    <text x="160" y="78" font-size="13" fill="#555">enamel field, braided leather cord in Ink. Sold with the rag</text>
+    <text x="160" y="96" font-size="13" fill="#555">or alone. One drawing, two objects.</text>
+  </g>
+
+  <!-- ================= SPEC STRIP ================= -->
+  <g transform="translate(0 1330)">
+    <line x1="60" y1="0" x2="1140" y2="0" stroke="#13375D" stroke-width="1.5"/>
+    <text x="60" y="28" class="spech">BLANK</text><text x="60" y="50" class="spec">Wild rag 22 x 22 in, hand-rolled hem; bolo: brass slide, 36 in cord</text>
+    <text x="60" y="80" class="spech">FABRIC</text><text x="60" y="102" class="spec">12 mm silk twill (hero) or 4.5 oz cotton voile (core)</text>
+    <text x="640" y="28" class="spech">DECORATION</text><text x="640" y="50" class="spec">One-color water-based screen print, 20 x 20 in; slide engraved + enamel</text>
+    <text x="640" y="80" class="spech">COLORWAY</text><text x="640" y="102" class="spec">Mountain Navy #13375D on Sego Lily #FFDDA3; alts Red/Cream, Sage/Forest</text>
+    <text x="60" y="140" font-size="12" fill="#777">Placement: scene centered, 1 in border, text set 0.75 in inside the hem. Illustration to be redrawn by hand from the Church News cattle-drive photo, single line weight family.</text>
+  </g>
+</svg>

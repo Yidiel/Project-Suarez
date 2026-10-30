@@ -1,5 +1,7 @@
 # Mural QR stencil
 
+**20-inch version:** see 20in/. The code itself is exactly 20 in square; with its 4-module white border the sheet is 25.52 in square. CUT (outline, hairline 0.25 pt) and PRINT (solid) as PDF and SVG; the SVGs are sized in inches for Cricut or laser software.
+
 **Use the QRCG Level H files (Mural_QR_QRCG_H_*).** They come from QRCG's own Level H export (Mural_Project_QR_Code.eps, 3000 pt), so the wall matches the company's official code. The earlier self-generated Level H set (different mask pattern, same link) is kept in level-H-self-generated/.
 
 Earlier note: They encode the same link, https://qrco.de/bh3jJQ, at the highest error correction (about 30% recoverable), 29 x 29 modules. The QRCG SVG download was still Level L, so the H version was generated from the same link with segno; QRCG still tracks scans and the link can still be repointed. The first Level L stencil is kept in level-L-original/.
